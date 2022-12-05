@@ -90,8 +90,11 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
   }
   \end{table}
 
+  \newpage
+
 \subsection{ソフトウェア}
 本チームでは, 従来よりROS(Robot Operating System)のnavigation stack[1]をもとに開発されたシステムであるorne\_navigationにより自律走行させている. \figref{fig:soft-fig}に開発しているロボットのソフトウェアを含むシステム構成を示す. このシステムは, 2D-LiDARを用いたMonte Carlo Localization(MCL)により確率的に自己位置を推定し, 経路計画に基づいて自律走行している. また, GitHubのopen-rdc[2]でプロクラムを公開している.
+
 
 \begin{figure}[h]
   \centering
@@ -117,33 +120,33 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
 \end{figure}
 
 \subsection{チームORNE-box, ORNE-box2について}
-図の下に \verb*|\caption{}| コマンドでキャプションを付ける。
-キャプションを英語で書くか、日本語で書くかを論文中で統一する。
-論文を投稿する学会のフォーマットに従うが、和文論文でも英語のキャプションとする場合が多い。
-図表とキャプションだけを見て論文の内容が類推できるよう、キャプションは単語ではなく文章で書く。
-よって英語の場合は最初の文字を大文字にし、その後は固有名詞などを除いて小文字にする。
-また、文末にはピリオドを書く。
+図の下に \verb*|\caption{}| コマンドでキャプションを付ける．
+キャプションを英語で書くか，日本語で書くかを論文中で統一する．
+論文を投稿する学会のフォーマットに従うが，和文論文でも英語のキャプションとする場合が多い．
+図表とキャプションだけを見て論文の内容が類推できるよう，キャプションは単語ではなく文章で書く．
+よって英語の場合は最初の文字を大文字にし，その後は固有名詞などを除いて小文字にする．
+また，文末にはピリオドを書く．
 
 \subsection{本文中での参照}
-論文に挿入した図は、本文中で必ず参照する。
-図を参照する際は、以下の例のように \verb*|\figref{}| コマンドを用いる。
-\verb*|\figref{}| コマンドは、jsproceedings.cls で定義した独自のコマンドである。
-参照先の図には、\verb*|\label{}| コマンドでラベルを付けておく。
+論文に挿入した図は，本文中で必ず参照する．
+図を参照する際は，以下の例のように \verb*|\figref{}| コマンドを用いる．
+\verb*|\figref{}| コマンドは，jsproceedings.cls で定義した独自のコマンドである．
+参照先の図には，\verb*|\label{}| コマンドでラベルを付けておく．
 \begin{description}[style=nextline]
   \item[\LaTeX ソース]%\leavevmode \\
-  \verb|\figref{fig:matching-concept}に、提案手法の概念と各変数の定義を示す。|
+  \verb|\figref{fig:matching-concept}に，提案手法の概念と各変数の定義を示す．|
   \item[出力]%\leavevmode \\
-  \figref{fig:matching-concept}に、提案手法の概念と各変数の定義を示す。
+  \figref{fig:matching-concept}に，提案手法の概念と各変数の定義を示す．
 \end{description}
 
 
 \section{表}
-本章では、表を挿入する方法、キャプションの書き方や本文中での参照の仕方について述べる。
+本章では，表を挿入する方法，キャプションの書き方や本文中での参照の仕方について述べる．
 
 \subsection{Table の挿入}
-\tableref{table:corr-dist}に、表を挿入する例を示す。
-表の挿入には、table 環境（\verb*|\begin{table}|、\verb*|\end{table}|）と tabular 環境（\verb*|\begin{tabular}|、\verb*|\end{tabular}|）を用いる。
-具体的な書き方は \LaTeX ソースを参照されたい。
+\tableref{table:corr-dist}に，表を挿入する例を示す．
+表の挿入には，table 環境（\verb*|\begin{table}|，\verb*|\end{table}|）と tabular 環境（\verb*|\begin{tabular}|，\verb*|\end{tabular}|）を用いる．
+具体的な書き方は \LaTeX ソースを参照されたい．
 
 \begin{table}
   \centering
@@ -160,39 +163,39 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
 % \vspace*{-2mm}
 \end{table}
 
-表の罫線は格子状に引く必要はなく、省略できる罫線は引かずに罫線を少なくした表の方が美しい組版と言われる。
-特に英文の場合、縦罫線は引かない方が良い。
+表の罫線は格子状に引く必要はなく，省略できる罫線は引かずに罫線を少なくした表の方が美しい組版と言われる．
+特に英文の場合，縦罫線は引かない方が良い．
 
-横罫線は、標準の \verb*|\hline| コマンドでは上下の間隔が狭く、線の太さのバランスも良くない。
-そこで booktabs.sty の \verb*|\toprule|、\verb*|\midrule|、\verb*|\cmidrule|、\verb*|\bottomrule| コマンドを用いることで、より見やすい表を書く。
+横罫線は，標準の \verb*|\hline| コマンドでは上下の間隔が狭く，線の太さのバランスも良くない．
+そこで booktabs.sty の \verb*|\toprule|，\verb*|\midrule|，\verb*|\cmidrule|，\verb*|\bottomrule| コマンドを用いることで，より見やすい表を書く．
 
 \subsection{キャプション}
-表の上に \verb*|\caption{}| コマンドでキャプションを付ける。
-キャプションを英語で書くか、日本語で書くかを論文中で統一する。
-論文を投稿する学会のフォーマットに従うが、和文論文でも英語のキャプションとする場合が多い。
-図表とキャプションだけを見て論文の内容が類推できるよう、キャプションは単語ではなく文章で書く。
-よって英語の場合は最初の文字を大文字にし、その後は固有名詞などを除いて小文字にする。
-また、文末にはピリオドを書く。
+表の上に \verb*|\caption{}| コマンドでキャプションを付ける．
+キャプションを英語で書くか，日本語で書くかを論文中で統一する．
+論文を投稿する学会のフォーマットに従うが，和文論文でも英語のキャプションとする場合が多い．
+図表とキャプションだけを見て論文の内容が類推できるよう，キャプションは単語ではなく文章で書く．
+よって英語の場合は最初の文字を大文字にし，その後は固有名詞などを除いて小文字にする．
+また，文末にはピリオドを書く．
 
 \subsection{本文中での参照}
-論文に挿入した表は、本文中で必ず参照する。
-表を参照する際は、以下の例のように \verb*|\tableref{}| コマンドを用いる。
-\verb*|\tableref{}| コマンドは、jsproceedings.cls で定義した独自のコマンドである。
-参照先の表には、\verb*|\label{}| コマンドでラベルを付けておく。
+論文に挿入した表は，本文中で必ず参照する．
+表を参照する際は，以下の例のように \verb*|\tableref{}| コマンドを用いる．
+\verb*|\tableref{}| コマンドは，jsproceedings.cls で定義した独自のコマンドである．
+参照先の表には，\verb*|\label{}| コマンドでラベルを付けておく．
 \begin{description}[style=nextline]
   \item[\LaTeX ソース]%\leavevmode \\
-  \verb|\tableref{table:corr-dist}に、マッチング後の対応点間距離の平均値を示す。|
+  \verb|\tableref{table:corr-dist}に，マッチング後の対応点間距離の平均値を示す．|
   \item[出力]%\leavevmode \\
-  \tableref{table:corr-dist}に、マッチング後の対応点間距離の平均値を示す。
+  \tableref{table:corr-dist}に，マッチング後の対応点間距離の平均値を示す．
 \end{description}
 
 
 \section{結言}
-本稿では、学術会議用クラスファイル jsproceedings.cls を用いた \LaTeXe での論文の書き方と体裁を整えるための注意点について述べた。
-科学技術論文を \LaTeXe で執筆する際の参考になれば幸いである。
+本稿では，学術会議用クラスファイル jsproceedings.cls を用いた \LaTeXe での論文の書き方と体裁を整えるための注意点について述べた．
+科学技術論文を \LaTeXe で執筆する際の参考になれば幸いである．
 
 \section*{謝辞}
-本研究はJSPS特別研究員奨励費24・2589の助成を受けた。
+本研究はJSPS特別研究員奨励費24・2589の助成を受けた．
 
 % 参考文献
 % \small
