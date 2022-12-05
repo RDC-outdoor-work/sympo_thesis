@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 19:01
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -741,62 +741,59 @@ File: fig/software.pdf Graphic file (type pdf)
 <fig/software.pdf>
 File: fig/kirikae.pdf Graphic file (type pdf)
 <fig/kirikae.pdf>
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 130.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 136.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <7.4> not available
-(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 143.
+(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 140.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <7.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 143.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 140.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 143.
+(Font)              scaled to size 6.84264pt on input line 140.
 LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <7.4> not available
-(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 143.
+(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 140.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <7.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 143.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 140.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 143.
+(Font)              scaled to size 6.84264pt on input line 140.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 156.
+(Font)              scaled to size 6.84264pt on input line 153.
+
+
+LaTeX Warning: Reference `table:corr-dist' on page 2 undefined on input line 193.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-
-LaTeX Warning: Reference `table:corr-dist' on page 3 undefined on input line 196.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 212.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 209.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 212.
+(Font)              scaled to size 5.5481pt on input line 209.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 213.
+(Font)              scaled to size 7.39746pt on input line 210.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 213.
+(Font)              scaled to size 7.39746pt on input line 210.
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 227.
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 224.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 227.
+(Font)              scaled to size 7.39746pt on input line 224.
 LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 227.
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 224.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 227.
+(Font)              scaled to size 7.39746pt on input line 224.
 
-Underfull \hbox (badness 2626) in paragraph at lines 240--241
+Underfull \hbox (badness 2626) in paragraph at lines 237--238
 []\T1/ptm/m/n/8 Sebastian Thrun, Wol-fram Bur-gard, and Di-eter Fox: ``Prob-a-bilis-tic
  []
 
-
-Underfull \vbox (badness 3158) has occurred while \output is active []
-
-
 No complaints by nag.
 - LAST -
-Extra skip:10.04973pt
-Left:440.26024pt/1.73193pt
-Right:430.21051pt/1.73193pt
-Output:440.35504pt
+Extra skip:21.55159pt
+Left:397.76024pt/1.28394pt
+Right:375.76065pt/1.73193pt
+Output:397.88011pt
 [3] (out/tc-sympo-sample.aux)
 
 LaTeX Warning: There were undefined references.
@@ -805,10 +802,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  9423 strings out of 481765
  174590 string characters out of 5933692
- 440674 words of memory out of 5000000
+ 438674 words of memory out of 5000000
  24630 multiletter control sequences out of 15000+600000
  629070 words of font info for 207 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,10n,66p,2180b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,10n,67p,2180b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 25792 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 24912 bytes).

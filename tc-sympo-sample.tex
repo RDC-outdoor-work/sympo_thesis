@@ -70,9 +70,9 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
     \scalebox{0.8}{
     \begin{tabular}{|l||c|c|c|}  \hline
        & ORNE-α & ORNE-box & ORNE-box2 \\ \hline \hline
-      Depth[mm] & 690 & &  \\ \hline
-      Wide[mm] & 560 & &  \\ \hline
-      Height[mm] & 770 & &  \\ \hline
+      Depth[mm] & 690 & 600 &  600\\ \hline
+      Wide[mm] & 560 & 506.5 &  506.5\\ \hline
+      Height[mm] & 770 & 957 &  957\\ \hline
       Wheel diameter[mm] & \multicolumn{3}{|c|}{304}\\ \hline
       Battery & \multicolumn{3}{|c|}{LONG WP12-12}\\ \hline
       Motor & \multicolumn{3}{|c|}{Oriental motor TF-M30-24-3500-G15L/R}\\ \hline
@@ -106,7 +106,7 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
 \section{各チームの方針}
 本チームには, チームORNE-α, ORNE-box, ORNE-box2の3チームが存在する. 従って本章では, 各チームごとの活動方針を述べる. ただし, ORNE-box2はORNE-boxの後継機であるため, 活動方針は同じである.
 
-\subsection{チームORNE-αについて}
+\subsection{チームORNE-α}
 2D-LiDARベースの自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARベースの自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そのため, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
 
 \subsubsection{提案手法}
@@ -121,18 +121,15 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
 
 \begin{itemize}
   \item alphaが低い場合\\
-  セマンティックセグメンテーションを用いた走行
+  ①セマンティックセグメンテーションを用いた走行
   \item alphaが高い場合\\
-  LiDARベースのナビゲーション
+  ②LiDARベースのナビゲーション
 \end{itemize}
 
-\subsection{チームORNE-box, ORNE-box2について}
-図の下に \verb*|\caption{}| コマンドでキャプションを付ける．
-キャプションを英語で書くか，日本語で書くかを論文中で統一する．
-論文を投稿する学会のフォーマットに従うが，和文論文でも英語のキャプションとする場合が多い．
-図表とキャプションだけを見て論文の内容が類推できるよう，キャプションは単語ではなく文章で書く．
-よって英語の場合は最初の文字を大文字にし，その後は固有名詞などを除いて小文字にする．
-また，文末にはピリオドを書く．
+% \subsubsection{}
+
+\subsection{チームORNE-box, ORNE-box2}
+
 
 \subsection{本文中での参照}
 論文に挿入した図は，本文中で必ず参照する．
