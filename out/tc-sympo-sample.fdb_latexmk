@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670256041 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670256041
-  "out/tc-sympo-sample.dvi" 1670256041 19876 4da4f6184fc69e651a3ffbe189f7dd7a "latex"
+["dvipdf"] 1670256299 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670256299
+  "out/tc-sympo-sample.dvi" 1670256299 19880 c2522abd410c6e8d838dc806bbc53a61 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670256040 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670256041
+["latex"] 1670256298 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670256299
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670256040 12914 df4b815383c8e751bb26f275109ebed1 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670256298 12920 3098fae04c8469ecbc33e2ef530e7ce6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -126,9 +126,9 @@
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670256041 3003 0772a450bae0f812c7ca1f94531cad5a "latex"
-  "tc-sympo-sample.tex" 1670256040 12914 df4b815383c8e751bb26f275109ebed1 ""
+  "out/tc-sympo-sample.aux" 1670256299 3009 7021a6994d08ac2e1470a31431a004ee "latex"
+  "tc-sympo-sample.tex" 1670256298 12920 3098fae04c8469ecbc33e2ef530e7ce6 ""
   (generated)
-  "out/tc-sympo-sample.dvi"
-  "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.aux"
+  "out/tc-sympo-sample.log"
+  "out/tc-sympo-sample.dvi"
