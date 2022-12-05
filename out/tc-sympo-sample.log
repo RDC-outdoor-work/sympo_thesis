@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 01:04
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -751,37 +751,34 @@ File: fig/camera_for_seg.pdf Graphic file (type pdf)
 <fig/camera_for_seg.pdf>
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
-
-Underfull \vbox (badness 3930) has occurred while \output is active []
-
  [2]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 201.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 202.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 201.
+(Font)              scaled to size 7.39746pt on input line 202.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 201.
+(Font)              scaled to size 7.39746pt on input line 202.
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--213
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 220.
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 221.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 220.
+(Font)              scaled to size 7.39746pt on input line 221.
 LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 220.
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 221.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 220.
+(Font)              scaled to size 7.39746pt on input line 221.
 No complaints by nag.
 - LAST -
-Extra skip:11.23044pt
-Left:248.88135pt/1.1096pt
+Extra skip:26.23044pt
+Left:263.88135pt/1.1096pt
 Right:238.76051pt/0.0pt
-Output:244.9406pt
+Output:260.4406pt
 [3] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
  9406 strings out of 481765
@@ -792,4 +789,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  49i,10n,46p,2026b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 19880 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 19948 bytes).

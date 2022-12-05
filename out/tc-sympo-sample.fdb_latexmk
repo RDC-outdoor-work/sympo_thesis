@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670256299 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670256299
-  "out/tc-sympo-sample.dvi" 1670256299 19880 c2522abd410c6e8d838dc806bbc53a61 "latex"
+["dvipdf"] 1670256749 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670256749
+  "out/tc-sympo-sample.dvi" 1670256749 19948 b40c084eb980105a4a44c214c5d1b08e "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670256298 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670256299
+["latex"] 1670256748 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670256749
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670256298 12920 3098fae04c8469ecbc33e2ef530e7ce6 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670256748 12980 a4d54dfa0010aecdb209537e8a24efde ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -126,9 +126,9 @@
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670256299 3009 7021a6994d08ac2e1470a31431a004ee "latex"
-  "tc-sympo-sample.tex" 1670256298 12920 3098fae04c8469ecbc33e2ef530e7ce6 ""
+  "out/tc-sympo-sample.aux" 1670256749 3105 14c424f9029c54d0c4a11a5abce97d08 "latex"
+  "tc-sympo-sample.tex" 1670256748 12980 a4d54dfa0010aecdb209537e8a24efde ""
   (generated)
-  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
