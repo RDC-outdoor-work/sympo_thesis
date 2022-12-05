@@ -93,7 +93,7 @@
   \newpage
 
 \subsection{ソフトウェア}
-本チームでは, 従来よりROS(Robot Operating System)のnavigation stack[1]をもとに開発されたシステムであるorne\_navigationにより自律走行させている. \figref{fig:soft-fig}に開発しているロボットのソフトウェアを含むシステム構成を示す. このシステムは, 2D-LiDARを用いたMonte Carlo Localization(MCL)により確率的に自己位置を推定し, 経路計画に基づいて自律走行している. また, GitHubのopen-rdc[2]でプロクラムを公開している.
+本チームでは, 従来よりROS(Robot Operating System)のnavigation stack\cite{navigation}をもとに開発されたシステムであるorne\_navigationにより自律走行させている. \figref{fig:soft-fig}に開発しているロボットのソフトウェアを含むシステム構成を示す. このシステムは, 2D-LiDARを用いたMonte Carlo Localization(MCL)により確率的に自己位置を推定し, 経路計画に基づいて自律走行している. また, GitHubのopen-rdc\cite{rdc}でプロクラムを公開している.
 
 
 \begin{figure}[h]
@@ -154,7 +154,7 @@
   \label{fig:for_seg}%\vspace*{-2mm}
 \end{figure}
 
-これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外のラベルによるピクセル数がある程度多くなると, 左に曲がるヨー方向の角速度を出力する. また, GitHubのdeeplabv3\_plus\_pytorch\_rosでプログラムとデータセットを公開している.
+これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外のラベルによるピクセル数がある程度多くなると, 左に曲がるヨー方向の角速度を出力する. また, GitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}でプログラムとデータセットを公開している.
 
 \begin{figure}[h]
   \centering
@@ -162,6 +162,8 @@
   \caption{Types of behavior using semantic segmentation}
   \label{fig:seg}%\vspace*{-2mm}
 \end{figure}
+
+\newpage
 
 \subsubsection{チームORNE-αの本走行の結果と展望}
 今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠され, 自己位置が誘拐されるなどの複合的な要因によるものだと考えられる. 今後は, 自己位置推定に用いるセンサを追加するなどの対策を検討する. 
@@ -243,86 +245,21 @@
 % \small
 \footnotesize
 \begin{thebibliography}{99}
-\bibitem{LaTeX-Cmd}
-\LaTeX~コマンド集.\\
-\url{http://www.latex-cmd.com/}
 
-\bibitem{TeX-Wiki}
-\TeX~Wiki.\\
-\url{https://texwiki.texjp.org/}
+\bibitem{navigation}
+ros-planning, navigation レポジトリ\\
+\url{https://github.com/ros-planning/navigation}
+(最終閲覧日:2022年12月5日)
 
-\bibitem{JRSJ-Words}
-日本ロボット学会 用字用語統一表.\\
-\url{http://www.rsj.or.jp/journal/for_authors/words}
+\bibitem{rdc}
+Robot Design and Control Lab, openrdc orne\_navigation レポジトリ\\
+\url{https://github.com/open-rdc/orne_navigation}
+(最終閲覧日:2022年12月5日)
 
-% \bibitem{DARPA-GrandChallenge}
-% Martin Buehler, Karl Iagnemma, and Sanjiv Singh: ``The 2005 DARPA Grand Challenge'', \textit{Springer}, 2007.
-
-\bibitem{DARPA-UrbanChallenge}
-Martin Buehler, Karl Iagnemma, and Sanjiv Singh: ``The DARPA Urban Challenge'', \textit{Springer}, 2010.
-
-\bibitem{GoogleCar}
-John Markoff: ``Google Cars Drive Themselves, in Traffic'', \textit{New York Times}, 2010.\\
-\url{http://www.nytimes.com/2010/10/10/science/10google.html}
-
-\bibitem{PRML}
-Christopher M. Bishop: ``Pattern Recognition and Machine Learning'', \textit{Springer}, 2006.
-
-% \bibitem{PRML-ja}
-% Christopher M. Bishop: ``パターン認識と機械学習 上／下'', \textit{Springer}, 2007 / 2008.
-
-\bibitem{ProbabilisticRobotics}
-Sebastian Thrun, Wolfram Burgard, and Dieter Fox: ``Probabilistic Robotics'', \textit{The MIT Press}, 2005.
-
-% \bibitem{ProbabilisticRobotics-ja}
-% Sebastian Thrun, Wolfram Burgard, and Dieter Fox: ``確率ロボティクス'', \textit{毎日コミュニケーションズ}, 2007.
-
-\bibitem{CVIM-Survey}
-増田 健, 岡谷（清水） 郁子, 佐川 立昌: ``距離データ処理 --- 複数距離画像からの形状モデル生成技術'', \textit{情報処理学会研究報告 CVIM}, 2004.
-
-\bibitem{Registration-Review}
-Joaquim Salvi, Carles Matabosch, David Fofi, and Josep Forest: ``A Review of Recent Range Image Registration Methods with Accuracy Evaluation'', \textit{J.\ of Image and Vision Computing}, vol.~25, no.~5, pp.~578--596, 2007.
-
-\bibitem{Besl-ICP}
-Paul J. Besl, and Neil D. McKay: ``A Method for Registration of 3-D Shapes'', \textit{IEEE Trans.\ on PAMI}, vol.~14, no.~2, pp.~239--256, 1992.
-
-\bibitem{JRSJ2012}
-原 祥尭, 大島 章, 小野 幸彦, 網野 梓, 山本 健次郎: ``人込み歩道環境に適応した自律移動技術の開発と実験機 Sofara-T を用いた実環境での評価'', \textit{日本ロボット学会誌}, vol.~30, no.~3, pp.~287--295, 2012.
-
-\bibitem{Chen-ICP}
-Yang Chen, and Gerard Medioni: ``Object Modeling by Registration of Multiple Range Images'', \textit{J.\ of Image and Vision Computing}, vol.~10, no.~3, pp.~145--155, 1992.
-
-\bibitem{Variant-ICP}
-Szymon Rusinkiewicz, and Marc Levoy: ``Efficient Variants of the ICP Algorithm'', \textit{Proc.\ of Int.\ Conf.\ on 3D Digital Imaging and Modeling (3DIM)}, 2001.
-
-\bibitem{CVIM3}
-八木 康史, 斎藤 英雄, et al.: ``コンピュータビジョン最先端ガイド3'', \textit{アドコム・メディア}, 2010.
-
-\bibitem{RANSAC}
-Martin A. Fischler, and Robert C. Bolles: ``Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography'', \textit{Comm.\ of the ACM}, vol.~24, no.~6, pp.~381--395, 1981.
-
-\bibitem{NDT}
-Peter Biber, and Wolfgang Straber: ``The Normal Distribution Transform: A New Approach to Laser Scan Matching'', \textit{Proc.\ of IEEE/RSJ Int.\ Conf.\ on Intelligent Robots and Systems (IROS)}, 2003.
-
-\bibitem{Lu-Milios-IDC}
-Feng Lu, and Evangelos Milios: ``Robot Pose Estimation in Unknown Environments by Matching 2D Range Scans'', \textit{J.\ of Intelligent and Robotic Systems}, vol.~18, no.~3, pp.~249--275, 1997.
-
-\bibitem{6D-SLAM}
-Andreas Nuchter, Kai Lingemann, Joachim Hertzberg, and Hartmut Surmann: ``6D SLAM --- 3D Mapping Outdoor Environments'', \textit{J.\ of Field Robotics}, vol.~24, no.~8--9, pp.~699--722, 2007.
-
-\bibitem{MCL}
-Frank Dellaert, Dieter Fox, Wolfram Burgard, and Sebastian Thrun: ``Monte Carlo Localization for Mobile Robots'', \textit{Proc.\ of IEEE Int.\ Conf.\ on Robotics and Automation (ICRA)}, 1999.
-% Dieter Fox, Wolfram Burgard, Frank Dellaert, and Sebastian Thrun: ``Monte Carlo Localization: Efficient Position Estimation for Mobile Robots'', \textit{Proc.\ of AAAI Conf.\ on Artificial Intelligence}, 1999.
-
-\bibitem{Vehicle}
-坪内 孝司: ``移動体の位置認識'', 計測自動制御学会 編, ビークル, \textit{コロナ社}, 2003.
-% 金井 喜美雄, et al.: ``ビークル'', \textit{計測自動制御学会, コロナ社}, 2003.
-
-\bibitem{PotentialAvoidance}
-Oussama Khatib: ``Real-Time Obstacle Avoidance for Manipulators and Mobile Robots'', \textit{Int.\ J.\ of Robotics Research}, vol.~5, no.~1, pp.~90--98, 1986.
-
-\bibitem{DWA}
-Dieter Fox, Wolfram Burgard, and Sebastian Thrun: ``The Dynamic Window Approach to Collision Avoidance'', \textit{IEEE Robotics and Automation Mag.}, vol.~4, no.~1, pp.~23--33, 1997.
+\bibitem{DeeplabV3}
+deeplabv3\_plus\_pytorch\_ros レポジトリ\\
+\url{https://github.com/Tsumoridesu/deeplabv3_plus_pytorch_ros/tree/add_cmd_vel}
+(最終閲覧日:2022年12月5日)
 
 \end{thebibliography}
 \normalsize

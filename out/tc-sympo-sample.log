@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 23:45
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,56 +752,58 @@ File: fig/camera_for_seg.pdf Graphic file (type pdf)
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
  [2]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 174.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 176.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <7.4> not available
-(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 178.
+(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 180.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <7.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 178.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 180.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 178.
+(Font)              scaled to size 6.84264pt on input line 180.
 LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <7.4> not available
-(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 178.
+(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 180.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <7.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 178.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 180.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 178.
+(Font)              scaled to size 6.84264pt on input line 180.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 248.
+(Font)              scaled to size 7.39746pt on input line 251.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 248.
-LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 262.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 262.
-LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 262.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 262.
+(Font)              scaled to size 7.39746pt on input line 251.
 
-Underfull \hbox (badness 2626) in paragraph at lines 275--276
-[]\T1/ptm/m/n/8 Sebastian Thrun, Wol-fram Bur-gard, and Di-eter Fox: ``Prob-a-bilis-tic
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
+[]$\T1/lmtt/m/n/8 https : / / github . com / ros-[]planning / navigation$ \T1/ptm/m/n/8 (\JY2/mc/m/n/8 最終閲覧
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--258
+[]$\T1/lmtt/m/n/8 https : / / github . com / open-[]rdc / orne _ navigation$ \T1/ptm/m/n/8 (\JY2/mc/m/n/8 最終閲覧
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
+[]$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
 No complaints by nag.
 - LAST -
-Extra skip:73.35594pt
-Left:791.01338pt/1.83487pt
-Right:717.76038pt/1.73193pt
-Output:791.50655pt
+Extra skip:25.42467pt
+Left:525.76038pt/1.1096pt
+Right:500.01338pt/1.43193pt
+Output:526.00655pt
 [3] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9432 strings out of 481765
- 174745 string characters out of 5933692
- 448674 words of memory out of 5000000
- 24637 multiletter control sequences out of 15000+600000
- 629070 words of font info for 207 fonts, out of 8000000 for 9000
+ 9409 strings out of 481765
+ 174472 string characters out of 5933692
+ 431674 words of memory out of 5000000
+ 24615 multiletter control sequences out of 15000+600000
+ 627358 words of font info for 206 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 54i,10n,48p,2026b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,10n,51p,2026b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 27492 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 22576 bytes).
