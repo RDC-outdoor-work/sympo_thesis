@@ -1,11 +1,18 @@
 # Fdb version 3
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
 ["dvipdf"] 1670238066 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670238066
   "out/tc-sympo-sample.dvi" 1670238066 25544 225065eea400e84043163132f3196abd "latex"
+=======
+["dvipdf"] 1670239553 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670239553
+  "out/tc-sympo-sample.dvi" 1670239553 26312 3c0c5aa8556ccfda8408de6288c54b29 "latex"
+>>>>>>> ada03d52e43d1e57e35dc186a987fc446b371b25
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670238065 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670238066
+["latex"] 1670239552 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670239553
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
+<<<<<<< HEAD
   "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670238065 18237 0f90179fea831df9c26bfe5a88448808 ""
 =======
 ["dvipdf"] 1670239067 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670239068
@@ -15,6 +22,18 @@
 ["latex"] 1670239067 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670239068
   "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670239067 17813 b918217163f4ccaea2e01de10630b1df ""
+>>>>>>> Stashed changes
+=======
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670239552 18778 d30a7652d301ee5232a5601e9922a55f ""
+>>>>>>> ada03d52e43d1e57e35dc186a987fc446b371b25
+=======
+["dvipdf"] 1670240474 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670240475
+  "out/tc-sympo-sample.dvi" 1670240474 25696 cdec7f7f33f61d0faf56b353a288f934 "latex"
+  (generated)
+  "out/tc-sympo-sample.pdf"
+["latex"] 1670240473 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670240475
+  "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670240473 18305 3bf9a9e97801c598bea0ca3b70047913 ""
 >>>>>>> Stashed changes
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -129,28 +148,45 @@
   "/usr/share/texmf/tex/latex/lm/t1lmtt.fd" 1256929440 2681 354015af3b61e7be30009f084986375a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669899415 10607293 64c947c4c5ca761b13c70a9baea7f1c9 ""
   "fig/alpha.pdf" 1670231629 34129 e512bd70ba514efe173ce5013fba808b ""
   "fig/box.pdf" 1670231629 119510 ba0905744ca7d84e0a92e737e4a41646 ""
   "fig/box2.pdf" 1670231629 110943 afa9c23ac25d59145c0b934a20baa95a ""
+  "fig/camera_for_seg.pdf" 1670238130 150142 fd1bc9a8aac02e2e2e81acf3de1c94c4 ""
   "fig/kirikae.pdf" 1670231629 112123 f131aacea4595370d5c97c707039cd37 ""
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
+<<<<<<< HEAD
   "out/tc-sympo-sample.aux" 1670238066 3293 ce0e305c7473deda1265a3c66d4b1d7d "latex"
   "tc-sympo-sample.tex" 1670238065 18237 0f90179fea831df9c26bfe5a88448808 ""
 =======
+=======
+>>>>>>> Stashed changes
   "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669897398 10590895 8b96f5b98de13c804e222e9b44648232 ""
   "fig/alpha.pdf" 1670237898 34129 e512bd70ba514efe173ce5013fba808b ""
   "fig/box.pdf" 1670237898 119510 ba0905744ca7d84e0a92e737e4a41646 ""
   "fig/box2.pdf" 1670237898 110943 afa9c23ac25d59145c0b934a20baa95a ""
   "fig/kirikae.pdf" 1670237898 112123 f131aacea4595370d5c97c707039cd37 ""
+  "fig/seg.pdf" 1670239113 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670237898 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670237898 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670239067 2717 140521f4b5ca1805f52af0aaab0fa89a "latex"
-  "tc-sympo-sample.tex" 1670239067 17813 b918217163f4ccaea2e01de10630b1df ""
->>>>>>> Stashed changes
+  "out/tc-sympo-sample.aux" 1670240474 3293 ce0e305c7473deda1265a3c66d4b1d7d "latex"
+  "tc-sympo-sample.tex" 1670240473 18305 3bf9a9e97801c598bea0ca3b70047913 ""
   (generated)
+<<<<<<< Updated upstream
   "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.dvi"
+=======
+  "out/tc-sympo-sample.aux" 1670239553 3536 e719047d0971d401cea7ecb34c0663ae "latex"
+  "tc-sympo-sample.tex" 1670239552 18778 d30a7652d301ee5232a5601e9922a55f ""
+  (generated)
+  "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
+>>>>>>> ada03d52e43d1e57e35dc186a987fc446b371b25
+=======
+>>>>>>> Stashed changes
   "out/tc-sympo-sample.log"
+  "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"

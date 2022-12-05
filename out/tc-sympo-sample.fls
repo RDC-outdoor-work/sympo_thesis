@@ -316,8 +316,11 @@ INPUT extractbb -B cropbox -O fig/box2.pdf
 OUTPUT out/tc-sympo-sample.dvi
 INPUT fig/software.pdf
 INPUT extractbb -B cropbox -O fig/software.pdf
+<<<<<<< Updated upstream
 INPUT fig/kirikae.pdf
 INPUT extractbb -B cropbox -O fig/kirikae.pdf
+INPUT fig/camera_for_seg.pdf
+INPUT extractbb -B cropbox -O fig/camera_for_seg.pdf
 INPUT fig/seg.pdf
 INPUT extractbb -B cropbox -O fig/seg.pdf
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -326,6 +329,8 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+=======
+>>>>>>> Stashed changes
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
@@ -345,6 +350,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txbsy.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txbex.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT fig/kirikae.pdf
+INPUT extractbb -B cropbox -O fig/kirikae.pdf
+INPUT fig/seg.pdf
+INPUT extractbb -B cropbox -O fig/seg.pdf
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt8.tfm

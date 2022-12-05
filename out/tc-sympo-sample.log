@@ -1,7 +1,15 @@
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
 This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 20:01
 =======
 This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 20:17
+>>>>>>> Stashed changes
+=======
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 20:25
+>>>>>>> ada03d52e43d1e57e35dc186a987fc446b371b25
+=======
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 20:41
 >>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
@@ -740,34 +748,55 @@ Overfull \hbox (4.34209pt too wide) in paragraph at lines 90--91
 ]
 File: fig/software.pdf Graphic file (type pdf)
 <fig/software.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 6.84264pt on input line 113.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 113.
 File: fig/kirikae.pdf Graphic file (type pdf)
 <fig/kirikae.pdf>
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+File: fig/camera_for_seg.pdf Graphic file (type pdf)
+<fig/camera_for_seg.pdf>
+>>>>>>> ada03d52e43d1e57e35dc186a987fc446b371b25
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 147.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 156.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 =======
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 136.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+=======
+File: fig/seg.pdf Graphic file (type pdf)
+<fig/seg.pdf>
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 147.
 >>>>>>> Stashed changes
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <7.4> not available
-(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 151.
+(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <7.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 151.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 151.
+(Font)              scaled to size 6.84264pt on input line 160.
 LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <7.4> not available
-(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 151.
+(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <7.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 151.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 151.
+<<<<<<< Updated upstream
+(Font)              scaled to size 6.84264pt on input line 160.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 (Font)              scaled to size 6.84264pt on input line 164.
+=======
+(Font)              scaled to size 6.84264pt on input line 173.
+>>>>>>> ada03d52e43d1e57e35dc186a987fc446b371b25
  [2]
 =======
 (Font)              scaled to size 6.84264pt on input line 153.
@@ -775,44 +804,60 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 LaTeX Warning: Reference `table:corr-dist' on page 2 undefined on input line 193.
 
 >>>>>>> Stashed changes
+=======
+(Font)              scaled to size 6.84264pt on input line 151.
+[2]
+>>>>>>> Stashed changes
 
-LaTeX Warning: Reference `table:corr-dist' on page 3 undefined on input line 204.
+LaTeX Warning: Reference `table:corr-dist' on page 3 undefined on input line 213.
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 [2]
 >>>>>>> Stashed changes
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 220.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 229.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 220.
+(Font)              scaled to size 5.5481pt on input line 229.
+=======
+>>>>>>> Stashed changes
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 221.
+(Font)              scaled to size 7.39746pt on input line 230.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 221.
+(Font)              scaled to size 7.39746pt on input line 230.
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 235.
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 244.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 235.
+(Font)              scaled to size 7.39746pt on input line 244.
 LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 235.
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 244.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 235.
+(Font)              scaled to size 7.39746pt on input line 244.
 
-Underfull \hbox (badness 2626) in paragraph at lines 248--249
+Underfull \hbox (badness 2626) in paragraph at lines 257--258
 []\T1/ptm/m/n/8 Sebastian Thrun, Wol-fram Bur-gard, and Di-eter Fox: ``Prob-a-bilis-tic
  []
 
+<<<<<<< Updated upstream
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1881) has occurred while \output is active []
 
 
 No complaints by nag.
 - LAST -
-Extra skip:15.07957pt
-Left:500.7602pt/1.63599pt
-Right:485.58467pt/1.73193pt
-Output:501.2921pt
+Extra skip:65.82306pt
+Left:670.7601pt/1.77777pt
+Right:604.98288pt/1.73193pt
+Output:670.99117pt
+=======
+No complaints by nag.
+- LAST -
+Extra skip:2.77731pt
+Left:508.7602pt/1.77777pt
+Right:506.02872pt/1.73193pt
+Output:508.51413pt
+>>>>>>> Stashed changes
 [3] (out/tc-sympo-sample.aux)
 
 LaTeX Warning: There were undefined references.
@@ -820,12 +865,17 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
  9428 strings out of 481765
- 174652 string characters out of 5933692
- 441674 words of memory out of 5000000
+ 174694 string characters out of 5933692
+ 441673 words of memory out of 5000000
  24634 multiletter control sequences out of 15000+600000
  629070 words of font info for 207 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
  67i,10n,61p,2180b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 =======
  9423 strings out of 481765
@@ -836,5 +886,19 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  72i,10n,67p,2194b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 >>>>>>> Stashed changes
+=======
+ 9433 strings out of 481765
+ 174762 string characters out of 5933692
+ 444674 words of memory out of 5000000
+ 24638 multiletter control sequences out of 15000+600000
+ 629070 words of font info for 207 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 61i,10n,55p,2180b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> ada03d52e43d1e57e35dc186a987fc446b371b25
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 25544 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 26312 bytes).
+=======
+ 68i,10n,62p,2194b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/tc-sympo-sample.dvi (3 pages, 25696 bytes).
+>>>>>>> Stashed changes
