@@ -1,7 +1,11 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 20:55
 =======
 This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 21:10
+>>>>>>> Stashed changes
+=======
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 21:15
 >>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
@@ -756,7 +760,11 @@ File: fig/camera_for_seg.pdf Graphic file (type pdf)
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 156.
+=======
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 173.
+>>>>>>> Stashed changes
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 =======
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 158.
@@ -765,6 +773,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 15
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <7.4> not available
+<<<<<<< Updated upstream
 (Font)              Font shape `JT2/mc/bx/n' tried instead on input line 162.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <7.4> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 162.
@@ -777,8 +786,21 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 <<<<<<< Updated upstream
 (Font)              scaled to size 6.84264pt on input line 160.
+=======
+(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 177.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <7.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 177.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 6.84264pt on input line 177.
+LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <7.4> not available
+(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 177.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <7.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 177.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 6.84264pt on input line 177.
+>>>>>>> Stashed changes
 
-Underfull \vbox (badness 8189) has occurred while \output is active []
+Underfull \vbox (badness 4036) has occurred while \output is active []
 
  [2]
 =======
@@ -786,6 +808,7 @@ Underfull \vbox (badness 8189) has occurred while \output is active []
 [2]
 >>>>>>> Stashed changes
 
+<<<<<<< Updated upstream
 LaTeX Warning: Reference `table:corr-dist' on page 3 undefined on input line 215.
 
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -805,15 +828,36 @@ Underfull \vbox (badness 2617) has occurred while \output is active []
 
 
 Underfull \hbox (badness 2626) in paragraph at lines 259--260
+=======
+LaTeX Warning: Reference `table:corr-dist' on page 3 undefined on input line 230.
+
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 247.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 247.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 261.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 261.
+LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 261.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 261.
+
+Underfull \hbox (badness 2626) in paragraph at lines 274--275
+>>>>>>> Stashed changes
 []\T1/ptm/m/n/8 Sebastian Thrun, Wol-fram Bur-gard, and Di-eter Fox: ``Prob-a-bilis-tic
  []
 
 No complaints by nag.
 - LAST -
-Extra skip:27.15503pt
-Left:678.7601pt/1.1096pt
-Right:650.98274pt/1.73193pt
-Output:678.99109pt
+Extra skip:10.57487pt
+Left:707.26024pt/1.83487pt
+Right:696.7883pt/1.73193pt
+Output:707.14394pt
 [3] (out/tc-sympo-sample.aux)
 
 LaTeX Warning: There were undefined references.
@@ -822,10 +866,11 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  9433 strings out of 481765
  174762 string characters out of 5933692
- 445674 words of memory out of 5000000
+ 446674 words of memory out of 5000000
  24638 multiletter control sequences out of 15000+600000
  629070 words of font info for 207 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
  59i,10n,53p,2180b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
@@ -834,4 +879,9 @@ Output written on out/tc-sympo-sample.dvi (3 pages, 26468 bytes).
  59i,10n,53p,2040b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on out/tc-sympo-sample.dvi (3 pages, 26280 bytes).
+>>>>>>> Stashed changes
+=======
+ 55i,10n,49p,2180b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/tc-sympo-sample.dvi (3 pages, 26828 bytes).
 >>>>>>> Stashed changes

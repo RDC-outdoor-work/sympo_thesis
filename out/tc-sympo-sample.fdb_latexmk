@@ -1,11 +1,17 @@
 # Fdb version 3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ["dvipdf"] 1670241324 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670241325
   "out/tc-sympo-sample.dvi" 1670241324 26468 3af8219b70ba092ceb93f5c75ac52415 "latex"
+=======
+["dvipdf"] 1670242547 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670242547
+  "out/tc-sympo-sample.dvi" 1670242547 26828 b3b9c5f9b4417dd7c8b3e40800bf1605 "latex"
+>>>>>>> Stashed changes
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670241323 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670241325
+["latex"] 1670242546 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670242547
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
+<<<<<<< Updated upstream
   "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670241323 18920 dcc7d173446e6483a4fbc253aa80a2cf ""
 =======
 ["dvipdf"] 1670242235 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670242236
@@ -15,6 +21,9 @@
 ["latex"] 1670242235 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670242236
   "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670242235 18752 d2a2aa5ff40dc8bcbd24da57dec65c6c ""
+>>>>>>> Stashed changes
+=======
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670242546 19378 81277573ddd8ebeb7e42bc8b35a2d7ab ""
 >>>>>>> Stashed changes
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -138,6 +147,7 @@
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
+<<<<<<< Updated upstream
   "out/tc-sympo-sample.aux" 1670241324 3536 1f34675f26bb814c7fe0ef2986827e8c "latex"
   "tc-sympo-sample.tex" 1670241323 18920 dcc7d173446e6483a4fbc253aa80a2cf ""
 =======
@@ -152,6 +162,10 @@
   "jsproceedings.cls" 1670237898 23503 31ea80bc6a420cac8ffa562f1f435009 ""
   "out/tc-sympo-sample.aux" 1670242235 3556 7178e727f1054151ff826305cd8f348c "latex"
   "tc-sympo-sample.tex" 1670242235 18752 d2a2aa5ff40dc8bcbd24da57dec65c6c ""
+>>>>>>> Stashed changes
+=======
+  "out/tc-sympo-sample.aux" 1670242547 3556 8390394715bdd454397ff0a4187f8688 "latex"
+  "tc-sympo-sample.tex" 1670242546 19378 81277573ddd8ebeb7e42bc8b35a2d7ab ""
 >>>>>>> Stashed changes
   (generated)
   "out/tc-sympo-sample.aux"

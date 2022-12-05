@@ -128,7 +128,7 @@
   ②セマンティックセグメンテーションを用いた走行
 \end{itemize}
 
-\subsubsection{2D-LidARベースの自律走行時について}
+\subsubsection{走行方法の切り替え}
 \subsubsection{セマンティックセグメンテーションについて}
 フレームワーク: DeeplabV3 mobilenet
 \subsubsection{ロボットの制御}
@@ -141,7 +141,7 @@
   \label{fig:for_seg}%\vspace*{-2mm}
 \end{figure}
 
-これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外のラベルによるピクセル
+これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外のラベルによるピクセル数
 
 \begin{figure}[h]
   \centering
