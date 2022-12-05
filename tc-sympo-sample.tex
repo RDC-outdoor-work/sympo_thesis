@@ -107,7 +107,7 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
 本チームには, チームORNE-α, ORNE-box, ORNE-box2の3チームが存在する. 従って本章では, 各チームごとの活動方針を述べる. ただし, ORNE-box2はORNE-boxの後継機であるため, 活動方針は同じである.
 
 \subsection{チームORNE-αについて}
-2D-LiDARベースの自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARベースの自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そこで, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
+2D-LiDARベースの自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARベースの自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そのため, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
 
 \subsubsection{提案手法}
 提案手法を\figref{fig:kirikae}に示す. 移動ロボットは, 2つの走行方法を持つ. この2つの走行方法は, emcl2[3]のalphaを指標として切り替える.
@@ -118,6 +118,13 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
   \caption{Developed system of switching action.}
   \label{fig:kirikae}%\vspace*{-2mm}
 \end{figure}
+
+\begin{itemize}
+  \item alphaが低い場合\\
+  セマンティックセグメンテーションを用いた走行
+  \item alphaが高い場合\\
+  LiDARベースのナビゲーション
+\end{itemize}
 
 \subsection{チームORNE-box, ORNE-box2について}
 図の下に \verb*|\caption{}| コマンドでキャプションを付ける．
@@ -136,7 +143,7 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
   \item[\LaTeX ソース]%\leavevmode \\
   \verb|\figref{fig:matching-concept}に，提案手法の概念と各変数の定義を示す．|
   \item[出力]%\leavevmode \\
-  \figref{fig:matching-concept}に，提案手法の概念と各変数の定義を示す．
+  % \figref{fig:matching-concept}に，提案手法の概念と各変数の定義を示す．
 \end{description}
 
 
@@ -144,24 +151,24 @@ This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar 
 本章では，表を挿入する方法，キャプションの書き方や本文中での参照の仕方について述べる．
 
 \subsection{Table の挿入}
-\tableref{table:corr-dist}に，表を挿入する例を示す．
+% \tableref{table:corr-dist}に，表を挿入する例を示す．
 表の挿入には，table 環境（\verb*|\begin{table}|，\verb*|\end{table}|）と tabular 環境（\verb*|\begin{tabular}|，\verb*|\end{tabular}|）を用いる．
 具体的な書き方は \LaTeX ソースを参照されたい．
 
-\begin{table}
-  \centering
-  \caption{Means of the correspondence distances after registration.}
-  \label{table:corr-dist}
-  \begin{tabular}{cccc}
-  \toprule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
-  \textbf{Environment} & room & hallway & moved objects\\
-  \midrule%[0.05em]  % デフォルト 0.05em（\lightrulewidth）
-  \textbf{Standard ICP} & 0.123 [m] & 0.456 [m] & 0.789 [m]\\
-  \textbf{MAP-ICP} & 0.987 [m] & 0.654 [m] & 0.321 [m]\\
-  \bottomrule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
-  \end{tabular}
-% \vspace*{-2mm}
-\end{table}
+% \begin{table}
+%   \centering
+%   \caption{Means of the correspondence distances after registration.}
+%   \label{table:corr-dist}
+%   \begin{tabular}{cccc}
+%   \toprule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
+%   \textbf{Environment} & room & hallway & moved objects\\
+%   \midrule%[0.05em]  % デフォルト 0.05em（\lightrulewidth）
+%   \textbf{Standard ICP} & 0.123 [m] & 0.456 [m] & 0.789 [m]\\
+%   \textbf{MAP-ICP} & 0.987 [m] & 0.654 [m] & 0.321 [m]\\
+%   \bottomrule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
+%   \end{tabular}
+% % \vspace*{-2mm}
+% \end{table}
 
 表の罫線は格子状に引く必要はなく，省略できる罫線は引かずに罫線を少なくした表の方が美しい組版と言われる．
 特に英文の場合，縦罫線は引かない方が良い．
