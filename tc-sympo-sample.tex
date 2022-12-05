@@ -1,0 +1,285 @@
+\documentclass[uplatex, twocolumn, 9pt]{jsproceedings}
+\RequirePackage[l2tabu, orthodox]{nag}  % 古いコマンドやパッケージを使用した場合に警告する
+\usepackage[all, warning]{onlyamsmath}  % amsmath が提供しない数式環境を使用した場合に警告する
+\usepackage{flushend}  % 最終ページの2カラムの左右の高さを揃える
+\usepackage{caption}
+\usepackage{graphicx}
+
+% タイトル
+\title{つくばチャレンジ2022における\\千葉工業大学未来ロボティクス学科チームの取り組み}
+
+\author{○筑波 太郎\authorrefmark{1}，筑波 花子\authorrefmark{1}}
+
+\etitle{Development Activity of Advanced Robotics Department Team of Chiba Institute of Technology at Tsukuba Challenge 2021}
+
+\eauthor{*Taro TSUKUBA\eauthorrefmark{1}, Hanako TSUKUBA\eauthorrefmark{1}}
+
+\affiliation{千葉工業大学未来ロボティクス学科チームα, box, box2}
+
+\abstract{
+This paper presents ... foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar foobar
+}
+
+% \keywords{\LaTeXe, Class File, Proceedings}
+
+\begin{document}
+\maketitle
+
+% \authorreftext{1}{筑波大学 大学院 システム情報工学研究科}
+% \eauthorreftext{1}{Graduate School of Systems and Information Engineering,\\ University of Tsukuba}
+
+% 本文
+\section{はじめに}
+本チームは, 屋外で安定して自律移動するロボットを目指し, その研究および開発の一環としてつくばチャレンジに参加している. 開発したシステムは2次元地図と測域センサを用いた自己位置推定により, つくばチャレンジ2016, 2017においてマイルストーン3「横断歩道区間を含まない課題コース(2037m)」を達成した. しかし, つくばチャレンジ2018から, ひらけた公園がコースに含まれるようになった. そのため, 30m程度の2次元レーザレンジセンサでは検出可能な物体が比較的少ないことから, 従来のシステムでは安定して自己位置推定を行うことが困難になった. 2018年度から計測距離が100mの3次元レーザレンジセンサを採用したが, 水平面の計測データのみを使用しており, 多くのデータを破棄していた. さらに, 公園内では場所により地面の傾斜が変化するため, レーザが必ずしも水平の距離を計測していないという問題もあった. 例えば, 斜めに土が積み上げられた場所では, レーザを照射する位置が上下に変化すると, それに合わせて距離も変化してしまう. そのため, 地図生成が容易に行えないという問題もあった. 2019年度は, これらの3次元データを有効に活用するため, 2次元地図ではなく, 3次元地図を生成しMCLによる3次元自己位置推定を行い, 2次元自己位置推定と比べ, 自己位置が安定していることを確認した. しかし, 公園のような開けた場所では測域センサで検出できる物体が少なく, 測域センサ, オドメトリを用いる方法では自己位置が定まらないことがある. また, つくばチャレンジでは, コース上に白線が引かれており, その1m以内でロボットを停止させなければならない. 本稿では, このような課題を解決するためにつくばチャレンジ2022に向けて取り組んだ開発に関して紹介する. 
+
+\section{ロボットの概要}
+つくばチャレンジでは, 本チームが開発を続けている三台のロボットORNE-α, ORNE-box, ORNE-box2を用いる. それぞれの方針は以下の通りである. 
+\begin{itemize}
+  \item ORNE-α: 2つの走行の切り替えによる安定した自律走行
+  \item ORNE-box, ORNE-box2: 
+\end{itemize}
+
+\subsection{ハードウェア}
+本チームは屋外自律移動ロボットとして, ORNE-α, ORNE-box, ORNE-box2の開発を行っており, つくばチャレンジ2022にはこれらのロボットが参加する. \figref{fig:orne-series}に本チームの開発している自律移動ロボットの外観を示す. これらのロボットはi-Cart middleをベースとしており, 主なセンサはIMU, 測域センサである. 
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.3\linewidth}
+    \centering
+    \includegraphics[width=30mm]{fig/alpha.pdf}
+    \caption*{(a) ORNE-α}
+  \end{minipage} 
+  \hspace{0.03\columnwidth}
+  \begin{minipage}[b]{0.3\linewidth}
+    \centering
+    \includegraphics[height=34mm]{fig/box.pdf}
+    \caption*{(b) ORNE-box}
+  \end{minipage}
+  \begin{minipage}[b]{0.3\linewidth}
+    \centering
+    \includegraphics[height=34mm]{fig/box2.pdf}
+    \caption*{(c) ORNE-box2}
+  \end{minipage}
+  \caption{ORNE-Series}
+  \label{fig:orne-series}%\vspace*{-2mm}
+\end{figure}
+
+\begin{table}[h]
+  \centering
+    \caption{Specifications of the robots}
+    \scalebox{0.8}{
+    \begin{tabular}{|l||c|c|c|}  \hline
+       & ORNE-α & ORNE-box & ORNE-box2 \\ \hline \hline
+      Depth[mm] & 690 & 106,800円 & A14 Bionic \\ \hline
+      Wide[mm] & 560 & 85,800円 & A14 Bionic \\ \hline
+      Height[mm] & 770 & 74,800円 & A14 Bionic \\ \hline
+      Wheel diameter[mm] & \multicolumn{3}{|c|}{304}\\ \hline
+      Battery & \multicolumn{3}{|c|}{LONG WP12-12}\\ \hline
+      Motor & \multicolumn{3}{|c|}{Oriental motor TF-M30-24-3500-G15L/R}\\ \hline
+      Driving system & \multicolumn{3}{|c|}{Power wheeled steering}\\ \hline
+      2D-LiDAR & URM-40LC-EW & None & UTM-30LX-EW\\
+      & (HOKUYO) & & (HOKUYO)\\ \hline
+      3D-LiDAR & None & R-fans-16 & VLP-16\\
+      & & (SureStar) & (Velodyne)\\ \hline
+      IMU & ADIS16465 & \multicolumn{2}{|c|}{ADIS16475}\\ 
+      & (Analog devices) & \multicolumn{2}{|c|}{Analog devices}\\ \hline
+      GNSS receiver & None & \multicolumn{2}{|c|}{u-blox SCR-u2t}\\ \hline
+      Camera & CMS-V43BK & \multicolumn{2}{|c|}{None}\\ 
+      & (Sanwa supply) & \multicolumn{2}{|c|}{}\\ \hline
+    \end{tabular}
+  }
+  \end{table}
+
+\subsection{ソフトウェア}
+本チームでは, 従来よりROS(Robot Operating System)のnavigation stack[1]をもとに開発されたシステムであるorne\_navigationにより自律走行させている. \figref{fig:soft-fig}に開発しているロボットのソフトウェアを含むシステム構成を示す. このシステムは, 2D-LiDARを用いたMonte Carlo Localization(MCL)により確率的に自己位置を推定し, 経路計画に基づいて自律走行している. また, GitHubのopen-rdc[2]でプロクラムを公開している.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=85mm]{fig/software.pdf}
+  \caption{Structure of the system.}
+  \label{fig:soft-fig}%\vspace*{-2mm}
+\end{figure}
+
+\section{各チームの方針}
+本チームには, チームORNE-α, ORNE-box, ORNE-box2の3チームが存在する. 従って本章では, 各チームごとの活動方針を述べる. ただし, ORNE-box2はORNE-boxの後継機であるため, 活動方針は同じである.
+
+\subsection{チームORNE-αについて}
+2D-LiDARベースの自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARベースの自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そこで, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
+
+\subsubsection{提案手法}
+提案手法を\figref{fig:kirikae}に示す. 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=85mm]{fig/kirikae.pdf}
+  \caption{Developed system of switching action.}
+  \label{fig:kirikae}%\vspace*{-2mm}
+\end{figure}
+
+\subsection{チームORNE-box, ORNE-box2について}
+図の下に \verb*|\caption{}| コマンドでキャプションを付ける。
+キャプションを英語で書くか、日本語で書くかを論文中で統一する。
+論文を投稿する学会のフォーマットに従うが、和文論文でも英語のキャプションとする場合が多い。
+図表とキャプションだけを見て論文の内容が類推できるよう、キャプションは単語ではなく文章で書く。
+よって英語の場合は最初の文字を大文字にし、その後は固有名詞などを除いて小文字にする。
+また、文末にはピリオドを書く。
+
+\subsection{本文中での参照}
+論文に挿入した図は、本文中で必ず参照する。
+図を参照する際は、以下の例のように \verb*|\figref{}| コマンドを用いる。
+\verb*|\figref{}| コマンドは、jsproceedings.cls で定義した独自のコマンドである。
+参照先の図には、\verb*|\label{}| コマンドでラベルを付けておく。
+\begin{description}[style=nextline]
+  \item[\LaTeX ソース]%\leavevmode \\
+  \verb|\figref{fig:matching-concept}に、提案手法の概念と各変数の定義を示す。|
+  \item[出力]%\leavevmode \\
+  \figref{fig:matching-concept}に、提案手法の概念と各変数の定義を示す。
+\end{description}
+
+
+\section{表}
+本章では、表を挿入する方法、キャプションの書き方や本文中での参照の仕方について述べる。
+
+\subsection{Table の挿入}
+\tableref{table:corr-dist}に、表を挿入する例を示す。
+表の挿入には、table 環境（\verb*|\begin{table}|、\verb*|\end{table}|）と tabular 環境（\verb*|\begin{tabular}|、\verb*|\end{tabular}|）を用いる。
+具体的な書き方は \LaTeX ソースを参照されたい。
+
+\begin{table}
+  \centering
+  \caption{Means of the correspondence distances after registration.}
+  \label{table:corr-dist}
+  \begin{tabular}{cccc}
+  \toprule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
+  \textbf{Environment} & room & hallway & moved objects\\
+  \midrule%[0.05em]  % デフォルト 0.05em（\lightrulewidth）
+  \textbf{Standard ICP} & 0.123 [m] & 0.456 [m] & 0.789 [m]\\
+  \textbf{MAP-ICP} & 0.987 [m] & 0.654 [m] & 0.321 [m]\\
+  \bottomrule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
+  \end{tabular}
+% \vspace*{-2mm}
+\end{table}
+
+表の罫線は格子状に引く必要はなく、省略できる罫線は引かずに罫線を少なくした表の方が美しい組版と言われる。
+特に英文の場合、縦罫線は引かない方が良い。
+
+横罫線は、標準の \verb*|\hline| コマンドでは上下の間隔が狭く、線の太さのバランスも良くない。
+そこで booktabs.sty の \verb*|\toprule|、\verb*|\midrule|、\verb*|\cmidrule|、\verb*|\bottomrule| コマンドを用いることで、より見やすい表を書く。
+
+\subsection{キャプション}
+表の上に \verb*|\caption{}| コマンドでキャプションを付ける。
+キャプションを英語で書くか、日本語で書くかを論文中で統一する。
+論文を投稿する学会のフォーマットに従うが、和文論文でも英語のキャプションとする場合が多い。
+図表とキャプションだけを見て論文の内容が類推できるよう、キャプションは単語ではなく文章で書く。
+よって英語の場合は最初の文字を大文字にし、その後は固有名詞などを除いて小文字にする。
+また、文末にはピリオドを書く。
+
+\subsection{本文中での参照}
+論文に挿入した表は、本文中で必ず参照する。
+表を参照する際は、以下の例のように \verb*|\tableref{}| コマンドを用いる。
+\verb*|\tableref{}| コマンドは、jsproceedings.cls で定義した独自のコマンドである。
+参照先の表には、\verb*|\label{}| コマンドでラベルを付けておく。
+\begin{description}[style=nextline]
+  \item[\LaTeX ソース]%\leavevmode \\
+  \verb|\tableref{table:corr-dist}に、マッチング後の対応点間距離の平均値を示す。|
+  \item[出力]%\leavevmode \\
+  \tableref{table:corr-dist}に、マッチング後の対応点間距離の平均値を示す。
+\end{description}
+
+
+\section{結言}
+本稿では、学術会議用クラスファイル jsproceedings.cls を用いた \LaTeXe での論文の書き方と体裁を整えるための注意点について述べた。
+科学技術論文を \LaTeXe で執筆する際の参考になれば幸いである。
+
+\section*{謝辞}
+本研究はJSPS特別研究員奨励費24・2589の助成を受けた。
+
+% 参考文献
+% \small
+\footnotesize
+\begin{thebibliography}{99}
+\bibitem{LaTeX-Cmd}
+\LaTeX~コマンド集.\\
+\url{http://www.latex-cmd.com/}
+
+\bibitem{TeX-Wiki}
+\TeX~Wiki.\\
+\url{https://texwiki.texjp.org/}
+
+\bibitem{JRSJ-Words}
+日本ロボット学会 用字用語統一表.\\
+\url{http://www.rsj.or.jp/journal/for_authors/words}
+
+% \bibitem{DARPA-GrandChallenge}
+% Martin Buehler, Karl Iagnemma, and Sanjiv Singh: ``The 2005 DARPA Grand Challenge'', \textit{Springer}, 2007.
+
+\bibitem{DARPA-UrbanChallenge}
+Martin Buehler, Karl Iagnemma, and Sanjiv Singh: ``The DARPA Urban Challenge'', \textit{Springer}, 2010.
+
+\bibitem{GoogleCar}
+John Markoff: ``Google Cars Drive Themselves, in Traffic'', \textit{New York Times}, 2010.\\
+\url{http://www.nytimes.com/2010/10/10/science/10google.html}
+
+\bibitem{PRML}
+Christopher M. Bishop: ``Pattern Recognition and Machine Learning'', \textit{Springer}, 2006.
+
+% \bibitem{PRML-ja}
+% Christopher M. Bishop: ``パターン認識と機械学習 上／下'', \textit{Springer}, 2007 / 2008.
+
+\bibitem{ProbabilisticRobotics}
+Sebastian Thrun, Wolfram Burgard, and Dieter Fox: ``Probabilistic Robotics'', \textit{The MIT Press}, 2005.
+
+% \bibitem{ProbabilisticRobotics-ja}
+% Sebastian Thrun, Wolfram Burgard, and Dieter Fox: ``確率ロボティクス'', \textit{毎日コミュニケーションズ}, 2007.
+
+\bibitem{CVIM-Survey}
+増田 健, 岡谷（清水） 郁子, 佐川 立昌: ``距離データ処理 --- 複数距離画像からの形状モデル生成技術'', \textit{情報処理学会研究報告 CVIM}, 2004.
+
+\bibitem{Registration-Review}
+Joaquim Salvi, Carles Matabosch, David Fofi, and Josep Forest: ``A Review of Recent Range Image Registration Methods with Accuracy Evaluation'', \textit{J.\ of Image and Vision Computing}, vol.~25, no.~5, pp.~578--596, 2007.
+
+\bibitem{Besl-ICP}
+Paul J. Besl, and Neil D. McKay: ``A Method for Registration of 3-D Shapes'', \textit{IEEE Trans.\ on PAMI}, vol.~14, no.~2, pp.~239--256, 1992.
+
+\bibitem{JRSJ2012}
+原 祥尭, 大島 章, 小野 幸彦, 網野 梓, 山本 健次郎: ``人込み歩道環境に適応した自律移動技術の開発と実験機 Sofara-T を用いた実環境での評価'', \textit{日本ロボット学会誌}, vol.~30, no.~3, pp.~287--295, 2012.
+
+\bibitem{Chen-ICP}
+Yang Chen, and Gerard Medioni: ``Object Modeling by Registration of Multiple Range Images'', \textit{J.\ of Image and Vision Computing}, vol.~10, no.~3, pp.~145--155, 1992.
+
+\bibitem{Variant-ICP}
+Szymon Rusinkiewicz, and Marc Levoy: ``Efficient Variants of the ICP Algorithm'', \textit{Proc.\ of Int.\ Conf.\ on 3D Digital Imaging and Modeling (3DIM)}, 2001.
+
+\bibitem{CVIM3}
+八木 康史, 斎藤 英雄, et al.: ``コンピュータビジョン最先端ガイド3'', \textit{アドコム・メディア}, 2010.
+
+\bibitem{RANSAC}
+Martin A. Fischler, and Robert C. Bolles: ``Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography'', \textit{Comm.\ of the ACM}, vol.~24, no.~6, pp.~381--395, 1981.
+
+\bibitem{NDT}
+Peter Biber, and Wolfgang Straber: ``The Normal Distribution Transform: A New Approach to Laser Scan Matching'', \textit{Proc.\ of IEEE/RSJ Int.\ Conf.\ on Intelligent Robots and Systems (IROS)}, 2003.
+
+\bibitem{Lu-Milios-IDC}
+Feng Lu, and Evangelos Milios: ``Robot Pose Estimation in Unknown Environments by Matching 2D Range Scans'', \textit{J.\ of Intelligent and Robotic Systems}, vol.~18, no.~3, pp.~249--275, 1997.
+
+\bibitem{6D-SLAM}
+Andreas Nuchter, Kai Lingemann, Joachim Hertzberg, and Hartmut Surmann: ``6D SLAM --- 3D Mapping Outdoor Environments'', \textit{J.\ of Field Robotics}, vol.~24, no.~8--9, pp.~699--722, 2007.
+
+\bibitem{MCL}
+Frank Dellaert, Dieter Fox, Wolfram Burgard, and Sebastian Thrun: ``Monte Carlo Localization for Mobile Robots'', \textit{Proc.\ of IEEE Int.\ Conf.\ on Robotics and Automation (ICRA)}, 1999.
+% Dieter Fox, Wolfram Burgard, Frank Dellaert, and Sebastian Thrun: ``Monte Carlo Localization: Efficient Position Estimation for Mobile Robots'', \textit{Proc.\ of AAAI Conf.\ on Artificial Intelligence}, 1999.
+
+\bibitem{Vehicle}
+坪内 孝司: ``移動体の位置認識'', 計測自動制御学会 編, ビークル, \textit{コロナ社}, 2003.
+% 金井 喜美雄, et al.: ``ビークル'', \textit{計測自動制御学会, コロナ社}, 2003.
+
+\bibitem{PotentialAvoidance}
+Oussama Khatib: ``Real-Time Obstacle Avoidance for Manipulators and Mobile Robots'', \textit{Int.\ J.\ of Robotics Research}, vol.~5, no.~1, pp.~90--98, 1986.
+
+\bibitem{DWA}
+Dieter Fox, Wolfram Burgard, and Sebastian Thrun: ``The Dynamic Window Approach to Collision Avoidance'', \textit{IEEE Robotics and Automation Mag.}, vol.~4, no.~1, pp.~23--33, 1997.
+
+\end{thebibliography}
+\normalsize
+
+\end{document}
