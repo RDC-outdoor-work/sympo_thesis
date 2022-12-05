@@ -318,6 +318,8 @@ INPUT fig/software.pdf
 INPUT extractbb -B cropbox -O fig/software.pdf
 INPUT fig/kirikae.pdf
 INPUT extractbb -B cropbox -O fig/kirikae.pdf
+INPUT fig/seg.pdf
+INPUT extractbb -B cropbox -O fig/seg.pdf
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm

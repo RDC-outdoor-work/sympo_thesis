@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670236059 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670236060
-  "out/tc-sympo-sample.dvi" 1670236059 24956 cab5e4c28148a8f3204c7b1b6eb9c2e1 "latex"
+["dvipdf"] 1670238066 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670238066
+  "out/tc-sympo-sample.dvi" 1670238066 25544 225065eea400e84043163132f3196abd "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670236059 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670236060
+["latex"] 1670238065 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670238066
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670236059 17813 b918217163f4ccaea2e01de10630b1df ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670238065 18237 0f90179fea831df9c26bfe5a88448808 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -123,10 +123,11 @@
   "fig/box.pdf" 1670231629 119510 ba0905744ca7d84e0a92e737e4a41646 ""
   "fig/box2.pdf" 1670231629 110943 afa9c23ac25d59145c0b934a20baa95a ""
   "fig/kirikae.pdf" 1670231629 112123 f131aacea4595370d5c97c707039cd37 ""
+  "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670236059 2717 140521f4b5ca1805f52af0aaab0fa89a "latex"
-  "tc-sympo-sample.tex" 1670236059 17813 b918217163f4ccaea2e01de10630b1df ""
+  "out/tc-sympo-sample.aux" 1670238066 3293 ce0e305c7473deda1265a3c66d4b1d7d "latex"
+  "tc-sympo-sample.tex" 1670238065 18237 0f90179fea831df9c26bfe5a88448808 ""
   (generated)
   "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.aux"
