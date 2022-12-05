@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 18:41
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  5 DEC 2022 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -782,14 +782,14 @@ Underfull \hbox (badness 2626) in paragraph at lines 233--234
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1577) has occurred while \output is active []
 
 No complaints by nag.
 - LAST -
-Extra skip:17.64568pt
-Left:447.76024pt/1.73193pt
-Right:430.11456pt/1.73193pt
-Output:448.05707pt
+Extra skip:11.15555pt
+Left:451.76024pt/1.15596pt
+Right:440.02872pt/1.73193pt
+Output:452.01414pt
 [3] (out/tc-sympo-sample.aux)
 
 LaTeX Warning: There were undefined references.
@@ -802,6 +802,6 @@ Here is how much of TeX's memory you used:
  24631 multiletter control sequences out of 15000+600000
  629070 words of font info for 207 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 70i,10n,64p,2194b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,10n,63p,2194b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 26032 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 26164 bytes).
