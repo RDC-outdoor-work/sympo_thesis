@@ -130,7 +130,16 @@
 \subsubsection{セマンティックセグメンテーションについて}
 フレームワーク: DeeplabV3 mobilenet
 \subsubsection{ロボットの制御}
-セマンティックセグメンテーションを用いて
+セマンティックセグメンテーションを用いて, 領域分割を行う. 処理を施した例を\figref{fig:for_seg}に示す.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=60mm]{fig/camera_for_seg.pdf}
+  \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation}
+  \label{fig:for_seg}%\vspace*{-2mm}
+\end{figure}
+
+これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, 
 
 \begin{figure}[h]
   \centering

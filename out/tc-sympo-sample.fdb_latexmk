@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670238066 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670238066
-  "out/tc-sympo-sample.dvi" 1670238066 25544 225065eea400e84043163132f3196abd "latex"
+["dvipdf"] 1670239055 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670239056
+  "out/tc-sympo-sample.dvi" 1670239055 26180 8b18a3fb19de3c0bc36890144cfb2e52 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670238065 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670238066
+["latex"] 1670239054 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670239056
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670238065 18237 0f90179fea831df9c26bfe5a88448808 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670239054 18693 6d8b784c3125f8934ad2358282e5d1d4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -122,13 +122,14 @@
   "fig/alpha.pdf" 1670231629 34129 e512bd70ba514efe173ce5013fba808b ""
   "fig/box.pdf" 1670231629 119510 ba0905744ca7d84e0a92e737e4a41646 ""
   "fig/box2.pdf" 1670231629 110943 afa9c23ac25d59145c0b934a20baa95a ""
+  "fig/camera_for_seg.pdf" 1670238130 150142 fd1bc9a8aac02e2e2e81acf3de1c94c4 ""
   "fig/kirikae.pdf" 1670231629 112123 f131aacea4595370d5c97c707039cd37 ""
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670238066 3293 ce0e305c7473deda1265a3c66d4b1d7d "latex"
-  "tc-sympo-sample.tex" 1670238065 18237 0f90179fea831df9c26bfe5a88448808 ""
+  "out/tc-sympo-sample.aux" 1670239055 3536 e719047d0971d401cea7ecb34c0663ae "latex"
+  "tc-sympo-sample.tex" 1670239054 18693 6d8b784c3125f8934ad2358282e5d1d4 ""
   (generated)
-  "out/tc-sympo-sample.log"
-  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
+  "out/tc-sympo-sample.log"
