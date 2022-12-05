@@ -178,76 +178,12 @@
 % \vspace*{-2mm}
 \end{table}
 
-\newpage
+% \newpage
 
 \subsubsection{チームORNE-αの本走行の結果と展望}
 今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠され, 自己位置が誘拐されるなどの複合的な要因によるものだと考えられる. そのため, 今後は, 自己位置推定に用いるセンサを追加するなどの対策を検討する. 
 
 \subsection{チームORNE-box, ORNE-box2}
-
-
-\subsection{本文中での参照}
-論文に挿入した図は，本文中で必ず参照する．
-図を参照する際は，以下の例のように \verb*|\figref{}| コマンドを用いる．
-\verb*|\figref{}| コマンドは，jsproceedings.cls で定義した独自のコマンドである．
-参照先の図には，\verb*|\label{}| コマンドでラベルを付けておく．
-\begin{description}[style=nextline]
-  \item[\LaTeX ソース]%\leavevmode \\
-  \verb|\figref{fig:matching-concept}に，提案手法の概念と各変数の定義を示す．|
-  \item[出力]%\leavevmode \\
-  % \figref{fig:matching-concept}に，提案手法の概念と各変数の定義を示す．
-\end{description}
-
-
-\section{表}
-本章では，表を挿入する方法，キャプションの書き方や本文中での参照の仕方について述べる．
-
-\subsection{Table の挿入}
-% \tableref{table:corr-dist}に，表を挿入する例を示す．
-表の挿入には，table 環境（\verb*|\begin{table}|，\verb*|\end{table}|）と tabular 環境（\verb*|\begin{tabular}|，\verb*|\end{tabular}|）を用いる．
-具体的な書き方は \LaTeX ソースを参照されたい．
-
-% \begin{table}
-%   \centering
-%   \caption{Means of the correspondence distances after registration.}
-%   \label{table:corr-dist}
-%   \begin{tabular}{cccc}
-%   \toprule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
-%   \textbf{Environment} & room & hallway & moved objects\\
-%   \midrule%[0.05em]  % デフォルト 0.05em（\lightrulewidth）
-%   \textbf{Standard ICP} & 0.123 [m] & 0.456 [m] & 0.789 [m]\\
-%   \textbf{MAP-ICP} & 0.987 [m] & 0.654 [m] & 0.321 [m]\\
-%   \bottomrule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
-%   \end{tabular}
-% % \vspace*{-2mm}
-% \end{table}
-
-表の罫線は格子状に引く必要はなく，省略できる罫線は引かずに罫線を少なくした表の方が美しい組版と言われる．
-特に英文の場合，縦罫線は引かない方が良い．
-
-横罫線は，標準の \verb*|\hline| コマンドでは上下の間隔が狭く，線の太さのバランスも良くない．
-% そこで booktabs.sty の \verb*|\toprule|，\verb*|\midrule|，\verb*|\cmidrule|，\verb*|\bottomrule| コマンドを用いることで，より見やすい表を書く．
-
-\subsection{キャプション}
-表の上に \verb*|\caption{}| コマンドでキャプションを付ける．
-キャプションを英語で書くか，日本語で書くかを論文中で統一する．
-論文を投稿する学会のフォーマットに従うが，和文論文でも英語のキャプションとする場合が多い．
-図表とキャプションだけを見て論文の内容が類推できるよう，キャプションは単語ではなく文章で書く．
-よって英語の場合は最初の文字を大文字にし，その後は固有名詞などを除いて小文字にする．
-また，文末にはピリオドを書く．
-
-\subsection{本文中での参照}
-論文に挿入した表は，本文中で必ず参照する．
-表を参照する際は，以下の例のように \verb*|\tableref{}| コマンドを用いる．
-\verb*|\tableref{}| コマンドは，jsproceedings.cls で定義した独自のコマンドである．
-参照先の表には，\verb*|\label{}| コマンドでラベルを付けておく．
-\begin{description}[style=nextline]
-  \item[\LaTeX ソース]%\leavevmode \\
-  \verb|\tableref{table:corr-dist}に，マッチング後の対応点間距離の平均値を示す．|
-  \item[出力]%\leavevmode \\
-  % \tableref{table:corr-dist}に，マッチング後の対応点間距離の平均値を示す．
-\end{description}
-
 
 \section{おわりに}
 本稿では,千葉工業大学未来ロボティクス学科チームで開

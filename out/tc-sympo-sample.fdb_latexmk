@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670255466 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670255467
-  "out/tc-sympo-sample.dvi" 1670255466 22980 453d77da69d204075a7f28f8eb3009b0 "latex"
+["dvipdf"] 1670255608 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670255609
+  "out/tc-sympo-sample.dvi" 1670255608 19272 cc1aee7991518672868d60614482dcc7 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670255465 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670255467
+["latex"] 1670255607 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670255609
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670255465 16224 9603b07ed82d4f4280ee4de3805a0c68 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670255607 12523 ee356df71689abb3b8418c69740b7b71 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -102,7 +102,6 @@
   "/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jsarticle.cls" 1580683346 60623 359a5f3daadb4509ddbf472557e5a531 ""
   "/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1564091273 6025 c6eb7b869bc73b37a7116f5af977422f ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
-  "/usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm" 1254938640 1372 2ef2c2b492b3c4cd7879fe083abbb061 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmtt8.tfm" 1254938640 1380 64228d979098ac090aa3f98d5aa8ad3e ""
   "/usr/share/texmf/fonts/tfm/public/lm/rm-lmss10.tfm" 1254938640 10976 59d4d2acacc56ba9abc92645023932ec ""
   "/usr/share/texmf/fonts/tfm/public/lm/rm-lmss12.tfm" 1254938640 11024 7a83ae8920360cd8bd5d0289069119dc ""
@@ -126,9 +125,9 @@
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670255466 3483 bb2f29171fbaf526cb81271f3a254812 "latex"
-  "tc-sympo-sample.tex" 1670255465 16224 9603b07ed82d4f4280ee4de3805a0c68 ""
+  "out/tc-sympo-sample.aux" 1670255608 2955 ee3cccc652bcc7cfae878a0a41539311 "latex"
+  "tc-sympo-sample.tex" 1670255607 12523 ee356df71689abb3b8418c69740b7b71 ""
   (generated)
-  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.log"
