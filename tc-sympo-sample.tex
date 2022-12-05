@@ -35,8 +35,8 @@
 \section{ロボットの概要}
 つくばチャレンジでは, 本チームが開発を続けている三台のロボットORNE-α, ORNE-box, ORNE-box2を用いる. それぞれの方針は以下の通りである. 
 \begin{itemize}
-  \item ORNE-α: 2つの走行の切り替えによる安定した自律走行
-  \item ORNE-box, ORNE-box2: 
+  \item ORNE-α\\2つの走行の切り替えによる安定した自律走行
+  \item ORNE-box, ORNE-box2\\ 
 \end{itemize}
 
 \subsection{ハードウェア}
@@ -154,7 +154,7 @@
   \label{fig:for_seg}%\vspace*{-2mm}
 \end{figure}
 
-これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外のラベルによるピクセル数
+これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外のラベルによるピクセル数がある程度多くなると, 左に曲がるヨー方向の角速度を出力する. また, GitHubのdeeplabv3\_plus\_pytorch\_rosでプログラムとデータセットを公開している.
 
 \begin{figure}[h]
   \centering
