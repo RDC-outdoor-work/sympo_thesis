@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 00:15
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -776,34 +776,24 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 250.
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
-[]$\T1/lmtt/m/n/8 https : / / github . com / ros-[]planning / navigation$ \T1/ptm/m/n/8 (\JY2/mc/m/n/8 最終閲覧
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
-[]$\T1/lmtt/m/n/8 https : / / github . com / open-[]rdc / orne _ navigation$ \T1/ptm/m/n/8 (\JY2/mc/m/n/8 最終閲覧
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 259--262
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
 No complaints by nag.
 - LAST -
-Extra skip:64.42453pt
+Extra skip:20.42453pt
 Left:525.76038pt/1.1096pt
-Right:461.01352pt/1.43193pt
+Right:505.01352pt/1.43193pt
 Output:526.50662pt
 [3] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9409 strings out of 481765
- 174472 string characters out of 5933692
- 430674 words of memory out of 5000000
- 24615 multiletter control sequences out of 15000+600000
+ 9410 strings out of 481765
+ 174477 string characters out of 5933692
+ 431674 words of memory out of 5000000
+ 24616 multiletter control sequences out of 15000+600000
  627358 words of font info for 206 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  57i,10n,51p,2026b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 22272 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 22468 bytes).
