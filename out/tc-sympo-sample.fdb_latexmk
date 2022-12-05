@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670253551 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670253574
-  "out/tc-sympo-sample.dvi" 1670253551 22468 249902f003df78ed3d05f2bd280d055b "latex"
+["dvipdf"] 1670255302 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670255302
+  "out/tc-sympo-sample.dvi" 1670255302 22876 ae3a5653d6aa59dce04d77053213911b "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670253550 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670253574
+["latex"] 1670255301 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670255302
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670253550 15644 9b5be8bd7592e74426f05b38ca56b8bf ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670255301 16162 15953e9c44aea5d243173a5c5a2e31ba ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -126,9 +126,9 @@
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670253551 3311 640f55b7890c1263bde35afa68a861ae "latex"
-  "tc-sympo-sample.tex" 1670253550 15644 9b5be8bd7592e74426f05b38ca56b8bf ""
+  "out/tc-sympo-sample.aux" 1670255302 3483 bb2f29171fbaf526cb81271f3a254812 "latex"
+  "tc-sympo-sample.tex" 1670255301 16162 15953e9c44aea5d243173a5c5a2e31ba ""
   (generated)
-  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.log"

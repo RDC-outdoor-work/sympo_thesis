@@ -125,7 +125,7 @@
   \item alphaが高い場合\\
   ①LiDARベースのナビゲーション
   \item alphaが低い場合\\
-  ②セマンティックセグメンテーションを用いた走行
+  ②セマンティックセグメンテーション（以下「セグメンテーション」と称する）を用いた走行
 \end{itemize}
 
 \subsubsection{2D-LiDARベースの自律走行時について}
@@ -142,10 +142,10 @@
   \end{itemize}
 \end{itemize}
 
-\subsubsection{セマンティックセグメンテーションについて}
+\subsubsection{セグメンテーションについて}
 フレームワーク: DeeplabV3 mobilenet
-\subsubsection{ロボットの制御}
-セマンティックセグメンテーションを用いて, 領域分割を行う. 処理を施した例を\figref{fig:for_seg}に示す.
+\subsubsection{セグメンテーションを用いたロボットの制御}
+セグメンテーションを用いて, 領域分割を行う. 処理を施した例を\figref{fig:for_seg}に示す.
 
 \begin{figure}[h]
   \centering
@@ -158,15 +158,30 @@
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=70mm]{fig/seg.pdf}
+  \includegraphics[width=60mm]{fig/seg.pdf}
   \caption{Types of behavior using semantic segmentation}
   \label{fig:seg}%\vspace*{-2mm}
 \end{figure}
 
+\begin{table}
+  \centering
+  \caption{Specification of PC}
+  \label{table:pc}
+  \begin{tabular}{cc}
+  \toprule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
+  \textbf{CPU} & Core i7-9750H(Intel)\\
+  % \midrule%[0.05em]  % デフォルト 0.05em（\lightrulewidth）
+  \textbf{RAM} & 16GB\\
+  \textbf{GPU} & RTX 2070 Max-Q\\
+  \bottomrule%[0.08em]  % デフォルト 0.08em（\heavyrulewidth）
+  \end{tabular}
+% \vspace*{-2mm}
+\end{table}
+
 \newpage
 
 \subsubsection{チームORNE-αの本走行の結果と展望}
-今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠され, 自己位置が誘拐されるなどの複合的な要因によるものだと考えられる. 今後は, 自己位置推定に用いるセンサを追加するなどの対策を検討する. 
+今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠され, 自己位置が誘拐されるなどの複合的な要因によるものだと考えられる. そのため, 今後は, 自己位置推定に用いるセンサを追加するなどの対策を検討する. 
 
 \subsection{チームORNE-box, ORNE-box2}
 
