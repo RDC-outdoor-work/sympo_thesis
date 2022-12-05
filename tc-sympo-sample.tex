@@ -129,22 +129,18 @@
 \end{itemize}
 
 \subsubsection{2D-LiDARベースの自律走行時について}
-うんこ
 
 \begin{itemize}
-  \item alphaが高い場合\\
-  ①LiDARベースのナビゲーション
-  \item alphaが低い場合\\
-  ②セマンティックセグメンテーションを用いた走行
+  \item 外界センサ: 2DLiDAR
+  \item 自己位置推定: emcl2
+  \item global planner: A*
+  \item local planner: dwa\_local\_planner
+  \item 地図作成: cartographer
+  \begin{itemize}
+    \item resolution: 0.15[m/pixel]
+    \item 確認走行, 駅周辺, 公園の3つに分割したものを合成
+  \end{itemize}
 \end{itemize}
-
-% \begin{itemize}
-%   \item 外界センサ: 2DLiDAR
-%   \item 自己位置推定: emcl2
-%   \item global planner: A*
-%   \item local planner: dwa_local_planner
-%   \item 地図作成: cartographer
-% \end{itemize}
 
 \subsubsection{セマンティックセグメンテーションについて}
 フレームワーク: DeeplabV3 mobilenet
@@ -213,7 +209,7 @@
 特に英文の場合，縦罫線は引かない方が良い．
 
 横罫線は，標準の \verb*|\hline| コマンドでは上下の間隔が狭く，線の太さのバランスも良くない．
-そこで booktabs.sty の \verb*|\toprule|，\verb*|\midrule|，\verb*|\cmidrule|，\verb*|\bottomrule| コマンドを用いることで，より見やすい表を書く．
+% そこで booktabs.sty の \verb*|\toprule|，\verb*|\midrule|，\verb*|\cmidrule|，\verb*|\bottomrule| コマンドを用いることで，より見やすい表を書く．
 
 \subsection{キャプション}
 表の上に \verb*|\caption{}| コマンドでキャプションを付ける．
@@ -232,7 +228,7 @@
   \item[\LaTeX ソース]%\leavevmode \\
   \verb|\tableref{table:corr-dist}に，マッチング後の対応点間距離の平均値を示す．|
   \item[出力]%\leavevmode \\
-  \tableref{table:corr-dist}に，マッチング後の対応点間距離の平均値を示す．
+  % \tableref{table:corr-dist}に，マッチング後の対応点間距離の平均値を示す．
 \end{description}
 
 
@@ -241,7 +237,7 @@
 科学技術論文を \LaTeXe で執筆する際の参考になれば幸いである．
 
 \section*{謝辞}
-本研究はJSPS特別研究員奨励費24・2589の助成を受けた．
+本研究はJSPS特別研究員奨励費24・2589の助成を受けた.
 
 % 参考文献
 % \small
