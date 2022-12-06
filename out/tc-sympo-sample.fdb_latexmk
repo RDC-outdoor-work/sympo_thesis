@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670332571 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670332572
-  "out/tc-sympo-sample.dvi" 1670332571 23144 7288b4ffaa60ad78fb254552a4b4c16c "latex"
+["dvipdf"] 1670344539 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670344935
+  "out/tc-sympo-sample.dvi" 1670344539 23344 1d1df19314c1daa83c552a7c952513d2 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670332570 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670332572
+["latex"] 1670344538 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670344935
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670332570 15301 04481e44a83e167a57e3a5f55c9878df ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670344538 15425 7422b38c78df9c94d831a88043c3d4c2 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -125,9 +125,9 @@
   "fig/seg_runarea.pdf" 1670311111 17013 e3fc8d47b9628c54fcdc8bd38c4045b9 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670332571 3446 b7f95767c548855673243b35ca5dc8f3 "latex"
-  "tc-sympo-sample.tex" 1670332570 15301 04481e44a83e167a57e3a5f55c9878df ""
+  "out/tc-sympo-sample.aux" 1670344539 3470 ccbe68943b13a0f1490194b4c8df6535 "latex"
+  "tc-sympo-sample.tex" 1670344538 15425 7422b38c78df9c94d831a88043c3d4c2 ""
   (generated)
-  "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.aux"
+  "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.dvi"

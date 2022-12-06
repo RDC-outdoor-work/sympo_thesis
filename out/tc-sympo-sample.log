@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 22:16
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  7 DEC 2022 01:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,18 +774,18 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 255.
 No complaints by nag.
 - LAST -
-Extra skip:13.23596pt
-Left:545.74062pt/2.16492pt
-Right:533.51361pt/1.15596pt
-Output:540.74678pt
+Extra skip:8.90468pt
+Left:560.74062pt/1.1096pt
+Right:551.51361pt/1.43193pt
+Output:557.24678pt
 [3] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9395 strings out of 481765
- 174264 string characters out of 5933692
- 428674 words of memory out of 5000000
- 24602 multiletter control sequences out of 15000+600000
+ 9396 strings out of 481765
+ 174276 string characters out of 5933692
+ 429674 words of memory out of 5000000
+ 24603 multiletter control sequences out of 15000+600000
  618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  49i,10n,46p,1982b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 23144 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 23344 bytes).
