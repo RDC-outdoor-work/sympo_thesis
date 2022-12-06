@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 16:19
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,42 +749,38 @@ File: fig/kirikae.pdf Graphic file (type pdf)
 <fig/kirikae.pdf>
 File: fig/camera_for_seg.pdf Graphic file (type pdf)
 <fig/camera_for_seg.pdf>
+ [2]
 File: fig/seg_runarea.pdf Graphic file (type pdf)
 <fig/seg_runarea.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2]
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 239.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 229.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 239.
+(Font)              scaled to size 7.39746pt on input line 229.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 239.
+(Font)              scaled to size 7.39746pt on input line 229.
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--251
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 258.
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 248.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 258.
+(Font)              scaled to size 7.39746pt on input line 248.
 LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 258.
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 248.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 258.
+(Font)              scaled to size 7.39746pt on input line 248.
 No complaints by nag.
 - LAST -
-Extra skip:7.19095pt
-Left:477.74062pt/2.16492pt
-Right:470.98265pt/1.73193pt
-Output:475.48131pt
+Extra skip:10.10468pt
+Left:509.35022pt/0.0pt
+Right:497.51361pt/1.73193pt
+Output:507.74678pt
 [3] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
  9414 strings out of 481765

@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670311187 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670311188
-  "out/tc-sympo-sample.dvi" 1670311187 22092 65192e8c7ef058912957427aa6ffe8dc "latex"
+["dvipdf"] 1670311399 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670311400
+  "out/tc-sympo-sample.dvi" 1670311399 22092 dd8ae52c830d13f296de695e6a8b4559 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670311186 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670311188
+["latex"] 1670311398 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670311400
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670311186 14800 91334664e0dd0381ef879ab33e441532 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670311398 14535 7550a404437991ee7a27cd93cf97eadb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -127,8 +127,8 @@
   "fig/seg_runarea.pdf" 1670311111 17013 e3fc8d47b9628c54fcdc8bd38c4045b9 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670311187 3382 b5ace7b8a2eeff0df92bb69f5786d5eb "latex"
-  "tc-sympo-sample.tex" 1670311186 14800 91334664e0dd0381ef879ab33e441532 ""
+  "out/tc-sympo-sample.aux" 1670311399 3406 dce1c376317b5d1a30f198ab5079d1d5 "latex"
+  "tc-sympo-sample.tex" 1670311398 14535 7550a404437991ee7a27cd93cf97eadb ""
   (generated)
   "out/tc-sympo-sample.dvi"
   "out/tc-sympo-sample.log"
