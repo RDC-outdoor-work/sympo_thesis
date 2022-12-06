@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 16:23
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -642,22 +642,6 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 26.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 26.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 26.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 26.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 26.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 26.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 26.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -674,6 +658,10 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 26.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 26.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 26.
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <9> not available
 (Font)              Font shape `JT2/mc/bx/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <9> not available
@@ -687,7 +675,13 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 8.32214pt on input line 26.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 26.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 26.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <12> not available
@@ -702,6 +696,12 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 32.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 38.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <10> not available
 (Font)              Font shape `JT2/mc/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
@@ -714,9 +714,6 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 42.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: fig/alpha.pdf Graphic file (type pdf)
 <fig/alpha.pdf>
 
@@ -783,12 +780,12 @@ Right:497.51361pt/1.73193pt
 Output:507.74678pt
 [3] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9414 strings out of 481765
- 174542 string characters out of 5933692
+ 9394 strings out of 481765
+ 174255 string characters out of 5933692
  426674 words of memory out of 5000000
- 24619 multiletter control sequences out of 15000+600000
- 626768 words of font info for 203 fonts, out of 8000000 for 9000
+ 24601 multiletter control sequences out of 15000+600000
+ 618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  49i,10n,46p,2026b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (3 pages, 22092 bytes).
+Output written on out/tc-sympo-sample.dvi (3 pages, 22296 bytes).
