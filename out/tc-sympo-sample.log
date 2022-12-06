@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 16:07
+=======
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  6 DEC 2022 16:17
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,8 +750,12 @@ File: fig/kirikae.pdf Graphic file (type pdf)
 <fig/kirikae.pdf>
 File: fig/camera_for_seg.pdf Graphic file (type pdf)
 <fig/camera_for_seg.pdf>
+File: fig/seg_runarea.pdf Graphic file (type pdf)
+<fig/seg_runarea.pdf>
+ [2]
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
+<<<<<<< Updated upstream
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -762,10 +770,23 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 226.
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--238
+=======
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 215.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 215.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 215.
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--227
+>>>>>>> Stashed changes
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
+<<<<<<< Updated upstream
 (Font)              Font shape `JT2/mc/m/n' tried instead on input line 245.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 245.
@@ -790,3 +811,29 @@ Here is how much of TeX's memory you used:
  49i,10n,46p,2040b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on out/tc-sympo-sample.dvi (3 pages, 20908 bytes).
+=======
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 234.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 234.
+LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 234.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 234.
+No complaints by nag.
+- LAST -
+Extra skip:23.40785pt
+Left:420.2993pt/1.44495pt
+Right:396.60446pt/1.73193pt
+Output:412.57155pt
+[3] (out/tc-sympo-sample.aux) ) 
+Here is how much of TeX's memory you used:
+ 9414 strings out of 481765
+ 174542 string characters out of 5933692
+ 429674 words of memory out of 5000000
+ 24619 multiletter control sequences out of 15000+600000
+ 626768 words of font info for 203 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 49i,10n,46p,2026b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/tc-sympo-sample.dvi (3 pages, 21704 bytes).
+>>>>>>> Stashed changes

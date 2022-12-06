@@ -339,6 +339,8 @@ INPUT fig/kirikae.pdf
 INPUT extractbb -B cropbox -O fig/kirikae.pdf
 INPUT fig/camera_for_seg.pdf
 INPUT extractbb -B cropbox -O fig/camera_for_seg.pdf
+INPUT fig/seg_runarea.pdf
+INPUT extractbb -B cropbox -O fig/seg_runarea.pdf
 INPUT fig/seg.pdf
 INPUT extractbb -B cropbox -O fig/seg.pdf
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd

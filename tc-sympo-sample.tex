@@ -169,23 +169,36 @@
 % \end{itemize}
 
 \subsubsection{セグメンテーションを用いたロボットの制御}
-セグメンテーションを用いて, 領域分割を行う. 処理を施した例を\figref{fig:for_seg}に示す.
+本チームは, セグメンテーションを用いて領域分割を行う. また, 領域分割した画像から走行可能領域を検出し, その結果に基づいて行動生成を行う. 本章では, セグメンテーションを用いたロボットの制御について, 一連の流れを紹介する. 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=60mm]{fig/camera_for_seg.pdf}
-  \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation}
-  \label{fig:for_seg}%\vspace*{-2mm}
-\end{figure}
-
-これらの処理を施した画像を用いて, \figref{fig:seg}の対応する箇所に応じた行動を生成する. 具体的には, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外のラベルによるピクセル数がある程度多くなると, 左に曲がるヨー方向の角速度を出力する. 使用したPCのスペックを\tableref{table:pc}に示す. また, GitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}でプログラムとデータセットを公開している.
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=60mm]{fig/seg.pdf}
-  \caption{Types of behavior using semantic segmentation}
-  \label{fig:seg}%\vspace*{-2mm}
-\end{figure}
+\begin{enumerate}
+  \item セグメンテーションの適用\\
+  処理を施した例を\figref{fig:for_seg}に示す.
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=60mm]{fig/camera_for_seg.pdf}
+    \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation}
+    \label{fig:for_seg}%\vspace*{-2mm}
+  \end{figure}
+  \item 走行可能領域の検出\\
+  カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 走行可能領域（道）を抽出し, オープニング処理でノイズを除去する. 結果は右の画像で示す.
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=80mm]{fig/seg_runarea.pdf}
+    \caption{The left image uses semantic segmentation, and the right image shows the extracted driving area as a result.}
+    \label{fig:seg_runarea}%\vspace*{-2mm}
+  \end{figure}
+  \newpage
+  \item 行動生成\\
+  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. 例えば, \figref{fig:seg}のTurn leftの範囲に障害物が多く存在する場合，左に曲がる方向の角速度を出力する. 
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=60mm]{fig/seg.pdf}
+    \caption{Types of behavior using semantic segmentation}
+    \label{fig:seg}%\vspace*{-2mm}
+  \end{figure}
+\end{enumerate}
+使用したPCのスペックを\tableref{table:pc}に示す. また, GitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}でプログラムとデータセットを公開している.
 
 \begin{table}
   \centering
