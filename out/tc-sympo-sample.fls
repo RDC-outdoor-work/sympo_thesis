@@ -328,6 +328,12 @@ INPUT fig/seg_runarea.pdf
 INPUT extractbb -B cropbox -O fig/seg_runarea.pdf
 INPUT fig/seg.pdf
 INPUT extractbb -B cropbox -O fig/seg.pdf
+INPUT fig/switch-mode1.pdf
+INPUT extractbb -B cropbox -O fig/switch-mode1.pdf
+INPUT fig/switch-mode2.pdf
+INPUT extractbb -B cropbox -O fig/switch-mode2.pdf
+INPUT fig/switch-mode3.pdf
+INPUT extractbb -B cropbox -O fig/switch-mode3.pdf
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm

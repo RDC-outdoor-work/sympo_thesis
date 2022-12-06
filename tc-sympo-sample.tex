@@ -8,7 +8,7 @@
 % タイトル
 \title{つくばチャレンジ2022における\\千葉工業大学未来ロボティクス学科チームの取り組み}
 
-\author{○藤原 柾, 清岡 優祐，大塚 竜征, 春山 健太, 井口 颯人, 樋高 聖人, 髙橋 祐樹, 白須 和暉\newline 上田 隆一, 林原 靖男 （千葉工大）}
+\author{○藤原 柾, 清岡 優祐，大塚 竜征, 石 涛, 春山 健太, 井口 颯人, 樋高 聖人, 髙橋 祐樹, 白須 和暉\newline 上田 隆一, 林原 靖男 （千葉工大）}
 
 \etitle{Development Activity of Advanced Robotics Department Team of Chiba Institute of Technology at Tsukuba Challenge 2021}
 
@@ -107,10 +107,10 @@
 本チームには, チームORNE-α, ORNE-box, ORNE-box2の3チームが存在する. 従って本章では, 各チームごとの取り組みを述べる. ただし, ORNE-box2はORNE-boxの後継機であるため, 取り組みは同じである.
 
 \subsection{チームORNE-α}
-2D-LiDARを用いた自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARを用いた自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そのため, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
+2D-LiDARを用いた自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARを用いた自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器\footnote[1]{入力から出力までを一括して学習するようなニューラルネットワーク}\cite{end-to-end}の学習出力を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そのため, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
 
 \subsubsection{提案手法}
-提案手法を\figref{fig:kirikae}に示す. 移動ロボットは, 2つの走行方法を持つ. この2つの走行方法は, emcl2[3]のalpha\footnote[1]{センサ更新後のパーティクルの周辺尤度}を指標として切り替える.
+提案手法を\figref{fig:kirikae}に示す. 移動ロボットは, 2つの走行方法を持つ. この2つの走行方法は, emcl2[3]のalpha\footnote[2]{センサ更新後のパーティクルの周辺尤度}を指標として切り替える.
 
 \begin{figure}[h]
   \centering
@@ -124,7 +124,7 @@
 \begin{itemize}
   \item alphaが高い場合\\
   ①2D-LiDARを用いたナビゲーションによる自律走行
-  \item alphaが低い場合\\
+  \item alphaが低い場合(閾値以下が3秒継続時)\\
   ②セマンティックセグメンテーション\cite{Deeplab}（以下「セグメンテーション」と称する）を用いた自律走行\\
   (ただし, ②での自律走行に切り替わるのは折り返し地点からである)
 \end{itemize}
@@ -159,7 +159,7 @@
 \begin{itemize}
   \item データセット
   \begin{itemize}
-    \item Cityscapes(5000枚)
+    \item Cityscapes\cite{cityscapes}(5000枚)
     \item つくば公園エリア周辺画像(222枚)
   \end{itemize}
 \end{itemize}
@@ -197,7 +197,7 @@
 \end{enumerate}
 使用したPCのスペックを\tableref{table:pc}に示す. また, GitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}でプログラムとデータセットを公開している.
 
-\begin{table}
+\begin{table}[h]
   \centering
   \caption{Specification of PC}
   \label{table:pc}
@@ -212,19 +212,39 @@
 % \vspace*{-2mm}
 \end{table}
 
-% \newpage
+\newpage
+\subsubsection{本走行の結果}
+今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで到達することができなかったため, セグメンテーションを用いた自律走行に切り替わることは確認できなかった. 誘拐状態の対策としては, 自己位置推定に用いるセンサを追加するなどの対策を検討する. 2つの走行方法の切り替えに関しては, alphaが低下した場合に正常に切り替わるかを検証するために千葉工業大学 津田沼キャンパス敷地内において追実験を行う. 
 
-\subsubsection{チームORNE-αの本走行の結果と展望}
-今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. 今後は, 自己位置推定に用いるセンサを追加するなどの対策を検討する. 
+\subsubsection{追実験}
+実験の様子を\figref{fig:switch-mode}に示す. (a), (b), (c)の順でパーティクルが拡散している際にはセグメンテーションでの走行に切り替わっていることが分かる. これらから, 2つの走行方法の切り替えが正常に行われていることが確認できた. 
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{1\linewidth}
+    \centering
+    \includegraphics[width=72mm]{fig/switch-mode1.pdf}
+    \caption*{(a) パーティクル拡散前}
+  \end{minipage} 
+  \hspace{0.03\columnwidth}
+  \begin{minipage}[b]{1\linewidth}
+    \centering
+    \includegraphics[height=50mm]{fig/switch-mode2.pdf}
+    \caption*{(b) パーティクル拡散}
+  \end{minipage}
+  \begin{minipage}[b]{1\linewidth}
+    \centering
+    \includegraphics[height=50mm]{fig/switch-mode3.pdf}
+    \caption*{(c) パーティクル収束後}
+  \end{minipage}
+  \caption{津田沼キャンパス内での実験の様子}
+  \label{fig:switch-mode}%\vspace*{-2mm}
+\end{figure}
 
 \subsection{チームORNE-box, ORNE-box2}
-\subsubsection{}
 
 \section{おわりに}
-本稿では,千葉工業大学未来ロボティクス学科チームで開
-発しているロボットの概要とシステムの構成に関して述べた.
-また,つくばチャレンジ 2022 に向けた取り組みについて紹介
-した.
+本稿では,千葉工業大学未来ロボティクス学科チームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
 
 % 参考文献
 % \small
@@ -251,8 +271,14 @@ orne\_box Github レポジトリ\\
 \url{https://github.com/open-rdc/orne-box}\\
 (最終閲覧日: \today)
 
+\bibitem{end-to-end}
+岡田 眞也, 清岡 優祐, 春山 健太, 上田 隆一, 林原 靖男:``視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案-“経路追従行動の修正のためにデータセットを動的に追加する手法の検討'', \textit{計測自動制御学会 SI 部門講演会 SICE-SI2021 予稿集}, pp.1066-1070, 2021.
+
 \bibitem{emcl-thesis}
 上田 隆一, 新井 民夫, 浅沼 和範, 梅田 和昇, 大隅 久: ``パーティクルフィルタを利用した自己位置推定に生じる致命的な推定誤りからの回復法'', \textit{日本ロボット学会誌23巻4号}, 2005.
+
+\bibitem{cityscapes}
+Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Scharwachter, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, Bernt Schiele, ``The cityscapes dataset'' in CVPR Workshop on The Future of Datasets in Vision, 2015.
 
 \bibitem{meiji-thesis}
 安達 美穂, 小島 一也, 石田 大貴, 松谷 幸知, 渡辺 拓斗, 小林 真吾, 横田 来夢, 坂田 唱悟, 小松崎 迅斗, 捨田利 沙羅, 宮野 龍一, 宮本 龍介: ``単眼カメラを用いた意味論的領域分割に基づくビジュアルナビゲーション'', \textit{つくばチャレンジ2019 参加レポート集}, pp105-110, 2019.
