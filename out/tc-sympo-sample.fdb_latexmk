@@ -1,21 +1,11 @@
 # Fdb version 3
-<<<<<<< Updated upstream
-["dvipdf"] 1670267923 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670267924
-  "out/tc-sympo-sample.dvi" 1670267923 20524 a30b773d187b35be8592977dece1662c "latex"
+["dvipdf"] 1670310431 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670310432
+  "out/tc-sympo-sample.dvi" 1670310431 20908 aa2087d8db4903f1409f767d396b0ad1 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670267921 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670267924
-  "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670267921 13370 d4c7e74f4c16ad0d7617dbea737540cd ""
-=======
-["dvipdf"] 1670264822 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670308798
-  "out/tc-sympo-sample.dvi" 1670308798 20524 b4b4815f681769a01578e8e5f1d169a7 "latex"
-  (generated)
-  "out/tc-sympo-sample.pdf"
-["latex"] 1670264821 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670308798
+["latex"] 1670310431 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670310432
   "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670308798 13374 b52b0b9c127b06510360cfdeb8152147 ""
->>>>>>> Stashed changes
+  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670310431 13928 57bda70666720d8bc8a281063384d5da ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -127,23 +117,6 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmtt.fd" 1256929440 2712 a8a977c98484ccc2dbc768e5509e3790 ""
   "/usr/share/texmf/tex/latex/lm/t1lmtt.fd" 1256929440 2681 354015af3b61e7be30009f084986375a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
-<<<<<<< Updated upstream
-  "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669899415 10607293 64c947c4c5ca761b13c70a9baea7f1c9 ""
-  "fig/alpha.pdf" 1670231629 34129 e512bd70ba514efe173ce5013fba808b ""
-  "fig/box.pdf" 1670231629 119510 ba0905744ca7d84e0a92e737e4a41646 ""
-  "fig/box2.pdf" 1670231629 110943 afa9c23ac25d59145c0b934a20baa95a ""
-  "fig/camera_for_seg.pdf" 1670238130 150142 fd1bc9a8aac02e2e2e81acf3de1c94c4 ""
-  "fig/kirikae.pdf" 1670231629 112123 f131aacea4595370d5c97c707039cd37 ""
-  "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
-  "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
-  "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670267923 3131 64e7c09216d3daa9f7a0db17a9ecaef3 "latex"
-  "tc-sympo-sample.tex" 1670267921 13370 d4c7e74f4c16ad0d7617dbea737540cd ""
-  (generated)
-  "out/tc-sympo-sample.log"
-  "out/tc-sympo-sample.dvi"
-  "out/tc-sympo-sample.aux"
-=======
   "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669897398 10590895 8b96f5b98de13c804e222e9b44648232 ""
   "fig/alpha.pdf" 1670237898 34129 e512bd70ba514efe173ce5013fba808b ""
   "fig/box.pdf" 1670237898 119510 ba0905744ca7d84e0a92e737e4a41646 ""
@@ -153,10 +126,9 @@
   "fig/seg.pdf" 1670239113 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/software.pdf" 1670237898 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "jsproceedings.cls" 1670237898 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670308798 3131 64e7c09216d3daa9f7a0db17a9ecaef3 "latex"
-  "tc-sympo-sample.tex" 1670308798 13374 b52b0b9c127b06510360cfdeb8152147 ""
+  "out/tc-sympo-sample.aux" 1670310431 3131 2e90d7ec33fdf4ed66fd9a5d2f2add9e "latex"
+  "tc-sympo-sample.tex" 1670310431 13928 57bda70666720d8bc8a281063384d5da ""
   (generated)
-  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.log"
->>>>>>> Stashed changes
