@@ -1,4 +1,5 @@
 # Fdb version 3
+<<<<<<< HEAD
 ["dvipdf"] 1670349506 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670349509
   "out/tc-sympo-sample.dvi" 1670349506 26308 87811d40389d92a66f2587f0594841ee "latex"
   (generated)
@@ -6,6 +7,15 @@
 ["latex"] 1670349505 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670349509
   "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670349505 17554 e2221296875d1f44b901dff28cd46200 ""
+=======
+["dvipdf"] 1670344539 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670344935
+  "out/tc-sympo-sample.dvi" 1670344539 23344 1d1df19314c1daa83c552a7c952513d2 "latex"
+  (generated)
+  "out/tc-sympo-sample.pdf"
+["latex"] 1670344538 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670344935
+  "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670344538 15425 7422b38c78df9c94d831a88043c3d4c2 ""
+>>>>>>> 6fadf750194576f544bf72f63487498252ea9313
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -115,6 +125,7 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmtt.fd" 1256929440 2712 a8a977c98484ccc2dbc768e5509e3790 ""
   "/usr/share/texmf/tex/latex/lm/t1lmtt.fd" 1256929440 2681 354015af3b61e7be30009f084986375a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+<<<<<<< HEAD
   "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669897398 10590895 8b96f5b98de13c804e222e9b44648232 ""
   "fig/alpha.pdf" 1670237898 34129 e512bd70ba514efe173ce5013fba808b ""
   "fig/box.pdf" 1670237898 119510 ba0905744ca7d84e0a92e737e4a41646 ""
@@ -130,6 +141,20 @@
   "jsproceedings.cls" 1670237898 23503 31ea80bc6a420cac8ffa562f1f435009 ""
   "out/tc-sympo-sample.aux" 1670349506 3710 b01685ca936acc33305d38baeaf906e9 "latex"
   "tc-sympo-sample.tex" 1670349505 17554 e2221296875d1f44b901dff28cd46200 ""
+=======
+  "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669899415 10607293 64c947c4c5ca761b13c70a9baea7f1c9 ""
+  "fig/alpha.pdf" 1670231629 34129 e512bd70ba514efe173ce5013fba808b ""
+  "fig/box.pdf" 1670231629 119510 ba0905744ca7d84e0a92e737e4a41646 ""
+  "fig/box2.pdf" 1670231629 110943 afa9c23ac25d59145c0b934a20baa95a ""
+  "fig/camera_for_seg.pdf" 1670238130 150142 fd1bc9a8aac02e2e2e81acf3de1c94c4 ""
+  "fig/kirikae.pdf" 1670231629 112123 f131aacea4595370d5c97c707039cd37 ""
+  "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
+  "fig/seg_runarea.pdf" 1670311111 17013 e3fc8d47b9628c54fcdc8bd38c4045b9 ""
+  "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
+  "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
+  "out/tc-sympo-sample.aux" 1670344539 3470 ccbe68943b13a0f1490194b4c8df6535 "latex"
+  "tc-sympo-sample.tex" 1670344538 15425 7422b38c78df9c94d831a88043c3d4c2 ""
+>>>>>>> 6fadf750194576f544bf72f63487498252ea9313
   (generated)
   "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.aux"
