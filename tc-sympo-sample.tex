@@ -10,7 +10,7 @@
 
 \author{○藤原 柾, 清岡 優祐，大塚 竜征, 石 涛, 春山 健太, 井口 颯人, 樋高 聖人, 髙橋 祐樹, 白須 和暉\newline 上田 隆一, 林原 靖男 （千葉工大）}
 
-\etitle{Development Activity of Advanced Robotics Department Team of Chiba Institute of Technology at Tsukuba Challenge 2021}
+\etitle{Development Activity of Advanced Robotics Department Team of Chiba Institute of Technology at Tsukuba Challenge 2022}
 
 \eauthor{Masaki FUJIWARA, Yusuke KIYOOKA, Kenta HARUYAMA, Hayato IGUCHI, Masato HIDAKA, Yuuki TAKAHASHI, Kazuki SHIRASU, Ryuichi UEDA and Yasuo HAYASHIBARA (CIT)}
 
@@ -33,14 +33,14 @@
 本チームは, 屋外で安定して自律移動するロボットを目指し, その研究および開発の一環としてつくばチャレンジに参加している. 開発したシステムは2次元地図と2D-LiDARを用いた自己位置推定により, つくばチャレンジ2016, 2017においてマイルストーン3「横断歩道区間を含まない課題コース(2037m)」を達成した. しかし, つくばチャレンジ2018から, ひらけた公園がコースに含まれるようになった. そのため, 計測距離が30m程度の2D-LiDARでは検出可能な物体が比較的少ないことから, 従来のシステムでは安定して自己位置推定を行うことが困難になった. 2018年度から計測距離が100mの3D-LiDARを採用したが, 水平面の計測データのみを使用しており, 多くのデータを破棄していた. さらに, 公園内では場所により地面の傾斜が変化するため, レーザが必ずしも水平の距離を計測していないという問題もあった. 例えば, 斜めに土が積み上げられた場所では, レーザを照射する位置が上下に変化すると, それに合わせて距離も変化してしまう. そのため, 地図生成が容易に行えないという問題もあった. 2019年度は, これらの3次元データを有効に活用するため, 2次元地図ではなく, 3次元地図を生成しMCLによる3次元自己位置推定を行い, 2次元自己位置推定と比べ, 自己位置が安定していることを確認した. しかし, 公園のような開けた場所では測域センサで検出できる物体が少なく, 測域センサ, オドメトリを用いる方法では自己位置が定まらないことがある. 本稿では, このような課題を解決するためにつくばチャレンジ2022に向けて取り組んだ開発に関して紹介する. 
 
 \section{ロボットの概要}
-つくばチャレンジでは, 本チームが開発を続けている三台のロボットORNE-α, ORNE-box, ORNE-box2を用いる. それぞれの方針は以下の通りである. 
+つくばチャレンジでは, 本チームが開発を続けている三台のロボットORNE-α, ORNE-box\cite{si-box}, ORNE-box2を用いる. それぞれの方針は以下の通りである. 
 \begin{itemize}
   \item ORNE-α\\2つの走行の切り替えによる安定した自律走行
   \item ORNE-box, ORNE-box2\\ 
 \end{itemize}
 
 \subsection{ハードウェア}
-本チームは屋外自律移動ロボットとして, ORNE-α, ORNE-box, ORNE-box2の開発を行っており, つくばチャレンジ2022にはこれらのロボットが参加する. \figref{fig:orne-series}に本チームの開発している自律移動ロボットの外観を示す. これらのロボットはi-Cart middleをベースとしており, 主なセンサはIMU, 測域センサである. 
+本チームは屋外自律移動ロボットとして, ORNE-α, ORNE-box, ORNE-box2の開発を行っており, つくばチャレンジ2022にはこれらのロボットが参加した. \figref{fig:orne-series}に本チームの開発している自律移動ロボットの外観を示す. これらのロボットはi-Cart mini, i-Cart middleをベースとしており, センサはIMU, 測域センサである. 
 
 \begin{figure}[h]
   \centering
@@ -60,7 +60,7 @@
     \includegraphics[height=34mm]{fig/box2.pdf}
     \caption*{(c) ORNE-box2}
   \end{minipage}
-  \caption{ORNE-Series}
+  \caption{ORNE-Series.}
   \label{fig:orne-series}%\vspace*{-2mm}
 \end{figure}
 
@@ -74,16 +74,16 @@
       Wide[mm] & 560 & \multicolumn{2}{|c|}{506.5}\\ \hline
       Height[mm] & 770 & \multicolumn{2}{|c|}{957}\\ \hline
       Wheel diameter[mm] & \multicolumn{3}{|c|}{304}\\ \hline
-      Battery & \multicolumn{3}{|c|}{LONG WP12-12}\\ \hline
+      Battery & LONG WP12-12 & \multicolumn{2}{|c|}{LONG WP14-12SE}\\ \hline
       Motor & \multicolumn{3}{|c|}{Oriental motor TF-M30-24-3500-G15L/R}\\ \hline
       Driving system & \multicolumn{3}{|c|}{Power wheeled steering}\\ \hline
       2D-LiDAR & URM-40LC-EW & None & UTM-30LX-EW\\
       & (HOKUYO) & & (HOKUYO)\\ \hline
-      3D-LiDAR & None & R-fans-16 & VLP-16\\
+      3D-LiDAR & None & R-Fans-16 & VLP-16\\
       & & (SureStar) & (Velodyne)\\ \hline
-      IMU & ADIS16465 & \multicolumn{2}{|c|}{ADIS16475}\\ 
-      & (Analog devices) & \multicolumn{2}{|c|}{Analog devices}\\ \hline
-      GNSS receiver & None & \multicolumn{2}{|c|}{u-blox SCR-u2t}\\ \hline
+      IMU & \multicolumn{2}{|c|}{ADIS16465} & ADIS16470\\ 
+      & \multicolumn{2}{|c|}{(Analog devices)} & Analog devices\\ \hline
+      % GNSS receiver & None & \multicolumn{2}{|c|}{zed-f9p}\\ \hline
       Camera & CMS-V43BK & \multicolumn{2}{|c|}{None}\\ 
       & (Sanwa supply) & \multicolumn{2}{|c|}{}\\ \hline
     \end{tabular}
@@ -93,8 +93,7 @@
   \newpage
 
 \subsection{ソフトウェア}
-本チームでは, 従来よりROS(Robot Operating System)のnavigation stack\cite{navigation}をもとに開発されたシステムであるorne\_navigationにより自律走行させている. \figref{fig:soft-fig}に開発しているロボットのソフトウェアを含むシステム構成を示す. このシステムは, 2D-LiDARを用いたMonte Carlo Localization(MCL)により確率的に自己位置を推定し, 経路計画に基づいて自律走行している. また, GitHubのopen-rdc\cite{rdc}でプロクラムを公開している.
-
+本チームでは, 従来よりROS(Robot Operating System)のnavigation stack\cite{navigation}をもとに開発されたシステムであるorne\_navigationにより自律走行させている. \figref{fig:soft-fig}に開発しているロボットのソフトウェアを含むシステム構成を示す. このシステムは, 2D-LiDARを用いたMonte Carlo Localization(MCL)により確率的に自己位置を推定し, 経路計画に基づいて自律走行している. また, 両パッケージ共にGitHubのopen-rdc\cite{rdc}でプロクラムを公開している. さらにこれをベースにORNE-boxの自律移動のパッケージとしてorne-box\cite{box}も開発している．
 
 \begin{figure}[h]
   \centering
@@ -110,7 +109,7 @@
 2D-LiDARを用いた自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARを用いた自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器\footnote[1]{入力から出力までを一括して学習するようなニューラルネットワーク}\cite{end-to-end}の学習出力を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そのため, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
 
 \subsubsection{提案手法}
-提案手法を\figref{fig:kirikae}に示す. 移動ロボットは, 2つの走行方法を持つ. この2つの走行方法は, emcl2[3]のalpha\footnote[2]{センサ更新後のパーティクルの周辺尤度}を指標として切り替える.
+提案手法を\figref{fig:kirikae}に示す. 移動ロボットは, 2つの走行方法を持つ. この2つの走行方法は, emcl2\cite{emcl2-git}のalpha\footnote[2]{センサ更新後のパーティクルの周辺尤度}を指標として切り替える.
 
 \begin{figure}[h]
   \centering
@@ -173,7 +172,7 @@
   \begin{figure}[h]
     \centering
     \includegraphics[width=60mm]{fig/camera_for_seg.pdf}
-    \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation}
+    \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation.}
     \label{fig:for_seg}%\vspace*{-2mm}
   \end{figure}
   \newpage
@@ -187,11 +186,11 @@
   \end{figure}
   % \newpage
   \item 行動生成\\
-  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する\cite{meiji-thesis}. 例えば, \figref{fig:seg}のTurn leftの範囲に障害物が多く存在する場合, 左に曲がる方向の角速度を出力する. 
+  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. この行動生成に関しては\cite{meiji-thesis}を参考に, 次のように実装した. 例えば, \figref{fig:seg}のTurn leftの範囲に障害物が多く存在する場合, 左に曲がる方向の角速度を出力する. 
   \begin{figure}[h]
     \centering
     \includegraphics[width=60mm]{fig/seg.pdf}
-    \caption{Types of behavior using semantic segmentation}
+    \caption{Types of behavior using semantic segmentation.}
     \label{fig:seg}%\vspace*{-2mm}
   \end{figure}
 \end{enumerate}
@@ -237,7 +236,7 @@
     \includegraphics[height=50mm]{fig/switch-mode3.pdf}
     \caption*{(c) パーティクル収束後}
   \end{minipage}
-  \caption{津田沼キャンパス内での実験の様子}
+  \caption{Experiments on the Tsudanuma campus grounds.}
   \label{fig:switch-mode}%\vspace*{-2mm}
 \end{figure}
 
@@ -251,47 +250,50 @@
 \footnotesize
 \begin{thebibliography}{99}
 
+\bibitem{si-box}
+井口 颯人, 石江 義規, 樋高 聖人, 上田 隆一, 林原 靖男: ``屋外自律移動ロボットプラットフォーム ORNE-boxの開発'', 3H2-03，SI2021(2021)
+
 \bibitem{navigation}
-ros-planning, navigation レポジトリ\\
+ros-planning, navigation リポジトリ\\
 \url{https://github.com/ros-planning/navigation}\\
 (最終閲覧日: \today)
 
 \bibitem{rdc}
-Robot Design and Control Lab, openrdc orne\_navigation レポジトリ\\
+Robot Design and Control Lab, openrdc orne\_navigation リポジトリ\\
 \url{https://github.com/open-rdc/orne_navigation}\\
 (最終閲覧日: \today)
 
-\bibitem{DeeplabV3}
-deeplabv3\_plus\_pytorch\_ros レポジトリ\\
-\url{https://github.com/Tsumoridesu/deeplabv3_plus_pytorch_ros/tree/add_cmd_vel}\\
-(最終閲覧日: \today)
-
 \bibitem{box}
-orne\_box Github レポジトリ\\
+orne-box Github リポジトリ\\
 \url{https://github.com/open-rdc/orne-box}\\
 (最終閲覧日: \today)
 
 \bibitem{end-to-end}
-岡田 眞也, 清岡 優祐, 春山 健太, 上田 隆一, 林原 靖男:``視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案-“経路追従行動の修正のためにデータセットを動的に追加する手法の検討'', \textit{計測自動制御学会 SI 部門講演会 SICE-SI2021 予稿集}, pp.1066-1070, 2021.
+岡田 眞也, 清岡 優祐, 春山 健太, 上田 隆一, 林原 靖男: ``視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案-“経路追従行動の修正のためにデータセットを動的に追加する手法の検討'', \textit{計測自動制御学会 SI 部門講演会 SICE-SI2021 予稿集}, pp.1066-1070, 2021.
 
-\bibitem{emcl-thesis}
-上田 隆一, 新井 民夫, 浅沼 和範, 梅田 和昇, 大隅 久: ``パーティクルフィルタを利用した自己位置推定に生じる致命的な推定誤りからの回復法'', \textit{日本ロボット学会誌23巻4号}, 2005.
-
-\bibitem{cityscapes}
-Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Scharwachter, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, Bernt Schiele, ``The cityscapes dataset'' in CVPR Workshop on The Future of Datasets in Vision, 2015.
-
-\bibitem{meiji-thesis}
-安達 美穂, 小島 一也, 石田 大貴, 松谷 幸知, 渡辺 拓斗, 小林 真吾, 横田 来夢, 坂田 唱悟, 小松崎 迅斗, 捨田利 沙羅, 宮野 龍一, 宮本 龍介: ``単眼カメラを用いた意味論的領域分割に基づくビジュアルナビゲーション'', \textit{つくばチャレンジ2019 参加レポート集}, pp105-110, 2019.
+\bibitem{emcl2-git}
+ryuichiueda, emcl2 リポジトリ
+\url{https://github.com/ryuichiueda/emcl2}
+(最終閲覧日: \today)
 
 \bibitem{Deeplab}
 Liang-Chieh Chen , George Papandreou, Senior Member, IEEE, Iasonas Kokkinos, Member, IEEE,
 Kevin Murphy, and Alan L. Yuille, Fellow, IEEE: ``DeepLab: Semantic Image Segmentation with
 Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs'', \textit{IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE}, VOL.40, NO.4, APRIL 2018.
 
-\bibitem{Cityscapes}
-Cityscapes ホームページ\\
-\url{https://www.cityscapes-dataset.com/}\\
+\bibitem{cityscapes}
+Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Scharwachter, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, Bernt Schiele,: ``The cityscapes dataset'' in CVPR Workshop on The Future of Datasets in Vision, 2015.
+
+\bibitem{meiji-thesis}
+安達 美穂, 小島 一也, 石田 大貴, 松谷 幸知, 渡辺 拓斗, 小林 真吾, 横田 来夢, 坂田 唱悟, 小松崎 迅斗, 捨田利 沙羅, 宮野 龍一, 宮本 龍介: ``単眼カメラを用いた意味論的領域分割に基づくビジュアルナビゲーション'', \textit{つくばチャレンジ2019 参加レポート集}, pp105-110, 2019.
+
+\bibitem{DeeplabV3}
+deeplabv3\_plus\_pytorch\_ros レポジトリ\\
+\url{https://github.com/Tsumoridesu/deeplabv3_plus_pytorch_ros/tree/add_cmd_vel}\\
 (最終閲覧日: \today)
+
+\bibitem{emcl-thesis}
+上田 隆一, 新井 民夫, 浅沼 和範, 梅田 和昇, 大隅 久: ``パーティクルフィルタを利用した自己位置推定に生じる致命的な推定誤りからの回復法'', \textit{日本ロボット学会誌23巻4号}, 2005.
 
 \end{thebibliography}
 \normalsize
