@@ -109,13 +109,13 @@
 2D-LiDARを用いた自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる可能性がある. そこで, チームORNE-αは, 2D-LiDARを用いた自律走行と機械学習を用いた自律走行の切り替えによる安定した走行を目的としている. 昨年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器\footnote[1]{入力から出力までを一括して学習するようなニューラルネットワーク}\cite{end-to-end}の学習出力を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまうことがあった. そのため, 本年度はそれらの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
 
 \subsubsection{提案手法}
-提案手法を\figref{fig:kirikae}に示す. 移動ロボットは, 2つの走行方法を持つ. この2つの走行方法は, emcl2\cite{emcl2-git}のalpha\footnote[2]{センサ更新後のパーティクルの周辺尤度}を指標として切り替える.
+提案手法を\figref{fig:switching}に示す. 移動ロボットは, 2つの走行方法を持つ. この2つの走行方法は, emcl2\cite{emcl2-git}のalpha\footnote[2]{センサ更新後のパーティクルの周辺尤度}を指標として切り替える.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=83mm]{fig/kirikae.pdf}
+  \includegraphics[width=82mm]{fig/switching.pdf}
   \caption{Developed system of switching action.}
-  \label{fig:kirikae}%\vspace*{-2mm}
+  \label{fig:switching}%\vspace*{-2mm}
 \end{figure}
 
 \newpage

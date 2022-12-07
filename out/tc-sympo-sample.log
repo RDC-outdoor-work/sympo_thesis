@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  7 DEC 2022 13:52
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  7 DEC 2022 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,8 +742,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.5481pt on input line 109.
-File: fig/kirikae.pdf Graphic file (type pdf)
-<fig/kirikae.pdf>
+File: fig/switching.pdf Graphic file (type pdf)
+<fig/switching.pdf>
 File: fig/camera_for_seg.pdf Graphic file (type pdf)
 <fig/camera_for_seg.pdf>
  [2]
@@ -794,11 +794,11 @@ Output:178.38033pt
 [4] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
  9412 strings out of 481765
- 174591 string characters out of 5933692
+ 174601 string characters out of 5933692
  426674 words of memory out of 5000000
  24616 multiletter control sequences out of 15000+600000
  618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  49i,10n,46p,1982b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 26948 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 26952 bytes).

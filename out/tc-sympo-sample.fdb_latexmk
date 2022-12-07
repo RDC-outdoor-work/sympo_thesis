@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670388760 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670388764
-  "out/tc-sympo-sample.dvi" 1670388760 26948 b744f8f080257f1f82e05abd263254de "latex"
+["dvipdf"] 1670402015 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670402019
+  "out/tc-sympo-sample.dvi" 1670402015 26952 84e17498f4d07a35efe492f2a458dcea "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670388759 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670388764
+["latex"] 1670402014 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670402019
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670388759 18134 25e93549e6dcd37e18f603d496b24b40 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670402014 18140 23d3277abde25bd5c103df478c228c99 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -120,16 +120,16 @@
   "fig/box.pdf" 1670231629 119510 ba0905744ca7d84e0a92e737e4a41646 ""
   "fig/box2.pdf" 1670231629 110943 afa9c23ac25d59145c0b934a20baa95a ""
   "fig/camera_for_seg.pdf" 1670238130 150142 fd1bc9a8aac02e2e2e81acf3de1c94c4 ""
-  "fig/kirikae.pdf" 1670231629 112123 f131aacea4595370d5c97c707039cd37 ""
   "fig/seg.pdf" 1670237444 54558 9e19552391308411f8067cf9e66fab61 ""
   "fig/seg_runarea.pdf" 1670311111 17013 e3fc8d47b9628c54fcdc8bd38c4045b9 ""
   "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
   "fig/switch-mode1.pdf" 1670386620 1178495 1a06e3b6d1ca39b99f5f0ab70d67dc7b ""
   "fig/switch-mode2.pdf" 1670386620 1625778 4439ecfb78e06e374baa7d3538208647 ""
   "fig/switch-mode3.pdf" 1670386620 1155579 b2a0016edf8bea9ee9c294fd8e0f7ec3 ""
+  "fig/switching.pdf" 1670401894 89125 ec6400d4b2e35eaaf2e38b490c4a32fd ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670388760 3808 13858b3a2203b9b8cab9dfd8de092670 "latex"
-  "tc-sympo-sample.tex" 1670388759 18134 25e93549e6dcd37e18f603d496b24b40 ""
+  "out/tc-sympo-sample.aux" 1670402015 3810 603cf8a212e6bdd549a475bc5fedd622 "latex"
+  "tc-sympo-sample.tex" 1670402014 18140 23d3277abde25bd5c103df478c228c99 ""
   (generated)
   "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.dvi"
