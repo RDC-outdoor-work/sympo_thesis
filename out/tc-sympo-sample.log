@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  7 DEC 2022 13:31
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  7 DEC 2022 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -744,24 +744,22 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.5481pt on input line 109.
 File: fig/kirikae.pdf Graphic file (type pdf)
 <fig/kirikae.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2]
 File: fig/camera_for_seg.pdf Graphic file (type pdf)
 <fig/camera_for_seg.pdf>
+ [2]
 File: fig/seg_runarea.pdf Graphic file (type pdf)
 <fig/seg_runarea.pdf>
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
+
+Underfull \vbox (badness 2012) has occurred while \output is active []
+
 File: fig/switch-mode1.pdf Graphic file (type pdf)
 <fig/switch-mode1.pdf>
 File: fig/switch-mode2.pdf Graphic file (type pdf)
 <fig/switch-mode2.pdf>
 File: fig/switch-mode3.pdf Graphic file (type pdf)
 <fig/switch-mode3.pdf>
- [3]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 264.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -770,6 +768,10 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 264.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 264.
+
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [3]
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
 (Font)              Font shape `JT2/mc/m/n' tried instead on input line 278.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -785,18 +787,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--300
 
 No complaints by nag.
 - LAST -
-Extra skip:32.67693pt
-Left:288.51361pt/0.07993pt
-Right:254.76065pt/1.15596pt
-Output:288.7568pt
+Extra skip:11.0pt
+Left:177.76065pt/1.15596pt
+Right:166.76065pt/1.15596pt
+Output:178.38033pt
 [4] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
  9412 strings out of 481765
  174591 string characters out of 5933692
- 428674 words of memory out of 5000000
+ 426674 words of memory out of 5000000
  24616 multiletter control sequences out of 15000+600000
  618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  49i,10n,46p,1982b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 26940 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 26936 bytes).
