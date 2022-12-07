@@ -40,7 +40,7 @@
 \end{itemize}
 
 \subsection{ハードウェア}
-本チームは屋外自律移動ロボットとして, ORNE-α, ORNE-box, ORNE-box2の開発を行っており, つくばチャレンジ2022にはこれらのロボットが参加した. \figref{fig:orne-series}に本チームの開発している自律移動ロボットの外観を示す. これらのロボットはi-Cart mini, i-Cart middleをベースとしており, センサはIMU, 測域センサである. 
+本チームは屋外自律移動ロボットとして, ORNE-α, ORNE-box, ORNE-box2の開発を行っており, つくばチャレンジ2022にはこれらのロボットが参加した. \figref{fig:orne-series}に本チームの開発している自律移動ロボットの外観を示す. これらのロボットはi-Cart mini, i-Cart middleをベースにしている.
 
 \begin{figure}[h]
   \centering
@@ -163,8 +163,10 @@
   \end{itemize}
 \end{itemize}
 
+\newpage
+
 \subsubsection{セグメンテーションを用いたロボットの制御}
-本チームは, セグメンテーションを用いて領域分割を行う. また, 領域分割した画像から走行可能領域を検出し, その結果に基づいて行動生成を行う. 本章では, セグメンテーションを用いたロボットの制御について, 一連の流れを紹介する. 
+本チームは, セグメンテーションを用いて領域分割を行う. また, 領域分割した画像から走行可能領域(道)を検出し, その結果に基づいて行動生成を行う. 本章では, セグメンテーションを用いたロボットの制御について, 一連の流れを紹介する. 
 
 \begin{enumerate}
   \item セグメンテーションの適用\\
@@ -175,9 +177,9 @@
     \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation.}
     \label{fig:for_seg}%\vspace*{-2mm}
   \end{figure}
-  \newpage
+  % \newpage
   \item 走行可能領域の検出\\
-  カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 走行可能領域（道）を抽出し, オープニング処理でノイズを除去する. 結果は右の画像で示す.
+  カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 走行可能領域を抽出し, オープニング処理でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像で示す.
   \begin{figure}[h]
     \centering
     \includegraphics[width=80mm]{fig/seg_runarea.pdf}
@@ -186,7 +188,7 @@
   \end{figure}
   % \newpage
   \item 行動生成\\
-  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. この行動生成に関しては\cite{meiji-thesis}を参考に, 次のように実装した. 例えば, \figref{fig:seg}のTurn leftの範囲に障害物が多く存在する場合, 左に曲がる方向の角速度を出力する. 
+  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. この行動生成に関しては\cite{meiji-thesis}を参考に実装した. 例えば, \figref{fig:seg}のTurn leftの範囲に障害物が多く存在する場合, 左に曲がる方向の角速度を出力する. 
   \begin{figure}[h]
     \centering
     \includegraphics[width=60mm]{fig/seg.pdf}
@@ -211,9 +213,9 @@
 % \vspace*{-2mm}
 \end{table}
 
-\newpage
+% \newpage
 \subsubsection{本走行の結果}
-今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで到達することができなかったため, セグメンテーションを用いた自律走行に切り替わることは確認できなかった. 誘拐状態の対策としては, 自己位置推定に用いるセンサを追加するなどの対策を検討する. 2つの走行方法の切り替えに関しては, alphaが低下した場合に正常に切り替わるかを検証するために千葉工業大学 津田沼キャンパス敷地内において追実験を行う. 
+今年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで到達することができなかったため, セグメンテーションを用いた自律走行に切り替わることは確認できなかった. 誘拐状態の対策としては, 自己位置推定に用いるセンサを追加することを検討する. 2つの走行方法の切り替えに関しては, alphaが低下した場合に正常に切り替わるかを検証するために千葉工業大学 津田沼キャンパス敷地内において追実験を行う. 
 
 \subsubsection{追実験}
 実験の様子を\figref{fig:switch-mode}に示す. (a), (b), (c)の順でパーティクルが拡散している際にはセグメンテーションでの走行に切り替わっていることが分かる. これらから, 2つの走行方法の切り替えが正常に行われていることが確認できた. 
@@ -222,28 +224,32 @@
   \centering
   \begin{minipage}[b]{1\linewidth}
     \centering
-    \includegraphics[width=72mm]{fig/switch-mode1.pdf}
+    \includegraphics[width=55mm]{fig/switch-mode1.pdf}
     \caption*{(a) パーティクル拡散前}
   \end{minipage} 
   \hspace{0.03\columnwidth}
   \begin{minipage}[b]{1\linewidth}
     \centering
-    \includegraphics[height=50mm]{fig/switch-mode2.pdf}
+    \includegraphics[width=55mm]{fig/switch-mode2.pdf}
     \caption*{(b) パーティクル拡散}
   \end{minipage}
   \begin{minipage}[b]{1\linewidth}
     \centering
-    \includegraphics[height=50mm]{fig/switch-mode3.pdf}
+    \includegraphics[width=55mm]{fig/switch-mode3.pdf}
     \caption*{(c) パーティクル収束後}
   \end{minipage}
   \caption{Experiments on the Tsudanuma campus grounds.}
   \label{fig:switch-mode}%\vspace*{-2mm}
 \end{figure}
 
+\newpage
+
 \subsection{チームORNE-box, ORNE-box2}
 
 \section{おわりに}
 本稿では,千葉工業大学未来ロボティクス学科チームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
+
+\newpage
 
 % 参考文献
 % \small
