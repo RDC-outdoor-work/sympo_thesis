@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  8 DEC 2022 19:46
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  8 DEC 2022 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -723,7 +723,7 @@ File: fig/box.pdf Graphic file (type pdf)
 File: fig/box2.pdf Graphic file (type pdf)
 <fig/box2.pdf>
 
-Overfull \hbox (4.55042pt too wide) in paragraph at lines 90--91
+Overfull \hbox (4.55042pt too wide) in paragraph at lines 90--92
  [][] 
  []
 
@@ -734,11 +734,11 @@ Overfull \hbox (4.55042pt too wide) in paragraph at lines 90--91
 File: fig/software.pdf Graphic file (type pdf)
 <fig/software.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.84264pt on input line 109.
+(Font)              scaled to size 6.84264pt on input line 110.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 109.
+(Font)              scaled to size 5.5481pt on input line 110.
 File: fig/switching.pdf Graphic file (type pdf)
 <fig/switching.pdf>
 File: fig/camera_for_seg.pdf Graphic file (type pdf)
@@ -758,27 +758,27 @@ File: fig/switch-mode2.pdf Graphic file (type pdf)
 File: fig/switch-mode3.pdf Graphic file (type pdf)
 <fig/switch-mode3.pdf>
 [3]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 273.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 274.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 273.
+(Font)              scaled to size 7.39746pt on input line 274.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 273.
+(Font)              scaled to size 7.39746pt on input line 274.
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 287.
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 288.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 287.
+(Font)              scaled to size 7.39746pt on input line 288.
 LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 287.
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 288.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 287.
+(Font)              scaled to size 7.39746pt on input line 288.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
+Underfull \hbox (badness 10000) in paragraph at lines 307--310
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
@@ -790,12 +790,12 @@ Right:451.47672pt/1.43193pt
 Output:457.73822pt
 [4] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9413 strings out of 481765
- 174652 string characters out of 5933692
+ 9414 strings out of 481765
+ 174665 string characters out of 5933692
  433673 words of memory out of 5000000
- 24617 multiletter control sequences out of 15000+600000
+ 24618 multiletter control sequences out of 15000+600000
  618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  68i,10n,62p,1976b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 30808 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 30816 bytes).
