@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  8 DEC 2022 20:08
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  8 DEC 2022 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,8 +697,6 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 38
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <10> not available
 (Font)              Font shape `JT2/mc/bx/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
@@ -711,6 +709,9 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 42.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: fig/alpha.pdf Graphic file (type pdf)
 <fig/alpha.pdf>
 
@@ -718,10 +719,10 @@ Overfull \hbox (8.69398pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-File: fig/box.pdf Graphic file (type pdf)
-<fig/box.pdf>
-File: fig/box2.pdf Graphic file (type pdf)
-<fig/box2.pdf>
+File: fig/boxkai.pdf Graphic file (type pdf)
+<fig/boxkai.pdf>
+File: fig/box2kai.pdf Graphic file (type pdf)
+<fig/box2kai.pdf>
 
 Overfull \hbox (4.55042pt too wide) in paragraph at lines 90--92
  [][] 
@@ -790,12 +791,12 @@ Right:524.5086pt/1.43193pt
 Output:610.25421pt
 [4] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9414 strings out of 481765
- 174665 string characters out of 5933692
- 436673 words of memory out of 5000000
+ 9415 strings out of 481765
+ 174692 string characters out of 5933692
+ 435673 words of memory out of 5000000
  24618 multiletter control sequences out of 15000+600000
  618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  62i,10n,56p,1976b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 30824 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 30840 bytes).

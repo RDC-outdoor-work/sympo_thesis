@@ -294,10 +294,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT fig/alpha.pdf
 INPUT extractbb -B cropbox -O fig/alpha.pdf
-INPUT fig/box.pdf
-INPUT extractbb -B cropbox -O fig/box.pdf
-INPUT fig/box2.pdf
-INPUT extractbb -B cropbox -O fig/box2.pdf
+INPUT fig/boxkai.pdf
+INPUT extractbb -B cropbox -O fig/boxkai.pdf
+INPUT fig/box2kai.pdf
+INPUT extractbb -B cropbox -O fig/box2kai.pdf
 OUTPUT out/tc-sympo-sample.dvi
 INPUT fig/software.pdf
 INPUT extractbb -B cropbox -O fig/software.pdf
