@@ -1,11 +1,21 @@
 # Fdb version 3
-["dvipdf"] 1670403615 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670403619
-  "out/tc-sympo-sample.dvi" 1670403615 26944 866403ea06e43028dc71a93bb3592c52 "latex"
+<<<<<<< Updated upstream
+["dvipdf"] 1670403615 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670496008
+  "out/tc-sympo-sample.dvi" 1670496008 26944 866403ea06e43028dc71a93bb3592c52 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670403614 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670403619
+["latex"] 1670403614 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670496008
   "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670403614 18127 7bd0eb82a0c9e4c07de6f99f0bd86cd9 ""
+  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670496008 18127 7bd0eb82a0c9e4c07de6f99f0bd86cd9 ""
+=======
+["dvipdf"] 1670495930 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670495934
+  "out/tc-sympo-sample.dvi" 1670495930 30816 21ac994a7680501917ca74aff03ca5b1 "latex"
+  (generated)
+  "out/tc-sympo-sample.pdf"
+["latex"] 1670495929 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670495934
+  "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670495929 20696 03d18924b3a0bcb51d65be64a3d370e4 ""
+>>>>>>> Stashed changes
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -128,9 +138,14 @@
   "fig/switch-mode3.pdf" 1670340621 1155579 b2a0016edf8bea9ee9c294fd8e0f7ec3 ""
   "fig/switching.pdf" 1670403231 89125 ec6400d4b2e35eaaf2e38b490c4a32fd ""
   "jsproceedings.cls" 1670237898 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670403615 3810 603cf8a212e6bdd549a475bc5fedd622 "latex"
-  "tc-sympo-sample.tex" 1670403614 18127 7bd0eb82a0c9e4c07de6f99f0bd86cd9 ""
+<<<<<<< Updated upstream
+  "out/tc-sympo-sample.aux" 1670496008 3810 603cf8a212e6bdd549a475bc5fedd622 "latex"
+  "tc-sympo-sample.tex" 1670496008 18127 7bd0eb82a0c9e4c07de6f99f0bd86cd9 ""
+=======
+  "out/tc-sympo-sample.aux" 1670495930 4138 d5a800defce9e4064bc212831257a927 "latex"
+  "tc-sympo-sample.tex" 1670495929 20696 03d18924b3a0bcb51d65be64a3d370e4 ""
+>>>>>>> Stashed changes
   (generated)
-  "out/tc-sympo-sample.aux"
-  "out/tc-sympo-sample.dvi"
   "out/tc-sympo-sample.log"
+  "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
