@@ -1,4 +1,4 @@
-PWD /home/y-takahashi/tex_lib/sympo_thesis
+PWD /home/fmasa/sympo_thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -6,7 +6,7 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/euptex/uplatex.fmt
-INPUT /home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex
+INPUT /home/fmasa/sympo_thesis/tc-sympo-sample.tex
 OUTPUT out/tc-sympo-sample.log
 INPUT jsproceedings.cls
 INPUT jsproceedings.cls
@@ -298,9 +298,9 @@ INPUT fig/boxkai.pdf
 INPUT extractbb -B cropbox -O fig/boxkai.pdf
 INPUT fig/box2kai.pdf
 INPUT extractbb -B cropbox -O fig/box2kai.pdf
-OUTPUT out/tc-sympo-sample.dvi
 INPUT fig/software.pdf
 INPUT extractbb -B cropbox -O fig/software.pdf
+OUTPUT out/tc-sympo-sample.dvi
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
