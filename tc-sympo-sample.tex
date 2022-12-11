@@ -4,6 +4,7 @@
 \usepackage{flushend}  % 最終ページの2カラムの左右の高さを揃える
 \usepackage{caption}
 \usepackage{graphicx}
+\usepackage{amssymb, amsmath}
 
 % タイトル
 \title{つくばチャレンジ2022における\\千葉工業大学未来ロボティクス学科ORNEチームの取り組み}
@@ -111,14 +112,15 @@
   \label{fig:soft-fig}%\vspace*{-2mm}
 \end{figure}
 
+\newpage
 \section{各ロボットごとの研究開発}
 本チームは, つくばチャレンジにおいて各ロボットごとに研究開発の目的が異なる. 本章では, 各ロボットごとの取り組みを述べる.
 
 \subsection{ORNE-α}
-LiDARを用いた自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる. そこで, ORNE-αは, 2D-LiDARを用いた自律走行と機械学習を用いた自律走行の切り替えにより, つくばチャレンジのコースを完走することを目的としている. \par 2021年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器\footnote[1]{入力から出力までを一括して学習するようなニューラルネットワーク}\cite{end-to-end}の出力を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまった. そのため, 本年度はこの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
+LiDARを用いた自律走行時, 自己位置推定の結果が不確かになる場合がある. この状態での走行はリタイアの要因の一つになる. そこで, ORNE-αは, 2D-LiDARを用いた自律走行と機械学習を用いた自律走行の切り替えにより, つくばチャレンジをコースアウトせずに完走することを目的としている. \par 2021年度は, orne\_navigationによる自律走行時, 自己位置推定の尤度が低下した場合に, カメラ画像を入力としたend-to-end学習器\footnote[1]{入力から出力までを一括して学習するようなニューラルネットワーク}\cite{end-to-end}の出力を用いた自律走行による切り替えを行った. しかし, 意図しない箇所でカメラを用いた走行へ切り替えが起こってしまった. そのため, 本年度はこの問題を解決するために, 取り組んだ内容に関して以下で紹介する. 
 
-\subsubsection{提案手法}
-提案手法を\figref{fig:switching}に示す. ORNE-αは, 2つの走行方法を持つ. この2つの走行方法は, 自己位置推定パッケージであるemcl2\cite{emcl2-git}の周辺尤度:alpha\footnote[2]{センサ更新後のパーティクルの周辺尤度(0α1)}を指標として切り替える.
+\subsubsection{周辺尤度を用いた2つの走行方法の切り替え}
+ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switching}に示す. この2つの走行方法は, 自己位置推定パッケージであるemcl2\cite{emcl2-git}の周辺尤度:alpha\footnote[2]{センサ更新後のパーティクルの周辺尤度(0 ≦ α ≦ 1)}を指標として切り替える. ただし, 本走行では②の自律走行に切り替わるのは折り返し地点からである. 
 
 \begin{figure}[h]
   \centering
@@ -128,79 +130,38 @@ LiDARを用いた自律走行時, 自己位置推定の結果が不確かにな�
 \end{figure}
 
 % \newpage
-
 \begin{itemize}
-  \item alphaが0でない場合\\
-  ①2D-LiDARを用いたナビゲーションによる自律走行
-  \item alpha = 0が3秒続いた場合\\
-  ②セマンティックセグメンテーション\cite{Deeplab}を用いた自律走行\\
-  (ただし, ②での自律走行に切り替わるのは折り返し地点からである)
-\end{itemize}
-
-\subsubsection{2D-LiDARを用いたorne\_navigationによる自律走行について}
-\figref{fig:switching}で示した①を用いた自律走行時における実験装置の構成を以下に示す.
-\begin{itemize}
-  \item 外界センサ: 2D-LiDAR
-  \item 自己位置推定パッケージ: emcl2
-  \item global planner: A*
-  \item local planner: dwa\_local\_planner
-  \item 地図作成: Google Cartographer
+  \item [①]alphaが0でない場合\par
+  2D-LiDARを用いた自律走行を行う. システム構成は以下に示す. 
   \begin{itemize}
-    \item resolution: 0.15[m/pixel]
-    \item 確認走行エリア, 駅周辺, 公園エリアのそれぞれで作成した地図を合成
+    \item 外界センサ: 2D-LiDAR
+    \item 自己位置推定パッケージ: emcl2
+    \item global planner: A*
+    \item local planner: dwa\_local\_planner
+    \item 地図作成: Google Cartographer
+    \begin{itemize}
+      \item resolution: 0.15[m/pixel]
+      \item 確認走行エリア, 駅周辺, 公園エリアのそれぞれで作成した地図を合成
+    \end{itemize}
   \end{itemize}
+  \item [②]alpha = 0が3秒続いた場合\\
+  カメラ画像を入力とした深層学習の出力で自律走行し, セマンティックセグメンテーション\cite{Deeplab}により走行可能領域を抽出, 行動生成を行う. \\
 \end{itemize}
 
-\subsubsection{セマンテックセグメンテーションについて}
-\figref{fig:switching}で示した②を用いた自律走行時における実験装置の構成を以下に示す.
-\begin{itemize}
-  \item フレームワーク
-  \begin{itemize}
-    \item pytorch
-  \end{itemize}
-\end{itemize}
-\begin{itemize}
-  \item モデル
-  \begin{itemize}
-    \item DeepLabV3Plus-MobileNet
-  \end{itemize}
-\end{itemize}
-\begin{itemize}
-  \item データセット
-  \begin{itemize}
-    \item Cityscapes\cite{cityscapes}(5000枚)
-    \item つくば公園エリア周辺画像(222枚)
-  \end{itemize}
-\end{itemize}
-
-% \newpage
-
-\subsubsection{セマンティックセグメンテーションを用いたロボットの制御}
-% 本チームは, セグメンテーションを用いて領域分割を行う. また, 
-領域分割した画像から走行可能領域(道)を検出し, その結果に基づいて行動生成を行う. 本節では, セマンティックセグメンテーションを用いたロボットの制御について, 一連の流れを紹介する. 
-
-\begin{enumerate}
-  \item セマンティックセグメンテーションの適用\\
-  処理を施した例を\figref{fig:for_seg}に示す.
-  \begin{figure}[h]
-    \centering
-    \includegraphics[width=60mm]{fig/camera_for_seg.pdf}
-    \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation}
-    \label{fig:for_seg}%\vspace*{-2mm}
-  \end{figure}
-  % \newpage
-  \item 走行可能領域の検出\\
+  \newpage
+  \begin{enumerate}
+    \item 走行可能領域の検出\\
   % カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 
   走行可能領域を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
   \begin{figure}[h]
     \centering
-    \includegraphics[width=80mm]{fig/seg_runarea.pdf}
+    \includegraphics[width=100mm]{fig/tsukuba-seg.pdf}
     \caption{The left image uses semantic segmentation, and the right image shows the extracted driving area as a result}
     \label{fig:seg_runarea}%\vspace*{-2mm}
   \end{figure}
   % \newpage
   \item 行動生成\\
-  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. この行動生成に関しては先行研究\cite{meiji-thesis}を参考に実装した. 例えば, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外が多く存在する場合, 左に曲がる方向の角速度を出力する. 
+  1)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. この行動生成に関しては先行研究\cite{meiji-thesis}を参考に実装した. 例えば, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外が多く存在する場合, 左に曲がる方向の角速度を出力する. 
   \begin{figure}[h]
     \centering
     \includegraphics[width=60mm]{fig/seg.pdf}
@@ -209,9 +170,15 @@ LiDARを用いた自律走行時, 自己位置推定の結果が不確かにな�
   \end{figure}
 \end{enumerate}
 
-\newpage
+\subsubsection{実験}
+次に, 2つの走行方法を切り替える手法の有効性を検証するため, 千葉工業大学 津田沼キャンパスにおいて\figref{fig:tsudanuma}に示す経路で実験を行う. 学習に使用したデータセットは, Cityscapes Dataset\cite{cityscapes}(5000枚), 千葉工業大学 津田沼キャンパス(66枚), モデルはDeepLabV3Plus-MobileNetで学習を行った. また, 使用したPCのスペックを\tableref{table:pc}に示す. 
 
-使用したPCのスペックを\tableref{table:pc}に示す. また, GitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}でプログラムとデータセットを公開している.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=70mm]{fig/tsudanuma-seg.pdf}
+  \caption{Map of Chiba Institute of Technology Tsudanuma Campus from \cite{tsudanuma}}
+  \label{fig:tsudanuma}%\vspace*{-2mm}
+\end{figure}
 
 \begin{table}[h]
   \centering
@@ -228,12 +195,8 @@ LiDARを用いた自律走行時, 自己位置推定の結果が不確かにな�
 % \vspace*{-2mm}
 \end{table}
 
-% \newpage
-\subsubsection{本走行の結果}
-2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで到達することができなかったため, セグメンテーションを用いた自律走行に切り替わることは確認できなかった. 誘拐状態の対策としては, 自己位置推定に用いるセンサを追加することを検討する. 2つの走行方法の切り替えに関しては, alphaが低下した場合に正常に切り替わるかを検証するために千葉工業大学 津田沼キャンパス敷地内において追実験を行う. 
-
-\subsubsection{追実験}
-実験の様子を\figref{fig:switch-mode}に示す. (a), (b), (c)の順でパーティクルが拡散している際にはセグメンテーションでの走行に切り替わっていることが分かる. これらから, 2つの走行方法の切り替えが正常に行われていることが確認できた. 
+\newpage
+実験の様子を\figref{fig:switch-mode}に示す. (a):パーティクル拡散前は2D-LiDARを用いて走行し, (b):パーティクル拡散時, カメラ画像を入力とした深層学習の出力で走行している. その後, (c):パーティクルの収束後では, 再び2D-LiDARを用いた走行に切り替わっている. これらから, 2つの走行方法の切り替えにより, \cite{tsudanuma}で示した経路をコースアウトすることなく走行することができた. 
 
 \begin{figure}[h]
   \centering
@@ -258,9 +221,22 @@ LiDARを用いた自律走行時, 自己位置推定の結果が不確かにな�
   \label{fig:switch-mode}%\vspace*{-2mm}
 \end{figure}
 
+% つくば公園エリア周辺画像(222枚)
+% また, GitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}でプログラムとデータセットを公開している.
+
+\newpage
+\subsubsection{本走行の結果}
+2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, \figref{fig:kidnapped}に示すように, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行は折り返し地点周辺で
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=80mm]{fig/yuukai2.pdf}
+  \caption{The result of self-location estimation became uncertain, resulting in a state of kidnapping.}
+  \label{fig:kidnapped}%\vspace*{-2mm}
+\end{figure}
+
 % \newpage
-% \newpage
-\subsection{チームORNE-box, ORNE-box2}
+\subsection{ORNE-box, ORNE-box2}
 屋外で自律移動させるためには防水が必要となるが, 防水性を担保しながらロボットの機構や電気回路の追加・変更を行うことは多くの時間を要する. これにより, 本来研究として実施する新しいアルゴリズムの開発や検証に十分な時間を割り当てられず問題となっていた. このような問題に対して, 屋外自律移動ロボットプラットフォームORNE-boxの開発\cite{si-box}を行ってきた．このロボットは屋外での自律走行を目的としており，屋外自律走行の研究開発に必要な機能をパッケージ化し提供することを目標に開発を行っている．現在はウェブページ上\cite{box}にて設計データなどを順次公開している. \par 
 ORNE-box2においては, ORNE-boxにおける問題を洗い出し改善を図るという方針のもと, 今年度から開発を行っている．センサ構成などに差異はあるが，基本的なシステム構成は同じである．
 
@@ -269,7 +245,7 @@ ORNE-box2においては, ORNE-boxにおける問題を洗い出し改善を図�
 
 \subsubsection{本走行の結果}
 ORNE-boxの今年度の本走行の記録は1000[m]だった. リタイアした地点は公園前横断歩道であり, 縁石の縁端を検出できず乗り上げてスタックした. 本年度のORNE-boxは\tableref{tb:hardware}からもわかるように障害物検出は3D-LiDARのみで行っていた. 3D-LiDARは機体上部に位置しており, スタックの原因となった縁石の縁端のような低層障害物の検出は困難であった．今後は低層障害物も検出できるよう，障害物検出の改善を図る．\par
-ORNE-box2の本走行の記録は, 一時停止位置で停止できなかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかったおそれがある. ORNE-box2においては記録走行時に完走している. 
+ORNE-box2の本走行の記録は, 一時停止位置で停止できなかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にシングルボードコンピュータであるJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GIGABYTE GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかったおそれがある. ORNE-box2においては記録走行時に完走している. 
 
 \section{おわりに}
 本稿では,千葉工業大学未来ロボティクス学科ORNEチームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
@@ -323,15 +299,12 @@ deeplabv3\_plus\_pytorch\_ros リポジトリ\\
 \url{https://github.com/Tsumoridesu/deeplabv3_plus_pytorch_ros/tree/add_cmd_vel}\\
 (最終閲覧日: \today)
 
+\bibitem{tsudanuma}
+電子地形図3125(国土地理院)を加工して作成
+
 \bibitem{emcl-thesis}
 上田 隆一, 新井 民夫, 浅沼 和範, 梅田 和昇, 大隅 久: ``パーティクルフィルタを利用した自己位置推定に生じる致命的な推定誤りからの回復法'', \textit{日本ロボット学会誌23巻4号}, 2005.
 
-<<<<<<< Updated upstream
-\bibitem{si-box}
-井口 颯人, 石江 義規, 樋高 聖人, 上田 隆一, 林原 靖男: ``屋外自律移動ロボットプラットフォーム ORNE-boxの開発'', 3H2-03, SI2021(2021)
-
-=======
->>>>>>> Stashed changes
 \bibitem{box}
 orne-box Github リポジトリ\\
 \url{https://github.com/open-rdc/orne-box}\\

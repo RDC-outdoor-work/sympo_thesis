@@ -322,18 +322,20 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT fig/switching3.pdf
 INPUT extractbb -B cropbox -O fig/switching3.pdf
-INPUT fig/camera_for_seg.pdf
-INPUT extractbb -B cropbox -O fig/camera_for_seg.pdf
-INPUT fig/seg_runarea.pdf
-INPUT extractbb -B cropbox -O fig/seg_runarea.pdf
+INPUT fig/tsukuba-seg.pdf
+INPUT extractbb -B cropbox -O fig/tsukuba-seg.pdf
 INPUT fig/seg.pdf
 INPUT extractbb -B cropbox -O fig/seg.pdf
+INPUT fig/tsudanuma-seg.pdf
+INPUT extractbb -B cropbox -O fig/tsudanuma-seg.pdf
 INPUT fig/switch-mode1.pdf
 INPUT extractbb -B cropbox -O fig/switch-mode1.pdf
 INPUT fig/switch-mode2.pdf
 INPUT extractbb -B cropbox -O fig/switch-mode2.pdf
 INPUT fig/switch-mode3.pdf
 INPUT extractbb -B cropbox -O fig/switch-mode3.pdf
+INPUT fig/yuukai2.pdf
+INPUT extractbb -B cropbox -O fig/yuukai2.pdf
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
