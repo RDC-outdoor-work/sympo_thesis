@@ -1,7 +1,7 @@
 \documentclass[uplatex, twocolumn, 9pt]{jsproceedings}
 \RequirePackage[l2tabu, orthodox]{nag}  % 古いコマンドやパッケージを使用した場合に警告する
 \usepackage[all, warning]{onlyamsmath}  % amsmath が提供しない数式環境を使用した場合に警告する
-\usepackage{flushend}  % 最終ページの2カラムの左右の高さを揃える
+% \usepackage{flushend}  % 最終ページの2カラムの左右の高さを揃える
 \usepackage{caption}
 \usepackage{graphicx}
 \usepackage{amssymb, amsmath}
@@ -18,7 +18,7 @@
 \affiliation{千葉工業大学未来ロボティクス学科}
 
 \abstract{
-  In this paper, we introduce the activities of the Future Robotics Department, Advanced Engineering Division, Chiba Institute of Technology team in the Tsukuba Challenge 2022. Our team is working on the development of an outdoor autonomous mobile robot, and we are currently tackling several challenges. For example, the development of a new robot, driving using semantic segmentation, and recovery of kidnapped state by combining expansion resetting. We will report the results of these efforts.
+  In this paper, we present the activities of the ORNE team of the Department of Future Robotics at Chiba Institute of Technology in the Tsukuba Challenge 2022. Our team develops autonomous outdoor mobile robots, and we are currently tackling several challenges. For example, the development of a new robot, driving using semantic segmentation, and recovery of kidnapped state by combining expansion resetting. We will report the results of these efforts.
 }
 
 % \keywords{\LaTeXe, Class File, Proceedings}
@@ -222,15 +222,14 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 \end{figure}
 
 % つくば公園エリア周辺画像(222枚)
-% また, GitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}でプログラムとデータセットを公開している.
 
 \newpage
 \subsubsection{本走行の結果}
-2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, \figref{fig:kidnapped}に示すように, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行は折り返し地点周辺で
+2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, \figref{fig:kidnapped}に示すように, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において切り替えを行わずカメラ画像のみを用いた自律走行では220m走行することができた. また, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=80mm]{fig/yuukai2.pdf}
+  \includegraphics[width=90mm]{fig/yuukai1.pdf}
   \caption{The result of self-location estimation became uncertain, resulting in a state of kidnapping.}
   \label{fig:kidnapped}%\vspace*{-2mm}
 \end{figure}
@@ -252,7 +251,7 @@ ORNE-box2においては, ORNE-boxにおける問題を洗い出し改善を図�
 
 \subsubsection{本走行の結果}
 ORNE-boxの今年度の本走行の記録は1000[m]だった. リタイアした地点は公園前横断歩道であり, 縁石の縁端を検出できず乗り上げてスタックした. 本年度のORNE-boxは\tableref{tb:hardware}からもわかるように障害物検出は3D-LiDARのみで行っていた. 3D-LiDARは機体上部に位置しており, スタックの原因となった縁石の縁端のような低層障害物の検出は困難であった．今後は低層障害物も検出できるよう，障害物検出の改善を図る．\par
-ORNE-box2の本走行の記録は, 一時停止位置で停止できなかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にシングルボードコンピュータであるJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GIGABYTE GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかったおそれがある. ORNE-box2においては記録走行時に完走している. 
+ORNE-box2の本走行の記録は, 一時停止位置で停止できなかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にロボットの制御に用いていたコンピュータであるJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GIGABYTE GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかったおそれがある. ORNE-box2においては11月6日に実施された記録走行で完走している. 
 
 \section{おわりに}
 本稿では,千葉工業大学未来ロボティクス学科ORNEチームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
@@ -280,6 +279,7 @@ Robot Design and Control Lab, openrdc orne\_navigation リポジトリ\\
 \bibitem{end-to-end}
 岡田 眞也, 清岡 優祐, 春山 健太, 上田 隆一, 林原 靖男: ``視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案-“経路追従行動の修正のためにデータセットを動的に追加する手法の検討'', \textit{計測自動制御学会 SI 部門講演会 SICE-SI2021 予稿集}, pp.1066-1070, 2021.
 
+\newpage
 \bibitem{emcl2-git}
 ryuichiueda, emcl2 リポジトリ\\
 \url{https://github.com/ryuichiueda/emcl2}\\
