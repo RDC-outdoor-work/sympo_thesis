@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  11 DEC 2022 14:44
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  11 DEC 2022 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,7 +746,9 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 File: fig/switching3.pdf Graphic file (type pdf)
 <fig/switching3.pdf>
 
-Underfull \vbox (badness 1565) has occurred while \output is active []
+Overfull \hbox (0.52977pt too wide) in paragraph at lines 125--126
+ [][] 
+ []
 
 File: fig/camera_for_seg.pdf Graphic file (type pdf)
 <fig/camera_for_seg.pdf>
@@ -754,7 +756,6 @@ File: fig/seg_runarea.pdf Graphic file (type pdf)
 <fig/seg_runarea.pdf>
 File: fig/seg.pdf Graphic file (type pdf)
 <fig/seg.pdf>
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -818,4 +819,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  64i,10n,59p,1964b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 29004 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 28996 bytes).
