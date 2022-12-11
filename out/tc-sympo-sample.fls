@@ -320,8 +320,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txbsy.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txbex.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT fig/switching2.pdf
-INPUT extractbb -B cropbox -O fig/switching2.pdf
+INPUT fig/switching3.pdf
+INPUT extractbb -B cropbox -O fig/switching3.pdf
 INPUT fig/camera_for_seg.pdf
 INPUT extractbb -B cropbox -O fig/camera_for_seg.pdf
 INPUT fig/seg_runarea.pdf

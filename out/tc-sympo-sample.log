@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  11 DEC 2022 14:26
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  11 DEC 2022 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -743,10 +743,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.5481pt on input line 118.
-File: fig/switching2.pdf Graphic file (type pdf)
-<fig/switching2.pdf>
+File: fig/switching3.pdf Graphic file (type pdf)
+<fig/switching3.pdf>
 
-Underfull \vbox (badness 1769) has occurred while \output is active []
+Underfull \vbox (badness 1565) has occurred while \output is active []
 
 File: fig/camera_for_seg.pdf Graphic file (type pdf)
 <fig/camera_for_seg.pdf>

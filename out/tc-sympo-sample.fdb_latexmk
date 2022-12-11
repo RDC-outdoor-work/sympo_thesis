@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670736386 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670736391
-  "out/tc-sympo-sample.dvi" 1670736386 29004 e5e54a54735b02e4caf513ef858b6359 "latex"
+["dvipdf"] 1670737471 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670737476
+  "out/tc-sympo-sample.dvi" 1670737471 29004 e3d76f432d137cb804d7870f3a6f8161 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670736384 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670736391
+["latex"] 1670737469 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670737476
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670736384 21968 bb9c30c0fe6b5a892aaa94597a61df9e ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670737469 21969 95c94df9e04be6f2d9d594a0fb273b29 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -126,11 +126,11 @@
   "fig/switch-mode1.pdf" 1670386620 1178495 1a06e3b6d1ca39b99f5f0ab70d67dc7b ""
   "fig/switch-mode2.pdf" 1670386620 1625778 4439ecfb78e06e374baa7d3538208647 ""
   "fig/switch-mode3.pdf" 1670386620 1155579 b2a0016edf8bea9ee9c294fd8e0f7ec3 ""
-  "fig/switching2.pdf" 1670735856 90809 e01bf54c0cd3d9f6d0025da382618cde ""
+  "fig/switching3.pdf" 1670737425 96549 88ec41c50a9e5e271fd7471ebe64ebfb ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670736386 4236 031ef23e2da0b05b4a37b532d33c559e "latex"
-  "tc-sympo-sample.tex" 1670736384 21968 bb9c30c0fe6b5a892aaa94597a61df9e ""
+  "out/tc-sympo-sample.aux" 1670737471 4236 031ef23e2da0b05b4a37b532d33c559e "latex"
+  "tc-sympo-sample.tex" 1670737469 21969 95c94df9e04be6f2d9d594a0fb273b29 ""
   (generated)
-  "out/tc-sympo-sample.dvi"
   "out/tc-sympo-sample.aux"
+  "out/tc-sympo-sample.dvi"
   "out/tc-sympo-sample.log"
