@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  12 DEC 2022 01:06
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  12 DEC 2022 01:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -770,47 +770,52 @@ File: fig/switch-mode3.pdf Graphic file (type pdf)
 <fig/switch-mode3.pdf>
 File: fig/yuukai2.pdf Graphic file (type pdf)
 <fig/yuukai2.pdf>
+File: fig/seg-only.pdf Graphic file (type pdf)
+<fig/seg-only.pdf>
 [3]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 265.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 272.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 265.
+(Font)              scaled to size 7.39746pt on input line 272.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 265.
+(Font)              scaled to size 7.39746pt on input line 272.
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 274.
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 274.
+(Font)              scaled to size 7.39746pt on input line 281.
 LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 274.
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 274.
+(Font)              scaled to size 7.39746pt on input line 281.
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--293
+Underfull \hbox (badness 10000) in paragraph at lines 297--300
 []$\T1/lmtt/m/n/8 https : / / docs . opencv . org / 4 . x / d9 / d61 / tutorial _ py _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--301
+Underfull \hbox (badness 10000) in paragraph at lines 311--314
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 No complaints by nag.
 - LAST -
-Extra skip:7.34557pt
-Left:360.76038pt/1.77777pt
-Right:353.76065pt/1.43193pt
-Output:361.38019pt
+Extra skip:20.18771pt
+Left:448.76038pt/1.43193pt
+Right:428.57266pt/1.43193pt
+Output:448.7862pt
 [4] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9423 strings out of 481765
- 174827 string characters out of 5933692
- 432673 words of memory out of 5000000
- 24625 multiletter control sequences out of 15000+600000
+ 9428 strings out of 481765
+ 174914 string characters out of 5933692
+ 434673 words of memory out of 5000000
+ 24629 multiletter control sequences out of 15000+600000
  618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 66i,10n,61p,1978b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,10n,64p,1978b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 27800 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 28080 bytes).

@@ -235,6 +235,13 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
   \label{fig:kidnapped}%\vspace*{-2mm}
 \end{figure}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=80mm]{fig/seg-only.pdf}
+  \caption{Autonomous driving using only camera images}
+  \label{fig:seg-only}%\vspace*{-2mm}
+\end{figure}
+
 % \newpage
 \subsection{ORNE-box, ORNE-box2}
 屋外で自律移動させるためには防水が必要となるが, 防水性を担保しながらロボットの機構や電気回路の追加・変更を行うことは多くの時間を要する. これにより, 本来研究として実施する新しいアルゴリズムの開発や検証に十分な時間を割り当てられず問題となっていた. このような問題に対して, 屋外自律移動ロボットプラットフォームORNE-boxの開発\cite{si-box}を行ってきた．このロボットは屋外での自律走行を目的としており，屋外自律走行の研究開発に必要な機能をパッケージ化し提供することを目標に開発を行っている．現在はウェブページ上\cite{box}にて設計データなどを順次公開している. \par 
@@ -294,16 +301,16 @@ OpenCV公式ドキュメント モルフォロジー変換\\
 \bibitem{meiji-thesis}
 安達 美穂, 小島 一也, 石田 大貴, 松谷 幸知, 渡辺 拓斗, 小林 真吾, 横田 来夢, 坂田 唱悟, 小松崎 迅斗, 捨田利 沙羅, 宮野 龍一, 宮本 龍介: ``単眼カメラを用いた意味論的領域分割に基づくビジュアルナビゲーション'', \textit{つくばチャレンジ2019 参加レポート集}, pp105-110, 2019.
 
-\bibitem{DeeplabV3}
-deeplabv3\_plus\_pytorch\_ros リポジトリ\\
-\url{https://github.com/Tsumoridesu/deeplabv3_plus_pytorch_ros/tree/add_cmd_vel}\\
-(最終閲覧日: \today)
-
 \bibitem{tsudanuma}
 電子地形図3125(国土地理院)を加工して作成
 
 \bibitem{emcl-thesis}
 上田 隆一, 新井 民夫, 浅沼 和範, 梅田 和昇, 大隅 久: ``パーティクルフィルタを利用した自己位置推定に生じる致命的な推定誤りからの回復法'', \textit{日本ロボット学会誌23巻4号}, 2005.
+
+\bibitem{DeeplabV3}
+deeplabv3\_plus\_pytorch\_ros リポジトリ\\
+\url{https://github.com/Tsumoridesu/deeplabv3_plus_pytorch_ros/tree/add_cmd_vel}\\
+(最終閲覧日: \today)
 
 \bibitem{box}
 orne-box Github リポジトリ\\
