@@ -190,7 +190,7 @@
   % \newpage
   \item 走行可能領域の検出\\
   % カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 
-  走行可能領域を画像を2値化することで抽出し, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
+  走行可能領域を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
   \begin{figure}[h]
     \centering
     \includegraphics[width=80mm]{fig/seg_runarea.pdf}
