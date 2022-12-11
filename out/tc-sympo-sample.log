@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  11 DEC 2022 14:18
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  11 DEC 2022 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,24 +793,29 @@ LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 294.
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--316
+Underfull \hbox (badness 10000) in paragraph at lines 310--313
+[]$\T1/lmtt/m/n/8 https : / / docs . opencv . org / 4 . x / d9 / d61 / tutorial _ py _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--321
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
 No complaints by nag.
 - LAST -
-Extra skip:6.29973pt
-Left:315.76038pt/1.73193pt
-Right:309.76065pt/1.43193pt
-Output:315.88019pt
+Extra skip:17.29973pt
+Left:337.76038pt/1.73193pt
+Right:320.76065pt/1.43193pt
+Output:338.38019pt
 [4] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 9415 strings out of 481765
- 174654 string characters out of 5933692
- 430674 words of memory out of 5000000
- 24618 multiletter control sequences out of 15000+600000
+ 9416 strings out of 481765
+ 174669 string characters out of 5933692
+ 431674 words of memory out of 5000000
+ 24619 multiletter control sequences out of 15000+600000
  618689 words of font info for 188 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 61i,10n,56p,1964b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,10n,59p,1964b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 28748 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 29004 bytes).

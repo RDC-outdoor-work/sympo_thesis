@@ -190,7 +190,7 @@
   % \newpage
   \item 走行可能領域の検出\\
   % カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 
-  走行可能領域を画像を2値化することで抽出し, モルフォロジー変換でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
+  走行可能領域を画像を2値化することで抽出し, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
   \begin{figure}[h]
     \centering
     \includegraphics[width=80mm]{fig/seg_runarea.pdf}
@@ -306,6 +306,11 @@ Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs'', \textit
 \bibitem{cityscapes}
 Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Scharwachter, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, Bernt Schiele,: ``The cityscapes dataset'' in CVPR Workshop on The Future of Datasets in Vision, 2015.
 
+\bibitem{morphological}
+OpenCV公式ドキュメント モルフォロジー変換\\
+\url{https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html}
+(最終閲覧日: \today)
+
 \bibitem{meiji-thesis}
 安達 美穂, 小島 一也, 石田 大貴, 松谷 幸知, 渡辺 拓斗, 小林 真吾, 横田 来夢, 坂田 唱悟, 小松崎 迅斗, 捨田利 沙羅, 宮野 龍一, 宮本 龍介: ``単眼カメラを用いた意味論的領域分割に基づくビジュアルナビゲーション'', \textit{つくばチャレンジ2019 参加レポート集}, pp105-110, 2019.
 
@@ -318,7 +323,7 @@ deeplabv3\_plus\_pytorch\_ros リポジトリ\\
 上田 隆一, 新井 民夫, 浅沼 和範, 梅田 和昇, 大隅 久: ``パーティクルフィルタを利用した自己位置推定に生じる致命的な推定誤りからの回復法'', \textit{日本ロボット学会誌23巻4号}, 2005.
 
 \bibitem{si-box}
-井口 颯人, 石江 義規, 樋高 聖人, 上田 隆一, 林原 靖男: ``屋外自律移動ロボットプラットフォーム ORNE-boxの開発'', 3H2-03，SI2021(2021)
+井口 颯人, 石江 義規, 樋高 聖人, 上田 隆一, 林原 靖男: ``屋外自律移動ロボットプラットフォーム ORNE-boxの開発'', 3H2-03, SI2021(2021)
 
 \bibitem{box}
 orne-box Github リポジトリ\\

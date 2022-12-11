@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670735934 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670735939
-  "out/tc-sympo-sample.dvi" 1670735934 28748 a4a31f35d593cfade8b988b910c9bf3a "latex"
+["dvipdf"] 1670736386 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670736391
+  "out/tc-sympo-sample.dvi" 1670736386 29004 e5e54a54735b02e4caf513ef858b6359 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670735932 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670735939
+["latex"] 1670736384 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670736391
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670735932 21761 4e48cd6807b457d271082760c0a43ca5 ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670736384 21968 bb9c30c0fe6b5a892aaa94597a61df9e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -128,9 +128,9 @@
   "fig/switch-mode3.pdf" 1670386620 1155579 b2a0016edf8bea9ee9c294fd8e0f7ec3 ""
   "fig/switching2.pdf" 1670735856 90809 e01bf54c0cd3d9f6d0025da382618cde ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670735934 4183 cfaab8c42ff4b9bcf4a075d217b5756b "latex"
-  "tc-sympo-sample.tex" 1670735932 21761 4e48cd6807b457d271082760c0a43ca5 ""
+  "out/tc-sympo-sample.aux" 1670736386 4236 031ef23e2da0b05b4a37b532d33c559e "latex"
+  "tc-sympo-sample.tex" 1670736384 21968 bb9c30c0fe6b5a892aaa94597a61df9e ""
   (generated)
-  "out/tc-sympo-sample.log"
-  "out/tc-sympo-sample.aux"
   "out/tc-sympo-sample.dvi"
+  "out/tc-sympo-sample.aux"
+  "out/tc-sympo-sample.log"
