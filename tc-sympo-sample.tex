@@ -68,7 +68,7 @@
     \includegraphics[height=34mm]{fig/box2kai.pdf}
     \caption*{(c) ORNE-box2}
   \end{minipage}
-  \caption{ORNE-Series.}
+  \caption{ORNE-Series}
   \label{fig:orne-series}%\vspace*{-2mm}
 \end{figure}
 
@@ -107,7 +107,7 @@
 \begin{figure}[h]
   \centering
   \includegraphics[width=85mm]{fig/software.pdf}
-  \caption{Structure of the system.}
+  \caption{Structure of the system}
   \label{fig:soft-fig}%\vspace*{-2mm}
 \end{figure}
 
@@ -122,8 +122,8 @@
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=82mm]{fig/switching.pdf}
-  \caption{Developed system of switching action.}
+  \includegraphics[width=85mm]{fig/switching2.pdf}
+  \caption{Developed system of switching action}
   \label{fig:switching}%\vspace*{-2mm}
 \end{figure}
 
@@ -151,7 +151,7 @@
   \end{itemize}
 \end{itemize}
 
-\subsubsection{セグメンテーションについて}
+\subsubsection{セマンティックセグメンテーションについて}
 \begin{itemize}
   \item フレームワーク
   \begin{itemize}
@@ -175,7 +175,8 @@
 % \newpage
 
 \subsubsection{セグメンテーションを用いたロボットの制御}
-本チームは, セグメンテーションを用いて領域分割を行う. また, 領域分割した画像から走行可能領域(道)を検出し, その結果に基づいて行動生成を行う. 本章では, セグメンテーションを用いたロボットの制御について, 一連の流れを紹介する. 
+% 本チームは, セグメンテーションを用いて領域分割を行う. また, 
+領域分割した画像から走行可能領域(道)を検出し, その結果に基づいて行動生成を行う. 本節では, セグメンテーションを用いたロボットの制御について, 一連の流れを紹介する. 
 
 \begin{enumerate}
   \item セグメンテーションの適用\\
@@ -183,25 +184,26 @@
   \begin{figure}[h]
     \centering
     \includegraphics[width=60mm]{fig/camera_for_seg.pdf}
-    \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation.}
+    \caption{The top image is the original image, the bottom image is the processed image using semantic segmentation}
     \label{fig:for_seg}%\vspace*{-2mm}
   \end{figure}
   % \newpage
   \item 走行可能領域の検出\\
-  カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 走行可能領域を抽出し, オープニング処理でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像で示す.
+  % カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 
+  走行可能領域を画像を2値化することで抽出し, モルフォロジー変換でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
   \begin{figure}[h]
     \centering
     \includegraphics[width=80mm]{fig/seg_runarea.pdf}
-    \caption{The left image uses semantic segmentation, and the right image shows the extracted driving area as a result.}
+    \caption{The left image uses semantic segmentation, and the right image shows the extracted driving area as a result}
     \label{fig:seg_runarea}%\vspace*{-2mm}
   \end{figure}
   % \newpage
   \item 行動生成\\
-  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. この行動生成に関しては先行研究\cite{meiji-thesis}を参考に実装した. 例えば, \figref{fig:seg}のTurn leftの範囲に障害物が多く存在する場合, 左に曲がる方向の角速度を出力する. 
+  2)の処理を施した画像を用いて, \figref{fig:seg}の6つの対応する領域に応じた行動を生成する. この行動生成に関しては先行研究\cite{meiji-thesis}を参考に実装した. 例えば, \figref{fig:seg}のTurn leftの範囲に走行可能領域以外が多く存在する場合, 左に曲がる方向の角速度を出力する. 
   \begin{figure}[h]
     \centering
     \includegraphics[width=60mm]{fig/seg.pdf}
-    \caption{Types of behavior using semantic segmentation.}
+    \caption{Types of behavior using semantic segmentation}
     \label{fig:seg}%\vspace*{-2mm}
   \end{figure}
 \end{enumerate}
@@ -251,7 +253,7 @@
     \includegraphics[width=70mm]{fig/switch-mode3.pdf}
     \caption*{(c) After particle convergence}
   \end{minipage}
-  \caption{Experiments on the Tsudanuma campus grounds.}
+  \caption{Experiments on the Tsudanuma campus grounds}
   \label{fig:switch-mode}%\vspace*{-2mm}
 \end{figure}
 
@@ -266,10 +268,10 @@ ORNE-box2においては, ORNE-boxにおける問題を洗い出し改善を図�
 
 \subsubsection{本走行の結果}
 ORNE-boxの今年度の本走行の記録は1000[m]だった. リタイアした地点は公園前横断歩道であり, 縁石の縁端を検出できず乗り上げてスタックした. 本年度のORNE-boxは\tableref{tb:hardware}からもわかるように障害物検出は3D-LiDARのみで行っていた. 3D-LiDARは機体上部に位置しており, スタックの原因となった縁石の縁端のような低層障害物の検出は困難であった．今後は低層障害物も検出できるよう，障害物検出の改善を図る．\par
-ORNE-box2の本走行の記録は, 一時停止位置で停止出来なかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかった可能性がある. ORNE-box2においては記録走行時に完走している. 
+ORNE-box2の本走行の記録は, 一時停止位置で停止できなかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかったおそれがある. ORNE-box2においては記録走行時に完走している. 
 
 \section{おわりに}
-本稿では,千葉工業大学未来ロボティクス学科チームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
+本稿では,千葉工業大学未来ロボティクス学科ORNEチームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
 
 % \newpage
 
