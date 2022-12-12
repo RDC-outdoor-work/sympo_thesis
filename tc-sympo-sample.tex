@@ -225,21 +225,21 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 
 \newpage
 \subsubsection{本走行の結果}
-2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, \figref{fig:kidnapped}に示すように, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において切り替えを行わずカメラ画像のみを用いた自律走行(\figref{fig:seg-only})では\figref{fig:dist220}に示す経路(220m)を走行することができた. また, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
+2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアした. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになった. そのため\figref{fig:kidnapped}のような誘拐状態\footnote[3]{真の姿勢の周囲にパーティクルが存在しない状態}\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において切り替えを行わずカメラ画像のみを用いた自律走行(\figref{fig:seg-only})では\figref{fig:dist220}に示す経路(220m)を走行することができた. また, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=90mm]{fig/kidnapped.pdf}
-  \caption{}
-  \label{fig:kidnapped}%\vspace*{-2mm}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=90mm]{fig/yuukai1.pdf}
   \caption{The result of self-location estimation became uncertain, resulting in a state of kidnapping}
   \label{fig:kidnapped}%\vspace*{-2mm}
 \end{figure}
+
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=90mm]{fig/yuukai1.pdf}
+%   \caption{The result of self-location estimation became uncertain, resulting in a state of kidnapping}
+%   \label{fig:yuukai}%\vspace*{-2mm}
+% \end{figure}
 
 \begin{figure}[h]
   \centering
@@ -250,7 +250,7 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=80mm]{fig/dist220.pdf}
+  \includegraphics[width=70mm]{fig/dist220.pdf}
   \caption{Created by processing electronic topographic map 1875 (GSI)}
   \label{fig:dist220}%\vspace*{-2mm}
 \end{figure}

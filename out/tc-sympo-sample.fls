@@ -885,10 +885,6 @@ INPUT ./fig/kidnapped.pdf
 INPUT ./fig/kidnapped.pdf
 INPUT fig/kidnapped.pdf
 INPUT extractbb -B cropbox -O fig/kidnapped.pdf
-INPUT ./fig/yuukai1.pdf
-INPUT ./fig/yuukai1.pdf
-INPUT fig/yuukai1.pdf
-INPUT extractbb -B cropbox -O fig/yuukai1.pdf
 INPUT ./fig/seg-only.pdf
 INPUT ./fig/seg-only.pdf
 INPUT fig/seg-only.pdf

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.12.6)  12 DEC 2022 17:35
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.12.6)  12 DEC 2022 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,11 +526,7 @@ File: l3backend-dvips.def 2022-10-26 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count345
 \g__pdf_backend_link_int=\count346
 \g__pdf_backend_link_sf_int=\count347
-) (out/tc-sympo-sample.aux
-
-LaTeX Warning: Label `fig:kidnapped' multiply defined.
-
-)
+) (out/tc-sympo-sample.aux)
 \openout1 = `tc-sympo-sample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -774,23 +770,11 @@ Overfull \hbox (0.52977pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
-File: fig/yuukai1.pdf Graphic file (type pdf)
-<fig/yuukai1.pdf>
-
-Overfull \hbox (0.52977pt too wide) in paragraph at lines 239--240
- [][] 
- []
-
 File: fig/seg-only.pdf Graphic file (type pdf)
 <fig/seg-only.pdf>
 File: fig/dist220.pdf Graphic file (type pdf)
 <fig/dist220.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [3]
-Underfull \vbox (badness 2409) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 285.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
@@ -799,6 +783,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 28
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
 (Font)              Font shape `JT2/mc/m/n' tried instead on input line 299.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -818,35 +804,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--329
  []
 
 No complaints by nag.
-[leftcolumn badness]: 1000000 on 18.34572pt
-[rightcolumn badness]: 1000000 on 18.34572pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
 - LAST -
-Extra skip:11.7033pt
-Left:713.29068pt/1.60492pt
-Right:701.76038pt/1.43193pt
-Split: 709.6452pt
-Output:709.6452pt
-Pageshrink: 0.22192pt
-Pagestretch: 0.44382pt
+Extra skip:66.67763pt
+Left:624.76047pt/1.1096pt
+Right:557.76051pt/1.43193pt
+Split: 625.38016pt
+Output:625.38016pt
+Pageshrink: 0.0pt
+Pagestretch: 0.0pt
 @colht:794.68265pt
-FLUSHEND [output]: 709.6452pt
-FLUSHEND [leftcolumn badness]: 75
+FLUSHEND [output]: 625.38016pt
+FLUSHEND [leftcolumn badness]: 642
 FUSHEND [rightcolumn badness]: 10000
 [4] (out/tc-sympo-sample.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 11471 strings out of 475419
- 241194 string characters out of 5787993
- 587292 words of memory out of 5000000
- 32997 multiletter control sequences out of 15000+600000
+ 11466 strings out of 475419
+ 241098 string characters out of 5787993
+ 585252 words of memory out of 5000000
+ 32993 multiletter control sequences out of 15000+600000
  534376 words of font info for 178 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  86i,10n,91p,1983b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 29188 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 29028 bytes).
