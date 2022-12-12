@@ -881,6 +881,10 @@ INPUT ./fig/switch-mode3.pdf
 INPUT ./fig/switch-mode3.pdf
 INPUT fig/switch-mode3.pdf
 INPUT extractbb -B cropbox -O fig/switch-mode3.pdf
+INPUT ./fig/kidnapped.pdf
+INPUT ./fig/kidnapped.pdf
+INPUT fig/kidnapped.pdf
+INPUT extractbb -B cropbox -O fig/kidnapped.pdf
 INPUT ./fig/yuukai1.pdf
 INPUT ./fig/yuukai1.pdf
 INPUT fig/yuukai1.pdf
