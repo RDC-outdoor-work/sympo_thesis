@@ -152,11 +152,11 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
   \begin{enumerate}
     \item 走行可能領域の検出\\
   % カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 
-  走行可能領域を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
+  \figref{fig:seg_runarea}の左の元画像から前述のモデルを通して, \figref{fig:seg_runarea}の中央の画像を獲得する. 次に, 走行可能領域を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
   \begin{figure}[h]
     \centering
     \includegraphics[width=100mm]{fig/tsukuba-seg.pdf}
-    \caption{The left image uses semantic segmentation, and the right image shows the extracted driving area as a result}
+    \caption{The left image is the original image, the center image is the image processed by semantic segmentation, and the right image is the image from which the runnable area is extracted}
     \label{fig:seg_runarea}%\vspace*{-2mm}
   \end{figure}
   % \newpage
