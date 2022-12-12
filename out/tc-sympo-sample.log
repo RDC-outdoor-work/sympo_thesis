@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  12 DEC 2022 18:49
 entering extended mode
  restricted \write18 enabled.
@@ -6,46 +7,57 @@ entering extended mode
 (/home/fmasa/sympo_thesis/tc-sympo-sample.tex
 pLaTeX2e <2020-02-02u03>+2 (based on LaTeX2e <2020-02-02> patch level 2)
 L3 programming layer <2020-02-14> (./jsproceedings.cls
+=======
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.12.6)  12 DEC 2022 18:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/kazuki/Documents/cit/tex/sympo_thesis/tc-sympo-sample.tex
+(/home/kazuki/Documents/cit/tex/sympo_thesis/tc-sympo-sample.tex
+pLaTeX2e <2021-11-15u04> (based on LaTeX2e <2022-11-01> patch level 1)
+L3 programming layer <2022-11-02> (./jsproceedings.cls
+>>>>>>> Stashed changes
 **** LaTeX2e Document Class for Proceedings ****
-(/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jsarticle.cls
-Document Class: jsarticle 2020/02/02 jsclasses (okumura, texjporg)
-\jsc@mpt=\dimen150
-\jsc@mmm=\dimen151
-\jsc@smallskipamount=\skip47
-LaTeX Info: Redefining \textmc on input line 496.
-LaTeX Info: Redefining \textgt on input line 498.
+(/usr/local/texlive/2022/texmf-dist/tex/platex/jsclasses/jsarticle.cls
+Document Class: jsarticle 2022/09/13 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen156
+\jsc@mmm=\dimen157
+\jsc@smallskipamount=\skip48
+LaTeX Info: Redefining \textmc on input line 500.
+LaTeX Info: Redefining \textgt on input line 502.
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 560.
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 564.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 751.
+(Font)              scaled to size 9.24683pt on input line 758.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 751.
-\fullwidth=\dimen152
+(Font)              scaled to size 9.24683pt on input line 758.
+\fullwidth=\dimen158
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 904.
+(Font)              scaled to size 7.39746pt on input line 911.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 904.
-\c@part=\count166
-\c@section=\count167
-\c@subsection=\count168
-\c@subsubsection=\count169
-\c@paragraph=\count170
-\c@subparagraph=\count171
-\@abstractbox=\box61
-\c@figure=\count172
-\c@table=\count173
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\jsc@tocl@width=\dimen153
-\@lnumwidth=\dimen154
-\bibindent=\dimen155
-(/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jslogo.sty
+(Font)              scaled to size 7.39746pt on input line 911.
+\c@part=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\@abstractbox=\box68
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\jsc@tocl@width=\dimen159
+\@lnumwidth=\dimen160
+\bibindent=\dimen161
+(/usr/local/texlive/2022/texmf-dist/tex/platex/jsclasses/jslogo.sty
 Package: jslogo 2019/07/25 okumura, texjporg
-LaTeX Info: Redefining \TeX on input line 94.
-LaTeX Info: Redefining \LaTeX on input line 147.
-LaTeX Info: Redefining \LaTeXe on input line 200.
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
 )
+<<<<<<< Updated upstream
 \heisei=\count174
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -62,11 +74,30 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: dvipdfmx.def on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+=======
+\heisei=\count192
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 107.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+>>>>>>> Stashed changes
 ))
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
-) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
@@ -77,52 +108,65 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 \caption@indent=\dimen162
 \caption@parindent=\dimen163
 \caption@hangindent=\dimen164
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen164
+\captionmargin=\dimen165
+\caption@leftmargin=\dimen166
+\caption@rightmargin=\dimen167
+\caption@width=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+>>>>>>> Stashed changes
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \leftskip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionskip \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \centering \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 1082.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \leftskip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionskip \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \centering \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 1176.
 )
-\c@KVtest=\count175
-\sf@farskip=\skip50
-\sf@captopadj=\dimen165
-\sf@capskip=\skip51
-\sf@nearskip=\skip52
-\c@subfigure=\count176
-\c@subfigure@save=\count177
-\c@lofdepth=\count178
-\c@subtable=\count179
-\c@subtable@save=\count180
-\c@lotdepth=\count181
-\sf@top=\skip53
-\sf@bottom=\skip54
-) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+\c@KVtest=\count193
+\sf@farskip=\skip51
+\sf@captopadj=\dimen172
+\sf@capskip=\skip52
+\sf@nearskip=\skip53
+\c@subfigure=\count194
+\c@subfigure@save=\count195
+\c@lofdepth=\count196
+\c@subtable=\count197
+\c@subtable@save=\count198
+\c@lotdepth=\count199
+\sf@top=\skip54
+\sf@bottom=\skip55
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen166
-\lightrulewidth=\dimen167
-\cmidrulewidth=\dimen168
-\belowrulesep=\dimen169
-\belowbottomsep=\dimen170
-\aboverulesep=\dimen171
-\abovetopsep=\dimen172
-\cmidrulesep=\dimen173
-\cmidrulekern=\dimen174
-\defaultaddspace=\dimen175
-\@cmidla=\count182
-\@cmidlb=\count183
-\@aboverulesep=\dimen176
-\@belowrulesep=\dimen177
-\@thisruleclass=\count184
-\@lastruleclass=\count185
-\@thisrulewidth=\dimen178
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count266
+\@cmidlb=\count267
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count268
+\@lastruleclass=\count269
+\@thisrulewidth=\dimen185
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip55
-\multirow@cntb=\count186
-\multirow@dima=\skip56
-\bigstrutjot=\dimen179
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip56
+\multirow@cntb=\count270
+\multirow@dima=\skip57
+\bigstrutjot=\dimen186
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen180
@@ -132,16 +176,28 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \extratabsurround=\skip57
 \backup@length=\skip58
 \ar@cellbox=\box63
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen187
+\ar@mcellbox=\box69
+\extrarowheight=\dimen188
+\NC@list=\toks18
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box70
+>>>>>>> Stashed changes
 )
-\TX@col@width=\dimen182
-\TX@old@table=\dimen183
-\TX@old@col=\dimen184
-\TX@target=\dimen185
-\TX@delta=\dimen186
-\TX@cols=\count187
-\TX@ftn=\toks17
-) (/usr/share/texlive/texmf-dist/tex/latex/eqparbox/eqparbox.sty
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count271
+\TX@ftn=\toks19
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/eqparbox/eqparbox.sty
 Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
+<<<<<<< Updated upstream
 \eqp@tempdima=\skip59
 \eqp@tempdimb=\skip60
 \eqp@tabular@box=\box64
@@ -150,44 +206,63 @@ Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
  (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+=======
+\eqp@tempdima=\skip60
+\eqp@tempdimb=\skip61
+\eqp@tabular@box=\box71
+\eqp@list@box=\box72
+\eqp@list@indent=\skip62
+(/usr/local/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+>>>>>>> Stashed changes
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks18
-)) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+\@envbody=\toks20
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box66
-) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+\@tempboxb=\box73
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+>>>>>>> Stashed changes
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count188
-\float@exts=\toks19
-\float@box=\box67
-\@float@everytoks=\toks20
-\@floatcapt=\box68
-) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+\c@float@type=\count272
+\float@exts=\toks21
+\float@box=\box74
+\@float@everytoks=\toks22
+\@floatcapt=\box75
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks21
-\c@algorithm=\count189
-) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+\@float@every@algorithm=\toks23
+\c@algorithm=\count273
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+>>>>>>> Stashed changes
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count190
-\c@ALG@rem=\count191
-\c@ALG@nested=\count192
-\ALG@tlm=\skip62
-\ALG@thistlm=\skip63
-\c@ALG@Lnr=\count193
-\c@ALG@blocknr=\count194
-\c@ALG@storecount=\count195
-\c@ALG@tmpcounter=\count196
-\ALG@tmplength=\skip64
+\c@ALG@line=\count274
+\c@ALG@rem=\count275
+\c@ALG@nested=\count276
+\ALG@tlm=\skip63
+\ALG@thistlm=\skip64
+\c@ALG@Lnr=\count277
+\c@ALG@blocknr=\count278
+\c@ALG@storecount=\count279
+\c@ALG@tmpcounter=\count280
+\ALG@tmplength=\skip65
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
+<<<<<<< Updated upstream
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip65
@@ -196,76 +271,99 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+=======
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip66
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+>>>>>>> Stashed changes
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen187
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks24
+\ex@=\dimen194
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen188
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+\pmbraise@=\dimen195
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count197
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count198
-\leftroot@=\count199
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count266
-\DOTSCASE@=\count267
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box69
-\strutbox@=\box70
-\big@size=\dimen189
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count268
-\c@MaxMatrixCols=\count269
+\inf@bad=\count281
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count282
+\leftroot@=\count283
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count284
+\DOTSCASE@=\count285
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box76
+\strutbox@=\box77
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen196
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count286
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count287
 \dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
-\tag@help=\toks23
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
-\andhelp@=\toks24
-\eqnshift@=\dimen190
-\alignsep@=\dimen191
-\tagshift@=\dimen192
-\tagwidth@=\dimen193
-\totwidth@=\dimen194
-\lineht@=\dimen195
-\@envbody=\toks25
-\multlinegap=\skip66
-\multlinetaggap=\skip67
-\mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
+\tag@help=\toks25
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
+\andhelp@=\toks26
+\eqnshift@=\dimen197
+\alignsep@=\dimen198
+\tagshift@=\dimen199
+\tagwidth@=\dimen256
+\totwidth@=\dimen257
+\lineht@=\dimen258
+\@envbody=\toks27
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+>>>>>>> Stashed changes
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks27
-\thm@bodyfont=\toks28
-\thm@headfont=\toks29
-\thm@notefont=\toks30
-\thm@headpunct=\toks31
-\thm@preskip=\skip68
-\thm@postskip=\skip69
-\thm@headsep=\skip70
-\dth@everypar=\toks32
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks29
+\thm@bodyfont=\toks30
+\thm@headfont=\toks31
+\thm@notefont=\toks32
+\thm@headpunct=\toks33
+\thm@preskip=\skip69
+\thm@postskip=\skip70
+\thm@headsep=\skip71
+\dth@everypar=\toks34
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -298,10 +396,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
-Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/ztmcm/m/n on input line 28.
@@ -345,12 +443,18 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/ztmcm/m/n --> OMX/txex/bx/n on input line 88.
 LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 92.
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+>>>>>>> Stashed changes
 \symboldoperators=\mathgroup9
 \symboldletters=\mathgroup10
 \symboldsymbols=\mathgroup11
 \symboldlargesymbols=\mathgroup12
+<<<<<<< Updated upstream
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
@@ -362,16 +466,33 @@ Package color Info: Driver file: dvips.def on input line 147.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
 File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+=======
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/bx/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/m/it, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 149.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def
+>>>>>>> Stashed changes
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2022/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
+<<<<<<< Updated upstream
 \labelindent=\skip71
 \enit@outerparindent=\dimen196
 \enit@toks=\toks33
@@ -478,28 +599,124 @@ Package: layout 2014/10/28 v1.2c Show layout parameters
 \PositionY=\count331
 \ArrowLength=\count332
 )) (/usr/share/texlive/texmf-dist/tex/latex/nag/nag.sty
+=======
+\labelindent=\skip72
+\enit@outerparindent=\dimen259
+\enit@toks=\toks35
+\enit@inbox=\box78
+\enit@count@id=\count293
+\enitdp@description=\count294
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-11-16 v3.1.10 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen260
+\l__siunitx_angle_marker_box=\box79
+\l__siunitx_angle_unit_box=\box80
+\l__siunitx_compound_count_int=\count295
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+\l__siunitx_number_exponent_fixed_int=\count297
+\l__siunitx_number_min_decimal_int=\count298
+\l__siunitx_number_min_integer_int=\count299
+\l__siunitx_number_round_precision_int=\count300
+\l__siunitx_number_group_first_int=\count301
+\l__siunitx_number_group_size_int=\count302
+\l__siunitx_number_group_minimum_int=\count303
+\l__siunitx_table_tmp_box=\box81
+\l__siunitx_table_tmp_dim=\dimen261
+\l__siunitx_table_column_width_dim=\dimen262
+\l__siunitx_table_integer_box=\box82
+\l__siunitx_table_decimal_box=\box83
+\l__siunitx_table_before_box=\box84
+\l__siunitx_table_after_box=\box85
+\l__siunitx_table_before_dim=\dimen263
+\l__siunitx_table_carry_dim=\dimen264
+\l__siunitx_unit_tmp_int=\count304
+\l__siunitx_unit_position_int=\count305
+\l__siunitx_unit_total_int=\count306
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+Excluding comment 'comment') (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2021-03-10 v1.2e Show layout parameters
+\oneinch=\count307
+\cnt@paperwidth=\count308
+\cnt@paperheight=\count309
+\cnt@hoffset=\count310
+\cnt@voffset=\count311
+\cnt@textheight=\count312
+\cnt@textwidth=\count313
+\cnt@topmargin=\count314
+\cnt@oddsidemargin=\count315
+\cnt@evensidemargin=\count316
+\cnt@headheight=\count317
+\cnt@headsep=\count318
+\cnt@marginparsep=\count319
+\cnt@marginparwidth=\count320
+\cnt@marginparpush=\count321
+\cnt@footskip=\count322
+\fheight=\count323
+\ref@top=\count324
+\ref@hoffset=\count325
+\ref@voffset=\count326
+\ref@head=\count327
+\ref@body=\count328
+\ref@foot=\count329
+\ref@margin=\count330
+\ref@marginwidth=\count331
+\ref@marginpar=\count332
+\Interval=\count333
+\ExtraYPos=\count334
+\PositionX=\count335
+\PositionY=\count336
+\ArrowLength=\count337
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/nag/nag.sty
+>>>>>>> Stashed changes
 Package: nag 2011/11/25 0.7 warning about old commands (ulmi)
-\c@nag@c=\count333
-\c@nag@sins=\count334
+\c@nag@c=\count338
+\c@nag@sins=\count339
 Package nag Info: Loaded nag-l2tabu.cfg  on input line 552.
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/nag/nag-l2tabu.cfg
 File: nag-l2tabu.cfg 2010/05/17 v2.11 l2tabu rules for nag.sty (ulmi)
 )
 Package nag Info: Loaded nag-orthodox.cfg  on input line 552.
  (/usr/share/texlive/texmf-dist/tex/latex/nag/nag-orthodox.cfg
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/nag/nag-l2tabu.cfg
+File: nag-l2tabu.cfg 2010/05/17 v2.11 l2tabu rules for nag.sty (ulmi)
+)
+Package nag Info: Loaded nag-orthodox.cfg  on input line 552.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/nag/nag-orthodox.cfg
+>>>>>>> Stashed changes
 File: nag-orthodox.cfg 2006/04/19 v1.8 strict rules for nag.sty (ulmi)
-)) (/usr/share/texlive/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty
 Package: onlyamsmath 2016/12/18 v0.20 Destroy the standard math environments
-) (/usr/share/texlive/texmf-dist/tex/latex/sttools/flushend.sty
-Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
-\flushend@@lastskip@a=\skip76
-\flushend@@lastskip@b=\skip77
-\flushend@@lastskip@c=\skip78
-\flushend@@penalty@a=\count335
-\flushend@@lastkern@a=\dimen265
-\var@@temp@spread=\dimen266
-\var@@temp@a=\dimen267
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/sttools/flushend.sty
+Package: flushend 2021/10/04 v4.0 Balancing columns in twocolumn mode
+\flushend@@lastskip@a=\skip73
+\flushend@@lastskip@b=\skip74
+\flushend@@lastnode=\count340
+\var@@loop@iter=\count341
+\var@@temp@spread=\dimen265
+\var@@temp@a=\dimen266
+\var@@temp@loop=\dimen267
 \flushend@@page@rule=\dimen268
+<<<<<<< Updated upstream
 \flushend@@varbox@a=\box82
 \flushend@@varbox@c=\box83
 \flushend@@tempbox@a=\box84
@@ -513,16 +730,45 @@ Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count336
 )) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+=======
+\flushend@@varbox@lastpage=\box86
+\flushend@@varbox@a=\box87
+\flushend@@varbox@c=\box88
+\flushend@@tempbox@a=\box89
+\flushend@@tempbox@c=\box90
+\flushend@@floatbox=\box91
+\@viper=\box92
+\hold@viper=\box93
+\atColsBreak=\toks36
+\atColsEnd=\toks37
+\oldbreak@skip=\dimen269
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+>>>>>>> Stashed changes
 
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count337
-\c@continuedfloat=\count338
+\c@caption@flags=\count342
+\c@continuedfloat=\count343
 Package caption Info: float package is loaded.
 Package caption Info: threeparttable package is loaded.
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 26.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 26.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2022-10-26 L3 backend support: dvips
+\l__pdf_internal_box=\box94
+\g__pdf_backend_object_int=\count344
+\l__pdf_backend_content_box=\box95
+\l__pdf_backend_model_box=\box96
+\g__pdf_backend_annotation_int=\count345
+\g__pdf_backend_link_int=\count346
+\g__pdf_backend_link_sf_int=\count347
 ) (out/tc-sympo-sample.aux)
 \openout1 = `tc-sympo-sample.aux'.
 
@@ -544,6 +790,7 @@ LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
+<<<<<<< Updated upstream
  (I search kanjifont definition file: . . ) (I search font definition file: . . . . . . . )
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -556,7 +803,15 @@ Package caption Info: End \AtBeginDocument code.
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+=======
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+>>>>>>> Stashed changes
 )
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 26.
 Package nag Info: Attempting subfig hack.
 Package nag Info: OK, equivalent to subfig 1.3, redefining \sf@@@subfloat.
 Package nag Info: Command \frontmatter not defined, skipping amendment on input line 26.
@@ -568,6 +823,7 @@ Package nag Info: Command \captionabove not defined, skipping amendment on input
 Package nag Info: Command \captionbelow not defined, skipping amendment on input line 26.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input line 26.
 Package nag Info: Command \topcaption not defined, skipping amendment on input line 26.
+<<<<<<< Updated upstream
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -622,6 +878,8 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 2
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+=======
+>>>>>>> Stashed changes
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 15.9785pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -674,16 +932,52 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <9> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 8.32214pt on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 6.47278pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 27.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <12> not available
 (Font)              Font shape `JT2/mc/bx/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
@@ -697,7 +991,11 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 33.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 47.
+<<<<<<< Updated upstream
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+=======
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+>>>>>>> Stashed changes
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <10> not available
@@ -723,6 +1021,16 @@ File: fig/boxkai.pdf Graphic file (type pdf)
 <fig/boxkai.pdf>
 File: fig/box2kai.pdf Graphic file (type pdf)
 <fig/box2kai.pdf>
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.84264pt on input line 99.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 99.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
 
 Overfull \hbox (4.55042pt too wide) in paragraph at lines 99--101
  [][] 
@@ -783,15 +1091,21 @@ File: fig/seg-only.pdf Graphic file (type pdf)
 File: fig/dist220.pdf Graphic file (type pdf)
 <fig/dist220.pdf>
 [3]
+<<<<<<< Updated upstream
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 286.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+=======
+>>>>>>> Stashed changes
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 286.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 286.
-
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 286.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
@@ -813,13 +1127,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--330
  []
 
 No complaints by nag.
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
 - LAST -
-Extra skip:68.10956pt
+Extra skip:66.67763pt
 Left:624.76047pt/1.1096pt
-Right:556.32858pt/1.43193pt
-Output:624.6642pt
+Right:557.76051pt/1.43193pt
+Split: 625.38016pt
+Output:625.38016pt
+Pageshrink: 0.0pt
+Pagestretch: 0.0pt
+@colht:794.68265pt
+FLUSHEND [output]: 625.38016pt
+FLUSHEND [leftcolumn badness]: 642
+FUSHEND [rightcolumn badness]: 10000
 [4] (out/tc-sympo-sample.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  9432 strings out of 481765
  174955 string characters out of 5933692
  437674 words of memory out of 5000000
@@ -829,3 +1217,14 @@ Here is how much of TeX's memory you used:
  62i,10n,56p,1964b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on out/tc-sympo-sample.dvi (4 pages, 29144 bytes).
+=======
+ 11465 strings out of 475419
+ 241092 string characters out of 5787993
+ 585252 words of memory out of 5000000
+ 32992 multiletter control sequences out of 15000+600000
+ 534376 words of font info for 178 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 86i,10n,91p,1983b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on out/tc-sympo-sample.dvi (4 pages, 29128 bytes).
+>>>>>>> Stashed changes
