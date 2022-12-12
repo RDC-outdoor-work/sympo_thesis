@@ -131,20 +131,20 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 
 % \newpage
 \begin{itemize}
-  \item [①]alphaが0でない場合\par
-  2D-LiDARを用いた自律走行を行う. システム構成は以下に示す. 
+  \item [①]alpha > 0の場合\par
+  2D-LiDARを用いた自律走行を行う. システム構成を以下に示す. 
   \begin{itemize}
     \item 外界センサ: 2D-LiDAR
     \item 自己位置推定パッケージ: emcl2
     \item global planner: A*
     \item local planner: dwa\_local\_planner
-    \item 地図作成: Google Cartographer
+    \item map: Google Cartographer
     \begin{itemize}
       \item resolution: 0.15[m/pixel]
       \item 確認走行エリア, 駅周辺, 公園エリアのそれぞれで作成した地図を合成
     \end{itemize}
   \end{itemize}
-  \item [②]alpha = 0が3秒続いた場合\\
+  \item [②]alpha = 0が3秒以上続いた場合\\
   カメラ画像からセマンティックセグメンテーション\cite{Deeplab}により走行可能領域を抽出, 行動生成を行う. 学習に使用するデータセットは, Cityscapes Dataset\cite{cityscapes}(5000枚), 千葉工業大学 津田沼キャンパス(66枚), モデルはDeepLabV3Plus-MobileNetで学習を行う.
 \end{itemize}
 
