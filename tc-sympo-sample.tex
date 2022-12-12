@@ -5,20 +5,22 @@
 \usepackage{caption}
 \usepackage{graphicx}
 \usepackage{amssymb, amsmath}
+\captionsetup[table]{justification=centering}
+\captionsetup[figure]{justification=centering}
 
 % タイトル
 \title{つくばチャレンジ2022における\\千葉工業大学未来ロボティクス学科ORNEチームの取り組み}
 
 \author{○藤原 柾, 清岡 優祐, 大塚 竜征, 石 涛, 春山 健太, 井口 颯人, 髙橋 祐樹, 白須 和暉, 野村 駿斗, 桜井 真希\newline 上田 隆一, 林原 靖男 （千葉工大）}
 
-\etitle{The activities of the ORNE team of the Department of Future Robotics at Chiba Institute of Technology in the Tsukuba Challenge 2022}
+\etitle{The activities of the Advanced Robotics Department ORNE team of Chiba Institute of Technology in the Tsukuba Challenge 2022}
 
 \eauthor{Masaki FUJIWARA, Yusuke KIYOOKA, Ryusei OTSUKA, Tao SHI, Kenta HARUYAMA, Hayato IGUCHI, Yuki TAKAHASHI, Kazuki SHIRASU, Hayato NOMURA, Maki SAKURAI, \newline Ryuichi UEDA and Yasuo HAYASHIBARA (CIT)}
 
 \affiliation{千葉工業大学未来ロボティクス学科}
 
 \abstract{
-  In this paper, we present the activities of the ORNE team of the Department of Future Robotics at Chiba Institute of Technology in the Tsukuba Challenge 2022. Our team develops autonomous outdoor mobile robots, and we are currently tackling several challenges. For example, the development of a new robot, driving using semantic segmentation, and recovery of kidnapped state by combining expansion resetting. We will report the results of these efforts.
+  In this paper, we present The activities of the Advanced Robotics Department ORNE team of Chiba Institute of Technology in the Tsukuba Challenge 2022. We develops autonomous outdoor mobile robots, and we are currently tackled several challenges. For example, the development of a new robot, driving using semantic segmentation, and recovery of kidnapped state by combining expansion resetting. We will report the results of these efforts.
 }
 
 % \keywords{\LaTeXe, Class File, Proceedings}
@@ -138,7 +140,7 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
     \item 自己位置推定パッケージ: emcl2
     \item global planner: A*
     \item local planner: dwa\_local\_planner
-    \item map: Google Cartographer
+    \item map:
     \begin{itemize}
       \item resolution: 0.15[m/pixel]
       \item 確認走行エリア, 駅周辺, 公園エリアのそれぞれで作成した地図を合成
@@ -196,7 +198,7 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 \end{table}
 
 \newpage
-切り替えの確認の様子を\figref{fig:switch-mode}に示す. (a):パーティクル拡散前は2D-LiDARを用いて走行し, (b):パーティクル拡散時, カメラ画像を入力とした深層学習の出力で走行している. その後, (c):パーティクルの収束後では, 再び2D-LiDARを用いた走行に切り替わっている. これらから, 2つの走行方法の切り替えにより, \figref{fig:tsudanuma}で示した経路をコースアウトすることなく走行することができた. 
+切り替えの確認の様子を\figref{fig:switch-mode}に示す. (a)パーティクル拡散前は2D-LiDARを用いて走行し, (b)パーティクル拡散時, カメラ画像を入力とした深層学習の出力で走行している. その後, (c)パーティクルの収束後では, 再び2D-LiDARを用いた走行に切り替わっている. これらから, 2つの走行方法の切り替えにより, \figref{fig:tsudanuma}で示した経路をコースアウトすることなく走行することができた. 
 
 \begin{figure}[h]
   \centering
@@ -225,7 +227,7 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 
 \newpage
 \subsubsection{本走行の結果}
-2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアした. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになった. そのため, \figref{fig:kidnapped}の真の姿勢である青点とパーティクルが離れていることから, 誘拐状態\footnote[3]{真の姿勢の周囲にパーティクルが存在しない状態}\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において\figref{fig:seg-only}のようにカメラ画像のみを用いた自律走行で\figref{fig:dist220}に示す経路(220m)を走行することができた. なお, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
+2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアした. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになった. そのため, \figref{fig:kidnapped}の真の姿勢である青点とパーティクルが離れていることから, 誘拐状態\footnote[3]{真の姿勢の周囲にパーティクルが存在しない状態}\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において\figref{fig:seg-only}のようにカメラ画像のみを用いた自律走行で\figref{fig:dist220}に示す経路(220m)を走行することを確認した. なお, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
 
 \begin{figure}[h]
   \centering
@@ -270,6 +272,8 @@ ORNE-box2の本走行の記録は, 一時停止位置で停止できなかった
 
 \section{おわりに}
 本稿では,千葉工業大学未来ロボティクス学科ORNEチームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
+
+\section{謝辞}
 
 % \newpage
 
