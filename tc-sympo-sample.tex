@@ -11,7 +11,7 @@
 
 \author{○藤原 柾, 清岡 優祐, 大塚 竜征, 石 涛, 春山 健太, 井口 颯人, 髙橋 祐樹, 白須 和暉, 野村 駿斗, 桜井 真希\newline 上田 隆一, 林原 靖男 （千葉工大）}
 
-\etitle{Development Activity of Advanced Robotics Department Team of Chiba Institute of Technology at Tsukuba Challenge 2022}
+\etitle{The activities of the ORNE team of the Department of Future Robotics at Chiba Institute of Technology in the Tsukuba Challenge 2022}
 
 \eauthor{Masaki FUJIWARA, Yusuke KIYOOKA, Ryusei OTSUKA, Tou SEKI, Kenta HARUYAMA, Hayato IGUCHI, Yuki TAKAHASHI, Kazuki SHIRASU, Hayato NOMURA, Maki SAKURAI, \newline Ryuichi UEDA and Yasuo HAYASHIBARA (CIT)}
 
@@ -49,7 +49,7 @@
 \end{itemize}
 
 \subsection{ハードウェア}
-次に, 各ロボットの外観を\figref{fig:orne-series}, ハードウェア構成を\tableref{tb:hardware}に示す. これらのロボットはi-Cart mini, i-Cart middleをベースにしている.
+次に, ORNE-Seriesの外観を\figref{fig:orne-series}, ハードウェア構成を\tableref{tb:hardware}に示す. これらのロボットはi-Cart mini, i-Cart middleをベースにしている.
 
 \begin{figure}[h]
   \centering
@@ -145,18 +145,18 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
     \end{itemize}
   \end{itemize}
   \item [②]alpha = 0が3秒続いた場合\\
-  カメラ画像を入力とした深層学習の出力で自律走行し, セマンティックセグメンテーション\cite{Deeplab}により走行可能領域を抽出, 行動生成を行う. \\
+  カメラ画像からセマンティックセグメンテーション\cite{Deeplab}により走行可能領域を抽出, 行動生成を行う. 学習に使用するデータセットは, Cityscapes Dataset\cite{cityscapes}(5000枚), 千葉工業大学 津田沼キャンパス(66枚), モデルはDeepLabV3Plus-MobileNetで学習を行う.
 \end{itemize}
 
   \newpage
   \begin{enumerate}
     \item 走行可能領域の検出\\
   % カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 
-  走行可能領域を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
+  \figref{fig:seg_runarea}の左の元画像から前述のモデルを通して, \figref{fig:seg_runarea}の中央の画像を獲得する. 次に, 走行可能領域を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
   \begin{figure}[h]
     \centering
     \includegraphics[width=100mm]{fig/tsukuba-seg.pdf}
-    \caption{The left image uses semantic segmentation, and the right image shows the extracted driving area as a result}
+    \caption{The left image is the original image, the center image is the image processed by semantic segmentation, and the right image is the image from which the runnable area is extracted}
     \label{fig:seg_runarea}%\vspace*{-2mm}
   \end{figure}
   % \newpage
@@ -170,8 +170,8 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
   \end{figure}
 \end{enumerate}
 
-\subsubsection{実験}
-次に, 2つの走行方法を切り替える手法の有効性を検証するため, 千葉工業大学 津田沼キャンパスにおいて\figref{fig:tsudanuma}に示す経路で実験を行う. 学習に使用したデータセットは, Cityscapes Dataset\cite{cityscapes}(5000枚), 千葉工業大学 津田沼キャンパス(66枚), モデルはDeepLabV3Plus-MobileNetで学習を行った. また, 使用したPCのスペックを\tableref{table:pc}に示す. 
+\subsubsection{切り替えの確認}
+次に, 2つの走行方法を切り替える手法の有効性を検証するため, 千葉工業大学 津田沼キャンパスにおいて\figref{fig:tsudanuma}に示す経路で実験を行う. また, 使用したPCのスペックを\tableref{table:pc}に示す. 
 
 \begin{figure}[h]
   \centering
