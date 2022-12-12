@@ -1,11 +1,11 @@
 # Fdb version 3
-["dvipdf"] 1670837809 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670837863
-  "out/tc-sympo-sample.dvi" 1670837809 29012 72bf1876ea875d7056a3ae31519474ee "latex"
+["dvipdf"] 1670837956 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670837960
+  "out/tc-sympo-sample.dvi" 1670837956 29028 8c6057b8fd4d5c989781f6f0bdbaadd2 "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670837808 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670837863
+["latex"] 1670837954 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670837960
   "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670837808 22190 43a5e05ae1191e1cc3b1285f6ba2c4aa ""
+  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670837954 22196 b4a559e3f18a47822abdf7832a5147dc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -131,9 +131,9 @@
   "fig/tsudanuma-seg.pdf" 1670825397 413444 5193f5d8899f156d543c083bdadea35d ""
   "fig/tsukuba-seg.pdf" 1670825397 1196706 adb23062ca0327822b84cbd104459e45 ""
   "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670837809 4403 ee1d1542ec14d9c76a306b6a63f85a4a "latex"
-  "tc-sympo-sample.tex" 1670837808 22190 43a5e05ae1191e1cc3b1285f6ba2c4aa ""
+  "out/tc-sympo-sample.aux" 1670837956 4403 ee1d1542ec14d9c76a306b6a63f85a4a "latex"
+  "tc-sympo-sample.tex" 1670837954 22196 b4a559e3f18a47822abdf7832a5147dc ""
   (generated)
   "out/tc-sympo-sample.dvi"
-  "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.aux"
+  "out/tc-sympo-sample.log"
