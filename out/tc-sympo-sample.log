@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  12 DEC 2022 18:46
-=======
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  12 DEC 2022 18:48
->>>>>>> Stashed changes
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  12 DEC 2022 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,8 +828,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  62i,10n,56p,1964b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-<<<<<<< Updated upstream
-Output written on out/tc-sympo-sample.dvi (4 pages, 29160 bytes).
-=======
-Output written on out/tc-sympo-sample.dvi (4 pages, 29012 bytes).
->>>>>>> Stashed changes
+Output written on out/tc-sympo-sample.dvi (4 pages, 29144 bytes).
