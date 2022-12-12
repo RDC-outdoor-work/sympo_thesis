@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.12.6)  12 DEC 2022 19:12
+=======
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2022.12.1)  12 DEC 2022 19:14
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -67,6 +71,7 @@ File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 \Gin@req@width=\dimen163
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@tempdima=\dimen164
@@ -77,6 +82,18 @@ Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@indent=\dimen169
 \caption@parindent=\dimen170
 \caption@hangindent=\dimen171
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+>>>>>>> Stashed changes
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \leftskip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionskip \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \centering \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 1176.
@@ -123,6 +140,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \bigstrutjot=\dimen186
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen187
@@ -132,6 +150,17 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip58
 \backup@length=\skip59
 \ar@cellbox=\box70
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen180
+\ar@mcellbox=\box62
+\extrarowheight=\dimen181
+\NC@list=\toks16
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box63
+>>>>>>> Stashed changes
 )
 \TX@col@width=\dimen189
 \TX@old@table=\dimen190
@@ -142,6 +171,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@ftn=\toks19
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/eqparbox/eqparbox.sty
 Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
+<<<<<<< Updated upstream
 \eqp@tempdima=\skip60
 \eqp@tempdimb=\skip61
 \eqp@tabular@box=\box71
@@ -150,6 +180,16 @@ Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
 (/usr/local/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+=======
+\eqp@tempdima=\skip59
+\eqp@tempdimb=\skip60
+\eqp@tabular@box=\box64
+\eqp@list@box=\box65
+\eqp@list@indent=\skip61
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+>>>>>>> Stashed changes
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks20
@@ -158,7 +198,11 @@ Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box73
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+>>>>>>> Stashed changes
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count272
 \float@exts=\toks21
@@ -172,7 +216,11 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \c@algorithm=\count273
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+>>>>>>> Stashed changes
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count274
@@ -191,9 +239,15 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip66
 For additional information on amsmath, use the `?' option.
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+>>>>>>> Stashed changes
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks24
 \ex@=\dimen194
@@ -252,7 +306,11 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+>>>>>>> Stashed changes
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
@@ -353,8 +411,13 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/ztmcm/m/n --> OMX/txex/bx/n on input line 88.
 LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 92.
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+>>>>>>> Stashed changes
 \symboldoperators=\mathgroup9
 \symboldletters=\mathgroup10
 \symboldsymbols=\mathgroup11
@@ -472,11 +535,19 @@ Package: nag 2011/11/25 0.7 warning about old commands (ulmi)
 \c@nag@c=\count338
 \c@nag@sins=\count339
 Package nag Info: Loaded nag-l2tabu.cfg  on input line 552.
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/nag/nag-l2tabu.cfg
 File: nag-l2tabu.cfg 2010/05/17 v2.11 l2tabu rules for nag.sty (ulmi)
 )
 Package nag Info: Loaded nag-orthodox.cfg  on input line 552.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/nag/nag-orthodox.cfg
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/nag/nag-l2tabu.cfg
+File: nag-l2tabu.cfg 2010/05/17 v2.11 l2tabu rules for nag.sty (ulmi)
+)
+Package nag Info: Loaded nag-orthodox.cfg  on input line 552.
+(/usr/share/texlive/texmf-dist/tex/latex/nag/nag-orthodox.cfg
+>>>>>>> Stashed changes
 File: nag-orthodox.cfg 2006/04/19 v1.8 strict rules for nag.sty (ulmi)
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/onlyamsmath/onlyamsmath.sty
 Package: onlyamsmath 2016/12/18 v0.20 Destroy the standard math environments
@@ -490,6 +561,7 @@ Package: flushend 2021/10/04 v4.0 Balancing columns in twocolumn mode
 \var@@temp@a=\dimen266
 \var@@temp@loop=\dimen267
 \flushend@@page@rule=\dimen268
+<<<<<<< Updated upstream
 \flushend@@varbox@lastpage=\box86
 \flushend@@varbox@a=\box87
 \flushend@@varbox@c=\box88
@@ -503,6 +575,21 @@ Package: flushend 2021/10/04 v4.0 Balancing columns in twocolumn mode
 \oldbreak@skip=\dimen269
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+=======
+\flushend@@varbox@a=\box82
+\flushend@@varbox@c=\box83
+\flushend@@tempbox@a=\box84
+\flushend@@tempbox@c=\box85
+\@viper=\box86
+\hold@viper=\box87
+\atColsBreak=\toks34
+\atColsEnd=\toks35
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count336
+)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+>>>>>>> Stashed changes
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
@@ -547,6 +634,14 @@ LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
+<<<<<<< Updated upstream
+=======
+(I search kanjifont definition file: . . ) (I search font definition file: . . . . . . . )
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 26.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+>>>>>>> Stashed changes
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -676,7 +771,11 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 33.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 47.
+<<<<<<< Updated upstream
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+>>>>>>> Stashed changes
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <10> not available
@@ -887,6 +986,12 @@ Here is how much of TeX's memory you used:
  32992 multiletter control sequences out of 15000+600000
  534376 words of font info for 178 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
  86i,10n,91p,1983b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on out/tc-sympo-sample.dvi (4 pages, 29268 bytes).
+=======
+ 62i,10n,56p,1978b,694s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/tc-sympo-sample.dvi (4 pages, 29264 bytes).
+>>>>>>> Stashed changes
