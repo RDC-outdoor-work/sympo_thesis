@@ -225,7 +225,7 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 
 \newpage
 \subsubsection{本走行の結果}
-2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, \figref{fig:kidnapped}に示すように, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において切り替えを行わずカメラ画像のみを用いた自律走行では220m走行することができた. また, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
+2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアとなった. これは歩行者などによりランドマークが隠されたことで, \figref{fig:kidnapped}に示すように, 自己位置推定の結果が不確かになり, 真の姿勢の周囲にパーティクルが存在しない状態である誘拐状態\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において切り替えを行わずカメラ画像のみを用いた自律走行(\figref{fig:seg-only})では\figref{fig:dist220}に示す経路(220m)走行することができた. また, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
 
 \begin{figure}[h]
   \centering
@@ -241,7 +241,14 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
   \label{fig:seg-only}%\vspace*{-2mm}
 \end{figure}
 
-% \newpage
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=80mm]{fig/dist220.pdf}
+  \caption{Created by processing electronic topographic map 1875 (GSI)}
+  \label{fig:dist220}%\vspace*{-2mm}
+\end{figure}
+
+\newpage
 \subsection{ORNE-box, ORNE-box2}
 屋外で自律移動させるためには防水が必要となるが, 防水性を担保しながらロボットの機構や電気回路の追加・変更を行うことは多くの時間を要する. これにより, 本来研究として実施する新しいアルゴリズムの開発や検証に十分な時間を割り当てられず問題となっていた. このような問題に対して, 屋外自律移動ロボットプラットフォームORNE-boxの開発\cite{si-box}を行ってきた．このロボットは屋外での自律走行を目的としており，屋外自律走行の研究開発に必要な機能をパッケージ化し提供することを目標に開発を行っている．現在はウェブページ上\cite{box}にて設計データなどを順次公開している. \par 
 ORNE-box2においては, ORNE-boxにおける問題を洗い出し改善を図るという方針のもと, 今年度から開発を行っている．センサ構成などに差異はあるが，基本的なシステム構成は同じである．
@@ -284,7 +291,6 @@ Robot Design and Control Lab, openrdc orne\_navigation リポジトリ\\
 \bibitem{end-to-end}
 岡田 眞也, 清岡 優祐, 春山 健太, 上田 隆一, 林原 靖男: ``視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案-“経路追従行動の修正のためにデータセットを動的に追加する手法の検討'', \textit{計測自動制御学会 SI 部門講演会 SICE-SI2021 予稿集}, pp.1066-1070, 2021.
 
-\newpage
 \bibitem{emcl2-git}
 ryuichiueda, emcl2 リポジトリ\\
 \url{https://github.com/ryuichiueda/emcl2}\\

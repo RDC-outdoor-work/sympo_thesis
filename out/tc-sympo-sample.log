@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.12.6)  12 DEC 2022 16:42
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.12.6)  12 DEC 2022 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,69 +772,115 @@ Overfull \hbox (0.52977pt too wide) in paragraph at lines 232--233
 
 File: fig/seg-only.pdf Graphic file (type pdf)
 <fig/seg-only.pdf>
+File: fig/dist220.pdf Graphic file (type pdf)
+<fig/dist220.pdf>
 [3]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 271.
+(Font)              scaled to size 7.39746pt on input line 278.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 271.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 271.
+(Font)              scaled to size 7.39746pt on input line 278.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 278.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 285.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 285.
-LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 285.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 285.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--305
+LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <8> not available
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 292.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 292.
+LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <8> not available
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 292.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 292.
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--311
 []$\T1/lmtt/m/n/8 https : / / docs . opencv . org / 4 . x / d9 / d61 / tutorial _ py _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--316
+Underfull \hbox (badness 10000) in paragraph at lines 319--322
 []$\T1/lmtt/m/n/8 https : / / github . com / Tsumoridesu / deeplabv3 _ plus _ pytorch _
  []
 
 No complaints by nag.
-[leftcolumn badness]: 1000000 on 22.00027pt
-[rightcolumn badness]: 1000000 on 22.00027pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
-[leftcolumn badness]: 1000000 on 0.14827pt
-[rightcolumn badness]: 1000000 on 0.14827pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
+[leftcolumn badness]: 1000000 on 41.3221pt
+[rightcolumn badness]: 1000000 on 41.3221pt
 - LAST -
-Extra skip:22.34557pt
-Left:452.76038pt/1.77777pt
-Right:430.76065pt/1.43193pt
-Split: 452.88019pt
-Output:452.88019pt
+Extra skip:66.67763pt
+Left:624.76047pt/1.1096pt
+Right:557.76051pt/1.43193pt
+Split: 625.38016pt
+Output:625.38016pt
 Pageshrink: 0.0pt
 Pagestretch: 0.0pt
 @colht:794.68265pt
-FLUSHEND [output]: 452.88019pt
-FLUSHEND [leftcolumn badness]: 2
+FLUSHEND [output]: 625.38016pt
+FLUSHEND [leftcolumn badness]: 642
 FUSHEND [rightcolumn badness]: 10000
 [4] (out/tc-sympo-sample.aux)
 
@@ -842,12 +888,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11460 strings out of 475419
- 240979 string characters out of 5787993
- 579243 words of memory out of 5000000
- 32988 multiletter control sequences out of 15000+600000
+ 11466 strings out of 475419
+ 241088 string characters out of 5787993
+ 585252 words of memory out of 5000000
+ 32993 multiletter control sequences out of 15000+600000
  534376 words of font info for 178 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  86i,10n,91p,1983b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/tc-sympo-sample.dvi (4 pages, 28608 bytes).
+Output written on out/tc-sympo-sample.dvi (4 pages, 28968 bytes).

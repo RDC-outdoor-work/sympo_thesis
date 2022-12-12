@@ -889,6 +889,10 @@ INPUT ./fig/seg-only.pdf
 INPUT ./fig/seg-only.pdf
 INPUT fig/seg-only.pdf
 INPUT extractbb -B cropbox -O fig/seg-only.pdf
+INPUT ./fig/dist220.pdf
+INPUT ./fig/dist220.pdf
+INPUT fig/dist220.pdf
+INPUT extractbb -B cropbox -O fig/dist220.pdf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
