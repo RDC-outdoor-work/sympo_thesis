@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 PWD /home/fmasa/sympo_thesis
+=======
+PWD /home/y-takahashi/tex_lib/sympo_thesis
+>>>>>>> Stashed changes
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -6,7 +10,11 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/euptex/uplatex.fmt
+<<<<<<< Updated upstream
 INPUT /home/fmasa/sympo_thesis/tc-sympo-sample.tex
+=======
+INPUT /home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex
+>>>>>>> Stashed changes
 OUTPUT out/tc-sympo-sample.log
 INPUT jsproceedings.cls
 INPUT jsproceedings.cls
