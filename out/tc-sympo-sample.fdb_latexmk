@@ -1,21 +1,11 @@
 # Fdb version 3
-<<<<<<< Updated upstream
-["dvipdf"] 1670849960 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670850012
-  "out/tc-sympo-sample.dvi" 1670850010 29588 34fa2d6140d1a7f43397e68361cf6c66 "latex"
+["dvipdf"] 1671007619 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1671007741
+  "out/tc-sympo-sample.dvi" 1671007619 29448 486d19cdbbe420476276a5ae41dd8c2f "latex"
   (generated)
   "out/tc-sympo-sample.pdf"
-["latex"] 1670849958 "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670850012
-  "/etc/texmf/web2c/texmf.cnf" 1669899351 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fmasa/sympo_thesis/tc-sympo-sample.tex" 1670850010 22683 3ca0e2671bab1265d4b40f030d2a1524 ""
-=======
-["dvipdf"] 1670850273 "out/tc-sympo-sample.dvi" "out/tc-sympo-sample.pdf" "out/tc-sympo-sample" 1670850278
-  "out/tc-sympo-sample.dvi" 1670850273 29092 36d4d655a3a85cf7f288817e70f87f60 "latex"
-  (generated)
-  "out/tc-sympo-sample.pdf"
-["latex"] 1670850272 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1670850278
+["latex"] 1671007618 "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" "out/tc-sympo-sample.dvi" "tc-sympo-sample" 1671007741
   "/etc/texmf/web2c/texmf.cnf" 1669897342 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1670850272 22334 e605470ae087fa7369426afaee329af2 ""
->>>>>>> Stashed changes
+  "/home/y-takahashi/tex_lib/sympo_thesis/tc-sympo-sample.tex" 1671007741 22549 4b346d869fbdc3672f73baf4bc57cb4a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1136768653 6880 f19b8995b61c334d78fc734065f6b4d4 ""
@@ -125,32 +115,12 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmtt.fd" 1256929440 2712 a8a977c98484ccc2dbc768e5509e3790 ""
   "/usr/share/texmf/tex/latex/lm/t1lmtt.fd" 1256929440 2681 354015af3b61e7be30009f084986375a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
-<<<<<<< Updated upstream
-  "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669899415 10607293 64c947c4c5ca761b13c70a9baea7f1c9 ""
-  "fig/alpha.pdf" 1670231629 34129 e512bd70ba514efe173ce5013fba808b ""
-  "fig/box2kai.pdf" 1670570424 653800 4420c5c62929239a8949d435809a5c48 ""
-  "fig/boxkai.pdf" 1670570424 863164 31bc6f7b6c2fd340cf690691bfaede65 ""
-  "fig/dist220.pdf" 1670834425 90892 67b56612514d6fcf242f06a6eb2ba19a ""
-  "fig/kidnapped5.pdf" 1670837055 805237 4aafc8ff8e7fee7d8dc877571c80c737 ""
-  "fig/seg-only.pdf" 1670825397 2093866 6026a6a17b47e3e9eed7946fecf027a0 ""
-  "fig/seg.pdf" 1670833672 57919 33924795a17b3092ff4d1114a03deeed ""
-  "fig/software.pdf" 1670231629 50542 58062449ad6bc1dddfd4cd8eede25274 ""
-  "fig/switch-mode1.pdf" 1670386620 1178495 1a06e3b6d1ca39b99f5f0ab70d67dc7b ""
-  "fig/switch-mode2.pdf" 1670386620 1625778 4439ecfb78e06e374baa7d3538208647 ""
-  "fig/switch-mode3.pdf" 1670386620 1155579 b2a0016edf8bea9ee9c294fd8e0f7ec3 ""
-  "fig/switching3.pdf" 1670737425 96549 88ec41c50a9e5e271fd7471ebe64ebfb ""
-  "fig/tsudanuma-seg.pdf" 1670825397 413444 5193f5d8899f156d543c083bdadea35d ""
-  "fig/tsukuba-seg.pdf" 1670825397 1196706 adb23062ca0327822b84cbd104459e45 ""
-  "jsproceedings.cls" 1670231629 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670849960 4679 da75b2bccff726ea24c9a59219293b7d "latex"
-  "tc-sympo-sample.tex" 1670850010 22683 3ca0e2671bab1265d4b40f030d2a1524 ""
-=======
   "/var/lib/texmf/web2c/euptex/uplatex.fmt" 1669897398 10590895 8b96f5b98de13c804e222e9b44648232 ""
   "fig/alpha.pdf" 1670237898 34129 e512bd70ba514efe173ce5013fba808b ""
   "fig/box2kai.pdf" 1670503217 653800 4420c5c62929239a8949d435809a5c48 ""
   "fig/boxkai.pdf" 1670503221 863164 31bc6f7b6c2fd340cf690691bfaede65 ""
   "fig/dist220.pdf" 1670834073 90892 67b56612514d6fcf242f06a6eb2ba19a ""
-  "fig/kidnapped5.pdf" 1670837153 805237 4aafc8ff8e7fee7d8dc877571c80c737 ""
+  "fig/kidnapped-kai.pdf" 1671005722 509590 34144e08b82c7ba6ef8458c45678ef1e ""
   "fig/seg-only.pdf" 1670775867 2093866 6026a6a17b47e3e9eed7946fecf027a0 ""
   "fig/seg.pdf" 1670831845 57919 33924795a17b3092ff4d1114a03deeed ""
   "fig/software.pdf" 1670237898 50542 58062449ad6bc1dddfd4cd8eede25274 ""
@@ -161,9 +131,8 @@
   "fig/tsudanuma-seg.pdf" 1670762289 413444 5193f5d8899f156d543c083bdadea35d ""
   "fig/tsukuba-seg.pdf" 1670760910 1196706 adb23062ca0327822b84cbd104459e45 ""
   "jsproceedings.cls" 1670237898 23503 31ea80bc6a420cac8ffa562f1f435009 ""
-  "out/tc-sympo-sample.aux" 1670850273 4671 6e03821bfaf28d4518e573d171ab1d6a "latex"
-  "tc-sympo-sample.tex" 1670850272 22334 e605470ae087fa7369426afaee329af2 ""
->>>>>>> Stashed changes
+  "out/tc-sympo-sample.aux" 1671007619 4663 9a61df2ff16697c8c130fc71c4935c01 "latex"
+  "tc-sympo-sample.tex" 1671007741 22549 4b346d869fbdc3672f73baf4bc57cb4a ""
   (generated)
   "out/tc-sympo-sample.log"
   "out/tc-sympo-sample.aux"

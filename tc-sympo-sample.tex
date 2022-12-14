@@ -11,7 +11,7 @@
 % タイトル
 \title{つくばチャレンジ2022における\\千葉工業大学未来ロボティクス学科ORNEチームの取り組み}
 
-\author{○藤原 柾, 清岡 優祐, 大塚 竜征, 石 涛, 春山 健太, 井口 颯人, 髙橋 祐樹, 白須 和暉, 野村 駿斗, 桜井 真希\newline 上田 隆一, 林原 靖男 （千葉工大）}
+\author{○藤原 柾, 清岡 優祐, 大塚 竜征, 石 涛, 春山 健太, 井口 颯人, 高橋 祐樹, 白須 和暉, 野村 駿斗, 桜井 真希\newline 上田 隆一, 林原 靖男 （千葉工大）}
 
 \etitle{The activities of the Advanced Robotics Department ORNE team of Chiba Institute of Technology in the Tsukuba Challenge 2022}
 
@@ -20,7 +20,7 @@
 \affiliation{千葉工業大学未来ロボティクス学科}
 
 \abstract{
-  In this paper, we present the activities of the Advanced Robotics Department ORNE team of Chiba Institute of Technology in the Tsukuba Challenge 2022. We developed autonomous outdoor mobile robots, and we are currently tackled several challenges. For example, We developed robots using machine learning and robots that can run in the rain.
+  In this paper, we present the activities of the Advanced Robotics Department ORNE team of Chiba Institute of Technology in the Tsukuba Challenge 2022. We developed autonomous outdoor mobile robots, and we tackled several challenges. For example, We developed robots using machine learning and robots that can run in the rain.
 }
 
 % \keywords{\LaTeXe, Class File, Proceedings}
@@ -47,7 +47,7 @@
 本チームには, 開発を続けている三台のロボットORNE-α, ORNE-box\cite{si-box}, ORNE-box2がある. 各ロボットごとの開発方針は以下の通りである. 
 \begin{itemize}
   \item ORNE-α\\LiDARとカメラを用いた自律走行
-  \item ORNE-box, ORNE-box2\\3次元自己位置推定による安定した自律走行
+  \item ORNE-box, ORNE-box2\\ロボットプラットフォームORNE-boxの検証と改良
 \end{itemize}
 
 \subsection{ハードウェア}
@@ -127,7 +127,7 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 \begin{figure}[h]
   \centering
   \includegraphics[width=90mm]{fig/switching3.pdf}
-  \caption{Developed system of switching action}
+  \caption{A system of switching using the marginal likelihood alpha as an indicator}
   \label{fig:switching}%\vspace*{-2mm}
 \end{figure}
 
@@ -142,8 +142,8 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
     \item local planner: dwa\_local\_planner
     \item map
     \begin{itemize}
-      \item resolution: 0.15[m/pixel]
-      \item 確認走行エリア, 駅周辺, 公園エリアのそれぞれで作成した地図を合成
+      \item []resolution: 0.15[m/pixel]
+      \item []確認走行エリア, 駅周辺, 公園エリアのそれぞれで作成した地図を合成
     \end{itemize}
   \end{itemize}
   \item [②]alpha = 0が3秒以上続いた場合\\
@@ -154,11 +154,11 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
   \begin{enumerate}
     \item 走行可能領域の検出\\
   % カメラ画像は前述のモデルを通して, \figref{fig:seg_runarea}の左画像を獲得する. 
-  \figref{fig:seg_runarea}の左の元画像から前述のモデルを通して, \figref{fig:seg_runarea}の中央の画像を獲得する. 次に, 走行可能領域を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
+  \figref{fig:seg_runarea}の左の元画像から前述のモデルを通して, \figref{fig:seg_runarea}の中央の画像を獲得する. 次に, 走行可能領域(道)を抽出するために画像を2値化する. その後, モルフォロジー変換\cite{morphological}でノイズを除去する. 結果は\figref{fig:seg_runarea}の右画像に示す.
   \begin{figure}[h]
     \centering
     \includegraphics[width=90mm]{fig/tsukuba-seg.pdf}
-    \caption{The left image is the original image, the center image is the image processed by semantic segmentation, and the right image is the image from which the runnable area is extracted}
+    \caption{The left image is the original image, the center image is the image processed by semantic segmentation, and the right image is the image from which the movable area is extracted}
     \label{fig:seg_runarea}%\vspace*{-2mm}
   \end{figure}
   % \newpage
@@ -173,12 +173,12 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 \end{enumerate}
 
 \subsubsection{切り替えの確認}
-次に, 2つの走行方法を切り替える手法の有効性を検証するため, 千葉工業大学 津田沼キャンパスにおいて\figref{fig:tsudanuma}に示す経路で確認を行う. また, 使用したPCのスペックを\tableref{table:pc}に示す. 
+次に, 2つの走行方法を切り替える手法の有効性を検証するため, 千葉工業大学 津田沼キャンパスにおいて\figref{fig:tsudanuma}に示す経路で確認を行う. 使用したPCのスペックを\tableref{table:pc}に示す. 
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=70mm]{fig/tsudanuma-seg.pdf}
-  \caption{Driving route in Tsudanuma Campus of Chiba Institute of Technology\\Created by processing electronic topographic map 3125 (GSI)}
+  \caption{Navigation route in Tsudanuma Campus of Chiba Institute of Technology\\Created by processing electronic topographic map 3125 (GSI)}
   \label{fig:tsudanuma}%\vspace*{-2mm}
 \end{figure}
 
@@ -227,13 +227,13 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 
 \newpage
 \subsubsection{本走行の結果}
-2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアした. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになった. そのため, \figref{fig:kidnapped}の真の姿勢である青点とパーティクルが離れていることから, 誘拐状態\footnote[3]{真の姿勢の周囲にパーティクルが存在しない状態}\cite{emcl-thesis}になったことが要因の一つだと考えられる. また, 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において\figref{fig:seg-only}のようにカメラ画像のみを用いた自律走行で\figref{fig:dist220}に示す経路(220m)を走行することを確認した. なお, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
+2022年度の本走行の記録は847.9[m]で, 駅構内の手前でリタイアした. これは歩行者などによりランドマークが隠されたことで, 自己位置推定の結果が不確かになった. そのため, \figref{fig:kidnapped}の真の姿勢である青点とパーティクルが離れていることから, 誘拐状態\footnote[3]{真の姿勢の周囲にパーティクルが存在しない状態}\cite{emcl-thesis}になったことが要因の一つだと考えられる. 折り返し地点まで辿り着けなかったため, カメラ画像を用いた自律走行への切り替えによるコースアウトを防ぐ挙動が確認できなかった. しかし, 実験走行において\figref{fig:seg-only}のようにカメラ画像のみを用いた自律走行で\figref{fig:dist220}に示す経路(220m)を走行することを確認した. なお, 学習を行う際に作成したプログラムとデータセットはGitHubのdeeplabv3\_plus\_pytorch\_ros\cite{DeeplabV3}で公開している.
 
 \begin{figure}[h]
   \centering
 
-  \includegraphics[width=90mm]{fig/kidnapped5.pdf}
-  \caption{The result of self-location estimation became uncertain, resulting in a state of kidnapping}
+  \includegraphics[width=90mm]{fig/kidnapped-kai.pdf}
+  \caption{A view showing the state of kidnapping}
   \label{fig:kidnapped}%\vspace*{-2mm}
 \end{figure}
 
@@ -247,14 +247,14 @@ ORNE-αは, 2つの走行方法を持つ. 切り替え方法を\figref{fig:switc
 \begin{figure}[h]
   \centering
   \includegraphics[width=80mm]{fig/seg-only.pdf}
-  \caption{Autonomous driving using only camera images}
+  \caption{Autonomous navigation using only camera images}
   \label{fig:seg-only}%\vspace*{-2mm}
 \end{figure}
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=70mm]{fig/dist220.pdf}
-  \caption{Driving route using camera images in park area\\Created by processing electronic topographic map 1875 (GSI)}
+  \caption{Navigation route using camera images in park area\\Created by processing electronic topographic map 1875 (GSI)}
   \label{fig:dist220}%\vspace*{-2mm}
 \end{figure}
 
@@ -268,7 +268,7 @@ ORNE-box2においては, ORNE-boxにおける問題を洗い出し改善を図�
 
 \subsubsection{本走行の結果}
 ORNE-boxの今年度の本走行の記録は1000[m]だった. リタイアした地点は公園前横断歩道であり, 縁石の縁端を検出できず乗り上げてスタックした. 本年度のORNE-boxは\tableref{tb:hardware}からもわかるように障害物検出は3D-LiDARのみで行っていた. 3D-LiDARは機体上部に位置しており, スタックの原因となった縁石の縁端のような低層障害物の検出は困難であった．今後は低層障害物も検出できるよう，障害物検出の改善を図る．\par
-ORNE-box2の本走行の記録は, 一時停止位置で停止できなかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にロボットの制御に用いていたコンピュータであるJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GIGABYTE GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかったおそれがある. ORNE-box2においては11月6日に実施された記録走行で完走している. 
+ORNE-box2の本走行の記録は, 一時停止位置で停止できなかったため320[m]となった. 一時停止できなかった要因としては自己位置推定の破綻が挙げられる. ORNE-box2では本走行前日にロボットの制御に用いていたコンピュータであるJetson AGX Xavierが起動しなくなるトラブルが起き, 急遽GIGABYTE GB-BXi7H-4500に交換を行っていた. これにより計算処理が間に合わなかったおそれがある. なお, ORNE-box2は11月6日に実施された記録走行で完走している. 
 
 \section{おわりに}
 本稿では,千葉工業大学未来ロボティクス学科ORNEチームで開発しているロボットの概要とシステムの構成に関して述べた.また,つくばチャレンジ 2022 に向けた取り組みについて紹介した.
